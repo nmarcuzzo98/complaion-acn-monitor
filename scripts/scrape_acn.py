@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 """
-Complaion - ACN Monitor
-Scraper che monitora il sito dell'Agenzia per la Cybersicurezza Nazionale (ACN)
-per rilevare aggiornamenti su NIS2 (pagine HTML + documenti PDF).
+Complaion - ACN Monitor (v4)
+Scraper con SNAPSHOTS + DIFF TESTUALE.
 
-Architettura:
-- TARGETS: lista delle risorse da monitorare (pagine + PDF)
-- Per ogni target: fetch HTTP -> hash SHA256 -> confronto con stato precedente
-- Output: data/documents.json (stato corrente) + data/changes.json (storico variazioni)
-
-Eseguito da GitHub Actions, idempotente.
+Novità v4:
+- Salva uno snapshot del testo normalizzato in docs/data/snapshots/<id>.txt
+- Quando un hash cambia, calcola il diff testuale (difflib) e lo include in changes.json
+- La dashboard mostra il diff cliccando sulla variazione
 """
 
+import difflib
 import hashlib
 import json
 import os
@@ -31,26 +29,26 @@ from bs4 import BeautifulSoup
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "docs" / "data"
+SNAPSHOTS_DIR = DATA_DIR / "snapshots"
 DOCS_FILE = DATA_DIR / "documents.json"
 CHANGES_FILE = DATA_DIR / "changes.json"
 
 USER_AGENT = "Mozilla/5.0 (compatible; ComplaionACNMonitor/1.0; +https://github.com/)"
 REQUEST_TIMEOUT = 60
 RETRY_COUNT = 3
-RETRY_DELAY = 5  # secondi tra retry
-SLEEP_BETWEEN = 1.5  # politico verso ACN - 1.5s tra una richiesta e l'altra
+RETRY_DELAY = 5
+SLEEP_BETWEEN = 1.5
 
-# Mantieni storico cambiamenti negli ultimi N giorni (per non far esplodere il JSON)
 CHANGES_RETENTION_DAYS = 180
+DIFF_MAX_LINES = 200          # massimo righe di diff salvate nel JSON
+SNAPSHOT_MAX_CHARS = 200_000  # ~200 KB di testo per snapshot, abbastanza per pagine HTML
+
 
 # =============================================================================
-# TARGETS — URL da monitorare
+# TARGETS
 # =============================================================================
-# NOTA: questi URL sono indicativi e vanno verificati e adattati alla struttura
-# attuale del sito ACN. Aggiungi/rimuovi target secondo necessità.
 
 TARGETS = [
-    # ─── Pagine già verificate funzionanti ───
     {
         "id": "acn-home",
         "name": "ACN - Home",
@@ -72,7 +70,6 @@ TARGETS = [
         "type": "page",
         "category": "NIS2",
     },
-    # ─── Sezioni del menu NIS (URL plausibili da testare) ───
     {
         "id": "acn-nis-normativa",
         "name": "ACN - La normativa",
@@ -131,10 +128,10 @@ TARGETS = [
     },
 ]
 
-# Scoperta dinamica di nuovi PDF nelle pagine monitorate.
-# Quando True, lo scraper estrae link a documenti PDF e li aggiunge ai target.
 DISCOVER_PDFS = True
-PDF_DISCOVERY_KEYWORDS = ["nis", "categorizzazione", "determinazione", "obblighi", "cybersicurezza", "cyber", "tassonomia", "misure", "piattaforma"]
+PDF_DISCOVERY_KEYWORDS = ["nis", "categorizzazione", "determinazione", "obblighi",
+                         "cybersicurezza", "cyber", "tassonomia", "misure", "piattaforma"]
+
 
 # =============================================================================
 # UTILITY
@@ -143,68 +140,52 @@ PDF_DISCOVERY_KEYWORDS = ["nis", "categorizzazione", "determinazione", "obblighi
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
-def fetch(url: str) -> tuple[bytes, int, str]:
-    """Fetch URL con retry. Restituisce (content, status_code, content_type)."""
+
+def fetch(url):
     last_err = None
     for attempt in range(1, RETRY_COUNT + 1):
         try:
-            r = requests.get(
-                url,
-                headers={"User-Agent": USER_AGENT},
-                timeout=REQUEST_TIMEOUT,
-                allow_redirects=True,
-            )
+            r = requests.get(url, headers={"User-Agent": USER_AGENT},
+                           timeout=REQUEST_TIMEOUT, allow_redirects=True)
             content_type = r.headers.get("Content-Type", "").split(";")[0].strip()
             return r.content, r.status_code, content_type
         except (requests.RequestException, OSError) as e:
             last_err = e
-            print(f"  [warn] tentativo {attempt}/{RETRY_COUNT} fallito per {url}: {e}", file=sys.stderr)
+            print(f"  [warn] tentativo {attempt}/{RETRY_COUNT} fallito: {e}", file=sys.stderr)
             if attempt < RETRY_COUNT:
                 time.sleep(RETRY_DELAY)
-    raise RuntimeError(f"Fetch fallito dopo {RETRY_COUNT} tentativi per {url}: {last_err}")
+    raise RuntimeError(f"Fetch fallito: {last_err}")
 
 
 def sha256_hex(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def normalize_html(html_bytes: bytes) -> bytes:
-    """
-    Normalizza l'HTML per stabilizzare l'hash:
-    - rimuove script/style dinamici
-    - rimuove meta tag con date/timestamp
-    - normalizza whitespace
-    Riduce i 'falsi positivi' tipici dei siti con elementi dinamici (es. analytics, csrf token).
-    """
+def normalize_html(html_bytes: bytes) -> str:
+    """Restituisce il testo pulito (stringa) usato sia per hash sia per snapshot."""
     try:
         soup = BeautifulSoup(html_bytes, "html.parser")
     except Exception:
-        return html_bytes
+        return html_bytes.decode("utf-8", errors="ignore")
 
-    # Rimuovi elementi tipicamente dinamici
     for tag in soup.find_all(["script", "style", "noscript"]):
         tag.decompose()
-
-    # Rimuovi meta tag con valori volatili
     for meta in soup.find_all("meta"):
         if meta.get("name", "").lower() in ("csrf-token", "csrf-param", "generator", "build-date"):
             meta.decompose()
-
-    # Rimuovi commenti
     from bs4 import Comment
     for c in soup.find_all(string=lambda t: isinstance(t, Comment)):
         c.extract()
 
     text = soup.get_text(separator="\n")
-    # Normalizza whitespace
     text = re.sub(r"\s+\n", "\n", text)
     text = re.sub(r"\n\s+", "\n", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip().encode("utf-8")
+    text = re.sub(r"[ \t]+", " ", text)
+    return text.strip()
 
 
-def extract_pdf_links(html_bytes: bytes, base_url: str) -> list[dict]:
-    """Estrae link a PDF dalla pagina, filtrati per keyword di interesse."""
+def extract_pdf_links(html_bytes, base_url):
     try:
         soup = BeautifulSoup(html_bytes, "html.parser")
     except Exception:
@@ -215,17 +196,12 @@ def extract_pdf_links(html_bytes: bytes, base_url: str) -> list[dict]:
         if not href.lower().endswith(".pdf"):
             continue
         absolute = urljoin(base_url, href)
-        # Filtra solo PDF del dominio ACN
-        host = urlparse(absolute).netloc.lower()
-        if "acn.gov.it" not in host:
+        if "acn.gov.it" not in urlparse(absolute).netloc.lower():
             continue
         text = a.get_text(separator=" ", strip=True) or os.path.basename(urlparse(absolute).path)
-        lower = (text + " " + href).lower()
-        if any(k in lower for k in PDF_DISCOVERY_KEYWORDS):
+        if any(k in (text + " " + href).lower() for k in PDF_DISCOVERY_KEYWORDS):
             found.append({"name": text[:200], "url": absolute})
-    # Dedupe by URL
-    seen = set()
-    out = []
+    seen, out = set(), []
     for f in found:
         if f["url"] not in seen:
             seen.add(f["url"])
@@ -233,30 +209,29 @@ def extract_pdf_links(html_bytes: bytes, base_url: str) -> list[dict]:
     return out
 
 
-def safe_load_json(path: Path, default):
+def safe_load_json(path, default):
     if not path.exists():
         return default
     try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
-    except (json.JSONDecodeError, OSError) as e:
+    except Exception as e:
         print(f"  [warn] errore lettura {path}: {e}", file=sys.stderr)
         return default
 
 
-def save_json(path: Path, data) -> None:
+def save_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def prune_changes(changes: list[dict]) -> list[dict]:
+def prune_changes(events):
     cutoff = datetime.now(timezone.utc).timestamp() - CHANGES_RETENTION_DAYS * 86400
     out = []
-    for c in changes:
+    for c in events:
         try:
-            ts = datetime.fromisoformat(c["timestamp"]).timestamp()
-            if ts >= cutoff:
+            if datetime.fromisoformat(c["timestamp"]).timestamp() >= cutoff:
                 out.append(c)
         except Exception:
             out.append(c)
@@ -264,11 +239,73 @@ def prune_changes(changes: list[dict]) -> list[dict]:
 
 
 # =============================================================================
+# SNAPSHOT MANAGEMENT
+# =============================================================================
+
+def snapshot_path(item_id: str) -> Path:
+    safe = re.sub(r"[^a-zA-Z0-9_\-]", "_", item_id)
+    return SNAPSHOTS_DIR / f"{safe}.txt"
+
+
+def load_snapshot(item_id: str) -> str:
+    path = snapshot_path(item_id)
+    if not path.exists():
+        return ""
+    try:
+        return path.read_text(encoding="utf-8")
+    except Exception:
+        return ""
+
+
+def save_snapshot(item_id: str, text: str) -> None:
+    SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
+    truncated = text[:SNAPSHOT_MAX_CHARS]
+    snapshot_path(item_id).write_text(truncated, encoding="utf-8")
+
+
+def compute_diff(old_text: str, new_text: str, max_lines: int = DIFF_MAX_LINES) -> dict:
+    """
+    Calcola diff tra old_text e new_text. Restituisce:
+    {
+      "added": int, "removed": int, "summary": str, "lines": [{op: '+'|'-'|' ', text: str}]
+    }
+    """
+    old_lines = old_text.splitlines()
+    new_lines = new_text.splitlines()
+
+    diff = list(difflib.unified_diff(
+        old_lines, new_lines,
+        lineterm="", n=2  # 2 righe di contesto
+    ))
+
+    # Skip header lines (--- / +++)
+    body = [l for l in diff if not (l.startswith("---") or l.startswith("+++") or l.startswith("@@"))]
+
+    added = removed = 0
+    lines = []
+    for l in body[:max_lines]:
+        if l.startswith("+"):
+            lines.append({"op": "+", "text": l[1:]})
+            added += 1
+        elif l.startswith("-"):
+            lines.append({"op": "-", "text": l[1:]})
+            removed += 1
+        else:
+            lines.append({"op": " ", "text": l[1:] if l.startswith(" ") else l})
+
+    truncated = len(body) > max_lines
+    summary = f"+{added} aggiunte, -{removed} rimosse"
+    if truncated:
+        summary += f" (diff troncato a {max_lines} righe)"
+    return {"added": added, "removed": removed, "summary": summary,
+            "truncated": truncated, "lines": lines}
+
+
+# =============================================================================
 # MAIN SCAN
 # =============================================================================
 
-def scan() -> tuple[dict, list[dict]]:
-    """Esegue una scansione completa. Restituisce (documents_state, new_changes)."""
+def scan():
     previous_docs = safe_load_json(DOCS_FILE, default={"items": [], "last_scan": None})
     previous_index = {item["id"]: item for item in previous_docs.get("items", [])}
 
@@ -276,45 +313,35 @@ def scan() -> tuple[dict, list[dict]]:
     new_changes = []
     discovered_pdfs = []
 
-    # 1) Scansiona i target pre-configurati
     for target in TARGETS:
         print(f"[scan] {target['name']} ({target['url']})")
         try:
             content, status, ctype = fetch(target["url"])
         except RuntimeError as e:
             print(f"  [error] {e}", file=sys.stderr)
-            # Conserva il record precedente con stato di errore
             prev = previous_index.get(target["id"])
             if prev:
-                prev = dict(prev)
-                prev["last_status"] = "fetch_error"
-                prev["last_check"] = utc_now_iso()
+                prev = dict(prev); prev["last_status"] = "fetch_error"; prev["last_check"] = utc_now_iso()
                 current_items.append(prev)
             continue
 
         if status >= 400:
-            print(f"  [warn] status HTTP {status} per {target['url']}")
+            print(f"  [warn] status HTTP {status}")
             prev = previous_index.get(target["id"])
             if prev:
-                prev = dict(prev)
-                prev["last_status"] = f"http_{status}"
-                prev["last_check"] = utc_now_iso()
+                prev = dict(prev); prev["last_status"] = f"http_{status}"; prev["last_check"] = utc_now_iso()
                 current_items.append(prev)
             continue
 
-        # Hash: per HTML usiamo la versione normalizzata, per PDF il bytes raw
         if target["type"] == "pdf":
             content_hash = sha256_hex(content)
+            normalized_text = ""  # PDF: niente diff testuale per ora
         else:
-            content_hash = sha256_hex(normalize_html(content))
+            normalized_text = normalize_html(content)
+            content_hash = sha256_hex(normalized_text.encode("utf-8"))
 
         prev = previous_index.get(target["id"])
-        status_label = "new"
-        if prev:
-            if prev.get("hash") == content_hash:
-                status_label = "unchanged"
-            else:
-                status_label = "changed"
+        status_label = "new" if not prev else ("unchanged" if prev.get("hash") == content_hash else "changed")
 
         item = {
             "id": target["id"],
@@ -327,16 +354,14 @@ def scan() -> tuple[dict, list[dict]]:
             "content_type": ctype,
             "first_seen": prev.get("first_seen") if prev else utc_now_iso(),
             "last_check": utc_now_iso(),
-            "last_modified": (
-                utc_now_iso() if status_label in ("new", "changed")
-                else prev.get("last_modified") if prev else utc_now_iso()
-            ),
+            "last_modified": utc_now_iso() if status_label in ("new", "changed")
+                else (prev.get("last_modified") if prev else utc_now_iso()),
             "last_status": status_label,
         }
         current_items.append(item)
 
         if status_label in ("new", "changed"):
-            new_changes.append({
+            change_event = {
                 "timestamp": utc_now_iso(),
                 "id": item["id"],
                 "name": item["name"],
@@ -345,13 +370,29 @@ def scan() -> tuple[dict, list[dict]]:
                 "status": status_label,
                 "previous_hash": prev.get("hash") if prev else None,
                 "new_hash": content_hash,
-            })
+            }
+
+            if target["type"] == "page" and normalized_text:
+                old_text = load_snapshot(target["id"])
+                if status_label == "changed" and old_text:
+                    diff = compute_diff(old_text, normalized_text)
+                    change_event["diff"] = diff
+                elif status_label == "new":
+                    preview = normalized_text[:3000]
+                    change_event["diff"] = {
+                        "added": len(preview.splitlines()),
+                        "removed": 0,
+                        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+                        "truncated": len(normalized_text) > 3000,
+                        "lines": [{"op": "+", "text": line} for line in preview.splitlines()[:80]],
+                    }
+                save_snapshot(target["id"], normalized_text)
+
+            new_changes.append(change_event)
             print(f"  [{status_label.upper()}] hash variato")
 
-        # Scoperta dinamica di PDF
         if DISCOVER_PDFS and target["type"] == "page" and ctype.startswith("text/html"):
-            pdfs = extract_pdf_links(content, target["url"])
-            for pdf in pdfs:
+            for pdf in extract_pdf_links(content, target["url"]):
                 discovered_pdfs.append({
                     "id": "pdf-" + sha256_hex(pdf["url"].encode())[:12],
                     "name": pdf["name"] or "Documento PDF",
@@ -359,83 +400,54 @@ def scan() -> tuple[dict, list[dict]]:
                     "type": "pdf",
                     "category": "Documento PDF",
                 })
-
         time.sleep(SLEEP_BETWEEN)
 
-    # 2) Scansiona PDF scoperti che non sono ancora nel tracking
+    # PDF scoperti
     tracked_urls = {it["url"] for it in current_items}
-    pdfs_to_scan = []
     seen_pdf_ids = set()
+    pdfs_to_scan = []
     for pdf in discovered_pdfs:
-        if pdf["url"] in tracked_urls:
-            continue
-        if pdf["id"] in seen_pdf_ids:
+        if pdf["url"] in tracked_urls or pdf["id"] in seen_pdf_ids:
             continue
         seen_pdf_ids.add(pdf["id"])
         pdfs_to_scan.append(pdf)
 
-    print(f"\n[discovery] PDF candidati scoperti: {len(pdfs_to_scan)}")
+    print(f"\n[discovery] PDF candidati: {len(pdfs_to_scan)}")
     for pdf in pdfs_to_scan:
-        print(f"[scan-pdf] {pdf['name']} ({pdf['url']})")
+        print(f"[scan-pdf] {pdf['name']}")
         try:
             content, status, ctype = fetch(pdf["url"])
         except RuntimeError as e:
-            print(f"  [error] {e}", file=sys.stderr)
+            print(f"  [error] {e}", file=sys.stderr); continue
+        if status >= 400 or not ctype.lower().startswith("application/pdf"):
             continue
-        if status >= 400:
-            print(f"  [warn] status HTTP {status}")
-            continue
-        if not ctype.lower().startswith("application/pdf"):
-            print(f"  [skip] non è un PDF (content-type: {ctype})")
-            continue
-
         content_hash = sha256_hex(content)
         prev = previous_index.get(pdf["id"])
-        status_label = "new"
-        if prev:
-            status_label = "unchanged" if prev.get("hash") == content_hash else "changed"
-
+        status_label = "new" if not prev else ("unchanged" if prev.get("hash") == content_hash else "changed")
         item = {
-            "id": pdf["id"],
-            "name": pdf["name"],
-            "url": pdf["url"],
-            "type": "pdf",
-            "category": pdf["category"],
-            "hash": content_hash,
-            "size": len(content),
-            "content_type": ctype,
+            "id": pdf["id"], "name": pdf["name"], "url": pdf["url"],
+            "type": "pdf", "category": pdf["category"],
+            "hash": content_hash, "size": len(content), "content_type": ctype,
             "first_seen": prev.get("first_seen") if prev else utc_now_iso(),
             "last_check": utc_now_iso(),
-            "last_modified": (
-                utc_now_iso() if status_label in ("new", "changed")
-                else prev.get("last_modified") if prev else utc_now_iso()
-            ),
+            "last_modified": utc_now_iso() if status_label in ("new", "changed")
+                else (prev.get("last_modified") if prev else utc_now_iso()),
             "last_status": status_label,
         }
         current_items.append(item)
-
         if status_label in ("new", "changed"):
             new_changes.append({
-                "timestamp": utc_now_iso(),
-                "id": item["id"],
-                "name": item["name"],
-                "url": item["url"],
-                "type": "pdf",
-                "status": status_label,
-                "previous_hash": prev.get("hash") if prev else None,
-                "new_hash": content_hash,
+                "timestamp": utc_now_iso(), "id": item["id"], "name": item["name"],
+                "url": item["url"], "type": "pdf", "status": status_label,
+                "previous_hash": prev.get("hash") if prev else None, "new_hash": content_hash,
             })
-            print(f"  [{status_label.upper()}] hash variato")
-
         time.sleep(SLEEP_BETWEEN)
 
-    # 3) Conserva voci pre-esistenti che non sono state ri-trovate (per non perdere lo storico)
+    # Conserva voci stale
     current_ids = {it["id"] for it in current_items}
     for old_id, old_item in previous_index.items():
         if old_id not in current_ids:
-            # Marca come 'stale' ma conserva
-            stale = dict(old_item)
-            stale["last_status"] = "stale"
+            stale = dict(old_item); stale["last_status"] = "stale"
             current_items.append(stale)
 
     documents_state = {
@@ -446,26 +458,21 @@ def scan() -> tuple[dict, list[dict]]:
     return documents_state, new_changes
 
 
-def main() -> int:
-    print(f"=== Complaion - ACN Monitor — scan {utc_now_iso()} ===")
+def main():
+    print(f"=== Complaion - ACN Monitor v4 - scan {utc_now_iso()} ===")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
 
     documents_state, new_changes = scan()
 
-    # Update changes log
     changes_log = safe_load_json(CHANGES_FILE, default={"events": []})
     if not isinstance(changes_log, dict):
         changes_log = {"events": []}
     events = list(changes_log.get("events", []))
     events.extend(new_changes)
     events = prune_changes(events)
-    # Sort descending by timestamp
     events.sort(key=lambda c: c.get("timestamp", ""), reverse=True)
-    changes_log = {
-        "last_updated": utc_now_iso(),
-        "total_events": len(events),
-        "events": events,
-    }
+    changes_log = {"last_updated": utc_now_iso(), "total_events": len(events), "events": events}
 
     save_json(DOCS_FILE, documents_state)
     save_json(CHANGES_FILE, changes_log)
