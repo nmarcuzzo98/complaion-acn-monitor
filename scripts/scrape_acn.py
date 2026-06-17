@@ -50,7 +50,7 @@ CHANGES_RETENTION_DAYS = 180
 # attuale del sito ACN. Aggiungi/rimuovi target secondo necessità.
 
 TARGETS = [
-    # Pagine verificate funzionanti (status 200)
+    # ─── Pagine già verificate funzionanti ───
     {
         "id": "acn-home",
         "name": "ACN - Home",
@@ -72,20 +72,62 @@ TARGETS = [
         "type": "page",
         "category": "NIS2",
     },
-    # Da TESTARE: se danno 404, rimuovili dopo il primo scan
+    # ─── Sezioni del menu NIS (URL plausibili da testare) ───
     {
-        "id": "acn-portale-nis-normativa",
-        "name": "ACN - Normativa NIS",
-        "url": "https://www.acn.gov.it/portale/nis/normativa",
+        "id": "acn-nis-normativa",
+        "name": "ACN - La normativa",
+        "url": "https://www.acn.gov.it/portale/nis/la-normativa",
         "type": "page",
-        "category": "NIS2",
+        "category": "NIS2 - Normativa",
     },
     {
-        "id": "acn-portale-news",
-        "name": "ACN - News",
-        "url": "https://www.acn.gov.it/portale/news",
+        "id": "acn-nis-registrazione",
+        "name": "ACN - Registrazione NIS",
+        "url": "https://www.acn.gov.it/portale/nis/registrazione",
         "type": "page",
-        "category": "News",
+        "category": "NIS2 - Operativo",
+    },
+    {
+        "id": "acn-nis-modalita-specifiche",
+        "name": "ACN - Modalita e specifiche di base",
+        "url": "https://www.acn.gov.it/portale/nis/modalita-e-specifiche-di-base",
+        "type": "page",
+        "category": "NIS2 - Operativo",
+    },
+    {
+        "id": "acn-nis-categorizzazione",
+        "name": "ACN - Categorizzazione",
+        "url": "https://www.acn.gov.it/portale/nis/categorizzazione",
+        "type": "page",
+        "category": "NIS2 - Operativo",
+    },
+    {
+        "id": "acn-nis-ambito",
+        "name": "ACN - Ambito NIS",
+        "url": "https://www.acn.gov.it/portale/nis/ambito",
+        "type": "page",
+        "category": "NIS2 - Ambito",
+    },
+    {
+        "id": "acn-nis-obblighi",
+        "name": "ACN - Obblighi",
+        "url": "https://www.acn.gov.it/portale/nis/obblighi",
+        "type": "page",
+        "category": "NIS2 - Obblighi",
+    },
+    {
+        "id": "acn-nis-aggiornamento",
+        "name": "ACN - Aggiornamento delle informazioni",
+        "url": "https://www.acn.gov.it/portale/nis/aggiornamento-delle-informazioni",
+        "type": "page",
+        "category": "NIS2 - Operativo",
+    },
+    {
+        "id": "acn-nis-notizie-eventi",
+        "name": "ACN - Notizie ed eventi NIS",
+        "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+        "type": "page",
+        "category": "NIS2 - News",
     },
 ]
 
