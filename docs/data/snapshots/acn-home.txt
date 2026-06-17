@@ -1,0 +1,342 @@
+Agenzia per la Cybersicurezza Nazionale - ACN
+Skip to Main Content
+Agenzia per la Cybersicurezza Nazionale
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ITA
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali e Affari Europei
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Feed Pubblico MISP
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Relazione annuale 2025
+La Relazione al Parlamento di ACN riassume le numerose e complesse linee di azione dell’Agenzia sulle attività in materia di cybersicurezza nazionale svolte nell’anno precedente, e fornisce un quadro dell’evoluzione delle iniziative, progettualità e competenze che hanno caratterizzato il 2025.
+Scopri di più
+su Relazione annuale 2025
+RESILIENZA, PROTEZIONE E INNOVAZIONE
+L'ACN è l’Autorità nazionale per la cybersicurezza a tutela degli interessi nazionali
+nel campo della sicurezza e resilienza cibernetiche. Garantisce l’implementazione della
+Strategia Nazionale di Cybersicurezza adottata dal Presidente del Consiglio dei ministri.
+Chi siamo
+su RESILIENZA, PROTEZIONE E INNOVAZIONE
+In primo piano
+News -
+11 Giugno 2026
+ACN ha partecipato a Cyber Europe 2026
+News -
+09 Giugno 2026
+In Acn le voci di donne che stanno ridisegnando l’IA
+News -
+08 Giugno 2026
+Andrea Quacivi si insedia come nuovo Direttore Generale di ACN
+Prevenzione e mitigazione
+Supporta i soggetti pubblici e privati nazionali, che esercitano funzioni ed erogano servizi essenziali, nella prevenzione e mitigazione degli incidenti, nonché ai fini del ripristino dei sistemi.
+Autonomia strategica
+Persegue l’autonomia strategica nazionale ed europea nel settore del digitale, in sinergia con il sistema produttivo e con il mondo della ricerca.
+Cultura cyber
+Favorisce percorsi formativi per lo sviluppo della forza lavoro di settore e promuove campagne di sensibilizzazione e diffusione della cultura della cybersicurezza.
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione
+Esplora CSIRT Italia
+Alert -
+17/06/26 16:12
+Vulnerabilità in prodotti Fortinet
+Rilevate nuove vulnerabilità in prodotti Fortinet, tra cui due con gravità “critica” e tre con gravità “alta”, in FortiSandbox, FortiDDoS-F, FortiSandbox, FortiClientEMS e FortiAnalyzer Cloud.
+Alert -
+17/06/26 14:31
+Critical Patch Update di Oracle
+Oracle ha rilasciato il Critical Patch Update di giugno che mira a correggere numerose vulnerabilità su più prodotti, di cui 122 con gravità “critica” e 102 con gravità “alta”.
+Bollettino -
+17/06/26 13:11
+Rilevata campagna phishing a tema “Fattura Elettronica”
+Questo CSIRT ha recentemente rilevato una campagna di phishing malevola veicolata tramite messaggi PEC, verosimilmente provenienti da caselle compromesse, contenenti allegati compressi in formato ZIP al cui interno è presente una pagina HTML malevola a tema “Fattura Elettronica”.
+Bollettino -
+17/06/26 11:45
+INFINITERED: campagna di distribuzione malware ai danni di server REDCap vulnerabili
+Il team di analisti del Google Threat Intelligence ha documentato una recente campagna di cyber-spionaggio condotta da un attore malevolo avanzato. La minaccia risulta indirizzata verso istituti di ricerca medica e strutture del settore sanitario, sia pubbliche che private. L'attività ostile sembrerebbe sfruttare l'esposizione sulla rete pubblica di server che eseguono l'applicazione web REDCap (Research Electronic Data Capture).
+Alert -
+17/06/26 11:10
+Rilevato sfruttamento di vulnerabilità in prodotto LiteSpeed cPanel Plugin
+Rilevato sfruttamento attivo in rete della CVE-2026-54420 presente in LiteSpeed Web Server, plugin del noto software cPanel. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente remoto malintenzionato, già in possesso di un accesso iniziale con privilegi limitati, di elevare i propri privilegi sui sistemi interessati.
+Alert -
+17/06/26 10:56
+Risolte vulnerabilità in Google Chrome
+Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 33 nuove vulnerabilità di sicurezza, di cui 7 con gravità critica e 26 con gravità alta.
+Alert -
+17/06/26 10:01
+Aggiornamento di sicurezza per dispositivi Google Pixel
+Aggiornamento di sicurezza Google di giugno risolve molteplici vulnerabilità, di cui 11 con gravità “critica” e 20 con gravità “alta”, nei dispositivi Pixel.
+Alert -
+17/06/26 09:39
+Rilevata vulnerabilità in prodotti ManageEngine
+Rilevata una nuova vulnerabilità con gravità “alta” nei prodotti ManageEngine, componenti software utilizzati per monitorare, gestire e amministrare infrastrutture IT e di rete. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Alert -
+16/06/26 17:51
+Rilevata vulnerabilità in CodeIgniter
+Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Alert -
+16/06/26 16:55
+Risolte vulnerabilità in driver di stampa Ricoh
+Rilevata una vulnerabilità con gravità “alta”, in molteplici driver di stampa forniti da Ricoh. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato, già in grado di accedere localmente di elevare i propri privilegi sui sistemi interessati.
+Alert -
+16/06/26 15:56
+Rilevata vulnerabilità in prodotti Zyxel
+Rilevata una nuova vulnerabilità con gravità “alta”, nei firmware degli switch Zyxel GS1900. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di inviare una richiesta HTTP malevola per eseguire codice arbitrario sui sistemi interessati.
+Alert -
+16/06/26 13:31
+Risolte vulnerabilità Canon EOS Utility
+Aggiornamenti di sicurezza sanano 5 nuove vulnerabilità, di cui 4 con gravità “alta” nel prodotto Canon EOS Utility, software utilizzato per collegare e configurare dispositivi Canon al proprio computer. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato l'accesso ad informazioni del software interessato.
+Dipartimenti
+Certificazione e vigilanza
+Scopri di più
+su Certificazione e vigilanza
+Operazioni e CSIRT Italia
+Scopri di più
+su Operazioni e CSIRT Italia
+Programmi industriali e di ricerca
+Scopri di più
+su Programmi industriali e di ricerca
+Autorità e sanzioni
+Scopri di più
+su Autorità e sanzioni
+Strategia Nazionale di Cybersicurezza
+In un mondo sempre più digitalizzato e connesso, la cybersicurezza è diventata di fondamentale importanza. Per questo è nata la Strategia Nazionale di Cybersicurezza volta a pianificare, coordinare e attuare misure tese a rendereil Paese più sicuro e resiliente.
+Scopri di più
+su Strategia Nazionale di Cybersicurezza
+Protezione
+Assicurare una transizione digitale cyber resiliente della Pubblica Amministrazione (PA) e del tessuto produttivo
+Risposta
+Rispondere alle minacce, agli incidenti e alle crisi cyber nazionali, attraverso sistemi di monitoraggio, rilevamento, analisi e attivazione di processi che coinvolgano l’intero ecosistema di cybersicurezza nazionale
+Sviluppo
+Sviluppare in maniera sicura le tecnologie digitali, per rispondere alle esigenze del mercato, attraverso strumenti e iniziative volti a supportare i centri di eccellenza, le attività di ricerca e le imprese
+Servizi
+Scopri come registrarti come soggetto NIS o  qualificare le soluzioni cloud.
+Scopri di più
+Comunicazioni
+News -
+12 Giugno 2026
+Forum PA 2026. Partecipazione, consapevolezza e curiosità al centro delle tre giornate ACN
+News -
+11 Giugno 2026
+Aggiornate le Linee guida sulle funzioni crittografiche
+News -
+10 Giugno 2026
+Gruppo di lavoro G7 sulla cybersicurezza. Definite a Parigi le priorità fino alla prossima presidenza statunitense del Gruppo
+News -
+04 Giugno 2026
+Cybersicurezza, da MUR e ACN 12 milioni di euro per rafforzare competenze, ricerca e infrastrutture digitali
+News -
+29 Maggio 2026
+L'ACN ospita l’incontro del Gruppo Amministrativo di Cooperazione sulla vigilanza del mercato sui sistemi di intelligenza artificiale europeo (ADCO AI)
+News -
+28 Maggio 2026
+ACN, MAECI e ICE a Singapore portano le imprese cyber a GovWare 2026
+News -
+15 Maggio 2026
+Premio di laurea in cybersicurezza: al via la prima edizione dell’Avviso ACN
+News -
+12 Maggio 2026
+Il G7 vara le linee guida relative al Software Bill of Materials (SBOM) per l'intelligenza artificiale
+Scopri di più
+su comunicazione
+Tutti gli eventi
+L’Agenzia e il PNRR
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione della minaccia cyber. Il tutto grazie ad una rinnovata capacità di monitoraggio, prevenzione e scrutinio tecnologico a supporto della transizione digitale del Paese.
+I tre pilastri dell’investimento:
+Sviluppare le capacità di cyber resilience in modo diffuso nel Paese
+Rafforzare le capacità nazionali di scrutinio e certificazione tecnologica
+Potenziare le capacità cyber della Pubblica Amministrazione
+Scopri il PNRR
+CSIRT Italia- Alert e bollettini
+Alert -
+17/06/26 14:31
+Critical Patch Update di Oracle
+Oracle ha rilasciato il Critical Patch Update di giugno che mira a correggere numerose vulnerabilità su più prodotti, di cui 122 con gravità “critica” e 102 con gravità “alta”.
+Bollettino -
+17/06/26 13:11
+Rilevata campagna phishing a tema “Fattura Elettronica”
+Questo CSIRT ha recentemente rilevato una campagna di phishing malevola veicolata tramite messaggi PEC, verosimilmente provenienti da caselle compromesse, contenenti allegati compressi in formato ZIP al cui interno è presente una pagina HTML malevola a tema “Fattura Elettronica”.
+Bollettino -
+17/06/26 11:45
+INFINITERED: campagna di distribuzione malware ai danni di server REDCap vulnerabili
+Il team di analisti del Google Threat Intelligence ha documentato una recente campagna di cyber-spionaggio condotta da un attore malevolo avanzato. La minaccia risulta indirizzata verso istituti di ricerca medica e strutture del settore sanitario, sia pubbliche che private. L'attività ostile sembrerebbe sfruttare l'esposizione sulla rete pubblica di server che eseguono l'applicazione web REDCap (Research Electronic Data Capture).
+Alert -
+17/06/26 10:56
+Risolte vulnerabilità in Google Chrome
+Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 33 nuove vulnerabilità di sicurezza, di cui 7 con gravità critica e 26 con gravità alta.
+Alert -
+17/06/26 10:01
+Aggiornamento di sicurezza per dispositivi Google Pixel
+Aggiornamento di sicurezza Google di giugno risolve molteplici vulnerabilità, di cui 11 con gravità “critica” e 20 con gravità “alta”, nei dispositivi Pixel.
+Alert -
+16/06/26 17:51
+Rilevata vulnerabilità in CodeIgniter
+Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Scopri di più
+CSIRT Italia- Alert e bollettini
+Alert -
+17/06/26 14:31
+Critical Patch Update di Oracle
+Oracle ha rilasciato il Critical Patch Update di giugno che mira a correggere numerose vulnerabilità su più prodotti, di cui 122 con gravità “critica” e 102 con gravità “alta”.
+Bollettino -
+17/06/26 13:11
+Rilevata campagna phishing a tema “Fattura Elettronica”
+Questo CSIRT ha recentemente rilevato una campagna di phishing malevola veicolata tramite messaggi PEC, verosimilmente provenienti da caselle compromesse, contenenti allegati compressi in formato ZIP al cui interno è presente una pagina HTML malevola a tema “Fattura Elettronica”.
+Bollettino -
+17/06/26 11:45
+INFINITERED: campagna di distribuzione malware ai danni di server REDCap vulnerabili
+Il team di analisti del Google Threat Intelligence ha documentato una recente campagna di cyber-spionaggio condotta da un attore malevolo avanzato. La minaccia risulta indirizzata verso istituti di ricerca medica e strutture del settore sanitario, sia pubbliche che private. L'attività ostile sembrerebbe sfruttare l'esposizione sulla rete pubblica di server che eseguono l'applicazione web REDCap (Research Electronic Data Capture).
+Alert -
+17/06/26 10:56
+Risolte vulnerabilità in Google Chrome
+Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 33 nuove vulnerabilità di sicurezza, di cui 7 con gravità critica e 26 con gravità alta.
+Alert -
+17/06/26 10:01
+Aggiornamento di sicurezza per dispositivi Google Pixel
+Aggiornamento di sicurezza Google di giugno risolve molteplici vulnerabilità, di cui 11 con gravità “critica” e 20 con gravità “alta”, nei dispositivi Pixel.
+Alert -
+16/06/26 17:51
+Rilevata vulnerabilità in CodeIgniter
+Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Scopri di più
+Avvisi e opportunità
+Lavora con noi
+Entrare a far parte dell'Agenzia per la cybersicurezza nazionale significa mettere il proprio talento e le proprie competenze al servizio dell'interesse del Paese.
+Avviso di selezione per l’assegnazione di premi di laurea nel settore della cybersicurezza - Prima edizione
+Laureati con tesi nel settore della cybersicurezza discusse nel periodo compreso tra il 1° gennaio 2024 e il 31 luglio 2025.
+Data apertura
+05/05/2026
+Data chiusura
+18/06/2026
+Call per il programma Cybersecurity Fast Track di Plug and Play
+I soggetti beneficiari sono Startup ammesse ai Programmi di incubazione e/o accelerazione di Plug and Play
+Data apertura
+29/05/2026
+Data chiusura
+14/06/2026
+Informazioni su
+Agenzia per la
+cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta
