@@ -615,3 +615,179 @@ h2 .icon { font-size: 20px; }
 /* Smooth fade-in al caricamento iniziale */
 .fade-in { animation: fadeUp 500ms cubic-bezier(0.16, 1, 0.3, 1) both; }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ==============================================================
+   Stili AGGIUNTIVI per il diff modal (v4)
+   Da APPENDERE alla fine di style.css (NON sostituire l'esistente)
+   ============================================================== */
+
+/* Modal "Dettaglio variazione" — riusa .modal esistente ma più largo */
+.modal-diff .modal-content {
+  max-width: 880px;
+  padding: 28px 32px;
+}
+
+/* Header del diff con info sulla variazione */
+.diff-header {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.diff-header h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.diff-header .diff-url {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 12px;
+  color: var(--text-light);
+  word-break: break-all;
+}
+.diff-header .diff-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--text-mid);
+}
+.diff-header .diff-meta .badge { padding: 3px 10px; }
+
+/* Summary "+5, -3" in stile */
+.diff-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  background: var(--bg-soft);
+  border-radius: 12px;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 12px;
+  font-weight: 600;
+}
+.diff-summary .added { color: var(--st-new); }
+.diff-summary .removed { color: var(--st-error); }
+
+/* Pulsanti di azione nel modal */
+.diff-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.diff-actions .btn-primary {
+  background: var(--primary);
+  color: var(--text-on-primary);
+  border: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.diff-actions .btn-primary:hover {
+  background: var(--primary-soft);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Corpo del diff — testo a larghezza fissa */
+.diff-body {
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 0;
+  max-height: 52vh;
+  overflow-y: auto;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.diff-line {
+  display: flex;
+  padding: 2px 14px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.diff-line .diff-prefix {
+  width: 18px;
+  flex-shrink: 0;
+  font-weight: 700;
+  user-select: none;
+  opacity: 0.6;
+}
+.diff-line .diff-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.diff-line.added {
+  background: var(--st-new-bg);
+  color: var(--st-new);
+}
+.diff-line.added .diff-prefix { color: var(--st-new); opacity: 1; }
+
+.diff-line.removed {
+  background: var(--st-error-bg);
+  color: var(--st-error);
+}
+.diff-line.removed .diff-prefix { color: var(--st-error); opacity: 1; }
+
+.diff-line.context {
+  color: var(--text-light);
+  background: transparent;
+}
+
+/* Nota sul diff troncato */
+.diff-truncated {
+  padding: 12px 14px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-light);
+  font-style: italic;
+  background: var(--bg-soft);
+  border-top: 1px dashed var(--border);
+}
+
+/* Empty state diff (no diff disponibile) */
+.diff-empty {
+  padding: 32px;
+  text-align: center;
+  color: var(--text-light);
+  background: var(--bg-soft);
+  border-radius: var(--radius);
+  font-style: italic;
+}
+
+/* Suggerimento "clicca per vedere il diff" sulle change card */
+.change-item { position: relative; }
+.change-item::after {
+  content: "👁️ Vedi diff";
+  position: absolute;
+  right: 14px;
+  bottom: 8px;
+  font-size: 10px;
+  color: var(--text-light);
+  opacity: 0;
+  transition: opacity var(--transition);
+  pointer-events: none;
+}
+.change-item:hover::after { opacity: 0.7; }
+
+/* Responsive */
+@media (max-width: 720px) {
+  .modal-diff .modal-content { padding: 20px 16px; }
+  .diff-body { font-size: 11px; }
+  .diff-line .diff-prefix { width: 14px; }
+}
+
