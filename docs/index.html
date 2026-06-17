@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaion — ACN Monitor</title>
+  <meta name="description" content="Monitoraggio automatico degli aggiornamenti NIS2 sul sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231F4E78'/%3E%3Ctext x='50%25' y='55%25' font-family='Arial' font-size='32' font-weight='bold' fill='white' text-anchor='middle'%3E🛡%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>
+        <span class="logo">🛡️</span>
+        Complaion — ACN Monitor
+      </h1>
+      <p class="tagline">Monitoraggio automatico degli aggiornamenti NIS2 dal sito ACN</p>
+      <div class="meta">
+        <span id="last-scan">Ultimo aggiornamento: caricamento…</span>
+        <span class="dot">·</span>
+        <a href="#about" id="about-link">Come funziona</a>
+        <span class="dot">·</span>
+        <a href="https://github.com/" target="_blank" rel="noopener" id="repo-link">Source code</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-total">—</div>
+        <div class="stat-label">Risorse tracciate</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-changes-7d">—</div>
+        <div class="stat-label">Variazioni ultimi 7 gg</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-changes-30d">—</div>
+        <div class="stat-label">Variazioni ultimi 30 gg</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-pdfs">—</div>
+        <div class="stat-label">PDF tracciati</div>
+      </div>
+    </section>
+
+    <!-- LATEST CHANGES -->
+    <section class="changes-section">
+      <h2>Ultime variazioni rilevate</h2>
+      <div id="changes-list" class="changes-list">
+        <div class="empty">Caricamento…</div>
+      </div>
+    </section>
+
+    <!-- RESOURCES -->
+    <section class="resources-section">
+      <h2>Risorse monitorate</h2>
+
+      <div class="filters">
+        <input type="search" id="search" placeholder="🔍 Cerca per nome o URL…" />
+
+        <select id="filter-status">
+          <option value="">Tutti gli stati</option>
+          <option value="changed">🟡 Cambiate</option>
+          <option value="new">🔵 Nuove</option>
+          <option value="unchanged">🟢 Invariate</option>
+          <option value="fetch_error">🔴 Errori</option>
+          <option value="stale">⚪ Non più trovate</option>
+        </select>
+
+        <select id="filter-type">
+          <option value="">Tutti i tipi</option>
+          <option value="page">📄 Pagine</option>
+          <option value="pdf">📕 PDF</option>
+        </select>
+
+        <select id="filter-category">
+          <option value="">Tutte le categorie</option>
+        </select>
+
+        <select id="sort-by">
+          <option value="last_modified">Più recenti modifiche</option>
+          <option value="last_check">Ultimo controllo</option>
+          <option value="name">Nome (A-Z)</option>
+          <option value="status">Status</option>
+        </select>
+
+        <button id="reset-filters" class="btn-reset">Reset</button>
+      </div>
+
+      <div class="resources-count" id="resources-count"></div>
+
+      <div id="resources-list" class="resources-list">
+        <div class="empty">Caricamento…</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ABOUT MODAL -->
+  <div id="about-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">×</button>
+      <h2>Come funziona Complaion — ACN Monitor</h2>
+      <p>Questo portale è uno strumento <strong>non ufficiale</strong> sviluppato da Complaion per supportare le aziende nel monitoraggio degli aggiornamenti normativi pubblicati dall'<strong>Agenzia per la Cybersicurezza Nazionale (ACN)</strong> in materia di <strong>NIS2</strong>.</p>
+
+      <h3>Cosa fa</h3>
+      <ul>
+        <li>🔍 <strong>Scansiona</strong> automaticamente le pagine ufficiali ACN e i PDF correlati a NIS2.</li>
+        <li>🔐 <strong>Calcola un hash SHA256</strong> di ciascuna risorsa per rilevare variazioni millimetriche.</li>
+        <li>📊 <strong>Mostra in dashboard</strong> lo stato di ciascuna risorsa (invariata, modificata, nuova).</li>
+        <li>📜 <strong>Mantiene uno storico</strong> degli ultimi 180 giorni di variazioni.</li>
+      </ul>
+
+      <h3>Frequenza scansioni</h3>
+      <p>La scansione è eseguita automaticamente <strong>ogni ora</strong> tramite GitHub Actions. I dati sono pubblicati in un repository GitHub pubblico.</p>
+
+      <h3>Disclaimer</h3>
+      <p>Questo servizio è uno strumento informativo non ufficiale. Sebbene progettato per monitorare costantemente le modifiche al sito ACN, non è possibile garantire l'accuratezza, la completezza o la tempestività delle informazioni riportate. Per ogni adempimento normativo o tecnico fare sempre riferimento ai canali ufficiali dell'ACN (<a href="https://www.acn.gov.it" target="_blank" rel="noopener">www.acn.gov.it</a>).</p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Complaion — ACN Monitor &middot;
+        <a href="https://www.complaion.com" target="_blank" rel="noopener">complaion.com</a> &middot;
+        Strumento non ufficiale &middot;
+        <a href="#" id="footer-about">Disclaimer e info</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
