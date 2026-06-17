@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-06-17T09:51:04+00:00",
-  "total_tracked": 3,
+  "last_scan": "2026-06-17T09:59:21+00:00",
+  "total_tracked": 9,
   "items": [
     {
       "id": "acn-home",
@@ -9,12 +9,12 @@
       "type": "page",
       "category": "Home",
       "hash": "f6f7d397633060a3622d6fd5182f542db726a11ebf9e4092ac48b9c4b6d05a3e",
-      "size": 219318,
+      "size": 219298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:53+00:00",
-      "last_check": "2026-06-17T09:50:53+00:00",
+      "last_check": "2026-06-17T09:58:55+00:00",
       "last_modified": "2026-06-17T09:50:53+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq",
@@ -23,12 +23,12 @@
       "type": "page",
       "category": "NIS2",
       "hash": "6dca58c9a79dd81995a1610bfcc83859ca2559b2ff48612d24cf21388137ab46",
-      "size": 107130,
+      "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-06-17T09:50:58+00:00",
+      "last_check": "2026-06-17T09:59:00+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis",
@@ -37,11 +37,95 @@
       "type": "page",
       "category": "NIS2",
       "hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
-      "size": 159445,
+      "size": 159465,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-06-17T09:50:56+00:00",
+      "last_check": "2026-06-17T09:58:57+00:00",
       "last_modified": "2026-06-17T09:50:56+00:00",
+      "last_status": "unchanged"
+    },
+    {
+      "id": "acn-nis-ambito",
+      "name": "ACN - Ambito NIS",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "type": "page",
+      "category": "NIS2 - Ambito",
+      "hash": "aaa0eb84ac3f3bcf49814d6a917701477aecc9f5244fde981661acbcdeb4dbe0",
+      "size": 103298,
+      "content_type": "text/html",
+      "first_seen": "2026-06-17T09:59:13+00:00",
+      "last_check": "2026-06-17T09:59:13+00:00",
+      "last_modified": "2026-06-17T09:59:13+00:00",
+      "last_status": "new"
+    },
+    {
+      "id": "acn-nis-notizie-eventi",
+      "name": "ACN - Notizie ed eventi NIS",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "type": "page",
+      "category": "NIS2 - News",
+      "hash": "224fa28b0ebe54a0469dc2b3c723523238036e63ac26ad0be6487233cd5dd908",
+      "size": 138046,
+      "content_type": "text/html",
+      "first_seen": "2026-06-17T09:59:20+00:00",
+      "last_check": "2026-06-17T09:59:20+00:00",
+      "last_modified": "2026-06-17T09:59:20+00:00",
+      "last_status": "new"
+    },
+    {
+      "id": "acn-nis-normativa",
+      "name": "ACN - La normativa",
+      "url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "type": "page",
+      "category": "NIS2 - Normativa",
+      "hash": "6a4774118a1206d1599bf12a63500605b32b4a3bd6513066ded911b37aaecbe7",
+      "size": 125967,
+      "content_type": "text/html",
+      "first_seen": "2026-06-17T09:59:02+00:00",
+      "last_check": "2026-06-17T09:59:02+00:00",
+      "last_modified": "2026-06-17T09:59:02+00:00",
+      "last_status": "new"
+    },
+    {
+      "id": "acn-nis-obblighi",
+      "name": "ACN - Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "type": "page",
+      "category": "NIS2 - Obblighi",
+      "hash": "25c8dd9583bf0bbe1adc8c06e8a5a901adf02245de38d4076fee236aba184c9e",
+      "size": 113368,
+      "content_type": "text/html",
+      "first_seen": "2026-06-17T09:59:15+00:00",
+      "last_check": "2026-06-17T09:59:15+00:00",
+      "last_modified": "2026-06-17T09:59:15+00:00",
+      "last_status": "new"
+    },
+    {
+      "id": "acn-nis-categorizzazione",
+      "name": "ACN - Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/nis/categorizzazione",
+      "type": "page",
+      "category": "NIS2 - Operativo",
+      "hash": "bbc60dfa84b27cd56a247ec6055d3c426985135fe9f12c786bec4902fa99d376",
+      "size": 107589,
+      "content_type": "text/html",
+      "first_seen": "2026-06-17T09:59:11+00:00",
+      "last_check": "2026-06-17T09:59:11+00:00",
+      "last_modified": "2026-06-17T09:59:11+00:00",
+      "last_status": "new"
+    },
+    {
+      "id": "acn-nis-registrazione",
+      "name": "ACN - Registrazione NIS",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "type": "page",
+      "category": "NIS2 - Operativo",
+      "hash": "393931206ab720040050b6690a75d00d4ec17610957b5025fbae31a190f4deb2",
+      "size": 114696,
+      "content_type": "text/html",
+      "first_seen": "2026-06-17T09:59:04+00:00",
+      "last_check": "2026-06-17T09:59:04+00:00",
+      "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "new"
     }
   ]
