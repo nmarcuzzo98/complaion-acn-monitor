@@ -90,7 +90,7 @@ TARGETS = [
     {
         "id": "acn-nis-modalita-specifiche",
         "name": "ACN - Modalita e specifiche di base",
-        "url": "https://www.acn.gov.it/portale/nis/modalita-e-specifiche-di-base",
+        "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
         "type": "page",
         "category": "NIS2 - Operativo",
     },
@@ -118,7 +118,7 @@ TARGETS = [
     {
         "id": "acn-nis-aggiornamento",
         "name": "ACN - Aggiornamento delle informazioni",
-        "url": "https://www.acn.gov.it/portale/nis/aggiornamento-delle-informazioni",
+        "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
         "type": "page",
         "category": "NIS2 - Operativo",
     },
