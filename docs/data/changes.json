@@ -1,7 +1,589 @@
 {
-  "last_updated": "2026-06-18T00:03:37+00:00",
-  "total_events": 12,
+  "last_updated": "2026-06-18T12:34:34+00:00",
+  "total_events": 13,
   "events": [
+    {
+      "timestamp": "2026-06-18T12:34:08+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "7d96db28d19b1a578d1a5de58ab1ac447b1bf95fbc283387b8741c3e0da2c00b",
+      "new_hash": "8a1afcceb72ec752043447d3ab8426441ef79c0bda647dd7d4205e3243ec099e",
+      "diff": {
+        "added": 60,
+        "removed": 60,
+        "summary": "+60 aggiunte, -60 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:50"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata vulnerabilità in Drupal core"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in Drupal core, noto Content Management System (CMS) open Source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:38"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità nei prodotti QNAP"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:10"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Mozilla"
+          },
+          {
+            "op": "+",
+            "text": "Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 10:53"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in prodotti Apache"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate diverse vulnerabilità di sicurezza, in Apache DolphinScheduler piattaforma open source per la orchestrazione e schedulazione di workflow e Apache Shiro framework Java per la sicurezza delle applicazioni. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato di eludere i meccanismi di autenticazione sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 10:28"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in prodotti Cisco"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza risolvono due nuove vulnerabilità, di cui una con gravità “critica” e una con gravità “alta”, in Cisco ISE e Cisco ISE-PIC, noti software per la gestione dell'identità e del controllo degli accessi di rete. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato remoto di eseguire codice arbitrario e/o l'accesso ad informazioni sensibili sui sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "17/06/26 16:12"
+          },
+          {
+            "op": " ",
+            "text": "Vulnerabilità in prodotti Fortinet"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamento di sicurezza per dispositivi Google Pixel"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamento di sicurezza Google di giugno risolve molteplici vulnerabilità, di cui 11 con gravità “critica” e 20 con gravità “alta”, nei dispositivi Pixel."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 09:39"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in prodotti ManageEngine"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” nei prodotti ManageEngine, componenti software utilizzati per monitorare, gestire e amministrare infrastrutture IT e di rete. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 17:51"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in CodeIgniter"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 16:55"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in driver di stampa Ricoh"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una vulnerabilità con gravità “alta”, in molteplici driver di stampa forniti da Ricoh. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato, già in grado di accedere localmente di elevare i propri privilegi sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 15:56"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in prodotti Zyxel"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta”, nei firmware degli switch Zyxel GS1900. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di inviare una richiesta HTTP malevola per eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 13:31"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità Canon EOS Utility"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano 5 nuove vulnerabilità, di cui 4 con gravità “alta” nel prodotto Canon EOS Utility, software utilizzato per collegare e configurare dispositivi Canon al proprio computer. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato l'accesso ad informazioni del software interessato."
+          },
+          {
+            "op": " ",
+            "text": "Dipartimenti"
+          },
+          {
+            "op": " ",
+            "text": "Certificazione e vigilanza"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:50"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata vulnerabilità in Drupal core"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in Drupal core, noto Content Management System (CMS) open Source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:38"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità nei prodotti QNAP"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:10"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Mozilla"
+          },
+          {
+            "op": "+",
+            "text": "Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 10:53"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in prodotti Apache"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate diverse vulnerabilità di sicurezza, in Apache DolphinScheduler piattaforma open source per la orchestrazione e schedulazione di workflow e Apache Shiro framework Java per la sicurezza delle applicazioni. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato di eludere i meccanismi di autenticazione sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 10:28"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in prodotti Cisco"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza risolvono due nuove vulnerabilità, di cui una con gravità “critica” e una con gravità “alta”, in Cisco ISE e Cisco ISE-PIC, noti software per la gestione dell'identità e del controllo degli accessi di rete. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato remoto di eseguire codice arbitrario e/o l'accesso ad informazioni sensibili sui sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "17/06/26 14:31"
+          },
+          {
+            "op": " ",
+            "text": "Critical Patch Update di Oracle"
+          },
+          {
+            "op": " ",
+            "text": "Oracle ha rilasciato il Critical Patch Update di giugno che mira a correggere numerose vulnerabilità su più prodotti, di cui 122 con gravità “critica” e 102 con gravità “alta”."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 13:11"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata campagna phishing a tema “Fattura Elettronica”"
+          },
+          {
+            "op": "-",
+            "text": "Questo CSIRT ha recentemente rilevato una campagna di phishing malevola veicolata tramite messaggi PEC, verosimilmente provenienti da caselle compromesse, contenenti allegati compressi in formato ZIP al cui interno è presente una pagina HTML malevola a tema “Fattura Elettronica”."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 11:45"
+          },
+          {
+            "op": "-",
+            "text": "INFINITERED: campagna di distribuzione malware ai danni di server REDCap vulnerabili"
+          },
+          {
+            "op": "-",
+            "text": "Il team di analisti del Google Threat Intelligence ha documentato una recente campagna di cyber-spionaggio condotta da un attore malevolo avanzato. La minaccia risulta indirizzata verso istituti di ricerca medica e strutture del settore sanitario, sia pubbliche che private. L'attività ostile sembrerebbe sfruttare l'esposizione sulla rete pubblica di server che eseguono l'applicazione web REDCap (Research Electronic Data Capture)."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 10:56"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 33 nuove vulnerabilità di sicurezza, di cui 7 con gravità critica e 26 con gravità alta."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 10:01"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamento di sicurezza per dispositivi Google Pixel"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamento di sicurezza Google di giugno risolve molteplici vulnerabilità, di cui 11 con gravità “critica” e 20 con gravità “alta”, nei dispositivi Pixel."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 17:51"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in CodeIgniter"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:50"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata vulnerabilità in Drupal core"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in Drupal core, noto Content Management System (CMS) open Source. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:38"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità nei prodotti QNAP"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:10"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Mozilla"
+          },
+          {
+            "op": "+",
+            "text": "Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 10:53"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in prodotti Apache"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate diverse vulnerabilità di sicurezza, in Apache DolphinScheduler piattaforma open source per la orchestrazione e schedulazione di workflow e Apache Shiro framework Java per la sicurezza delle applicazioni. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato di eludere i meccanismi di autenticazione sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 10:28"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in prodotti Cisco"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza risolvono due nuove vulnerabilità, di cui una con gravità “critica” e una con gravità “alta”, in Cisco ISE e Cisco ISE-PIC, noti software per la gestione dell'identità e del controllo degli accessi di rete. Tali vulnerabilità, qualora sfruttate, potrebbero consentire ad un utente malintenzionato remoto di eseguire codice arbitrario e/o l'accesso ad informazioni sensibili sui sistemi interessati"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "17/06/26 14:31"
+          },
+          {
+            "op": " ",
+            "text": "Critical Patch Update di Oracle"
+          },
+          {
+            "op": " ",
+            "text": "Oracle ha rilasciato il Critical Patch Update di giugno che mira a correggere numerose vulnerabilità su più prodotti, di cui 122 con gravità “critica” e 102 con gravità “alta”."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 13:11"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata campagna phishing a tema “Fattura Elettronica”"
+          },
+          {
+            "op": "-",
+            "text": "Questo CSIRT ha recentemente rilevato una campagna di phishing malevola veicolata tramite messaggi PEC, verosimilmente provenienti da caselle compromesse, contenenti allegati compressi in formato ZIP al cui interno è presente una pagina HTML malevola a tema “Fattura Elettronica”."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 11:45"
+          },
+          {
+            "op": "-",
+            "text": "INFINITERED: campagna di distribuzione malware ai danni di server REDCap vulnerabili"
+          },
+          {
+            "op": "-",
+            "text": "Il team di analisti del Google Threat Intelligence ha documentato una recente campagna di cyber-spionaggio condotta da un attore malevolo avanzato. La minaccia risulta indirizzata verso istituti di ricerca medica e strutture del settore sanitario, sia pubbliche che private. L'attività ostile sembrerebbe sfruttare l'esposizione sulla rete pubblica di server che eseguono l'applicazione web REDCap (Research Electronic Data Capture)."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 10:56"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 33 nuove vulnerabilità di sicurezza, di cui 7 con gravità critica e 26 con gravità alta."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "17/06/26 10:01"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamento di sicurezza per dispositivi Google Pixel"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamento di sicurezza Google di giugno risolve molteplici vulnerabilità, di cui 11 con gravità “critica” e 20 con gravità “alta”, nei dispositivi Pixel."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 17:51"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in CodeIgniter"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "Avvisi e opportunità"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-17T15:01:31+00:00",
       "id": "acn-home",
