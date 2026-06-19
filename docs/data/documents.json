@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-06-18T21:31:45+00:00",
+  "last_scan": "2026-06-19T12:38:28+00:00",
   "total_tracked": 11,
   "items": [
     {
@@ -8,12 +8,12 @@
       "url": "https://www.acn.gov.it/",
       "type": "page",
       "category": "Home",
-      "hash": "50c4e8c78dc0522e17593cbeb2f0723f76e6e29953c0126558fad91a132cb565",
-      "size": 216513,
+      "hash": "8aa6ea94a2233a0efa8ed3781c6e253fe170dfe9c4c92f0076c5841c8ddeca5d",
+      "size": 216580,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:53+00:00",
-      "last_check": "2026-06-18T21:31:15+00:00",
-      "last_modified": "2026-06-18T21:31:15+00:00",
+      "last_check": "2026-06-19T12:38:02+00:00",
+      "last_modified": "2026-06-19T12:38:02+00:00",
       "last_status": "changed"
     },
     {
@@ -26,7 +26,7 @@
       "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-06-18T21:31:22+00:00",
+      "last_check": "2026-06-19T12:38:08+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -37,10 +37,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
-      "size": 159445,
+      "size": 159465,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-06-18T21:31:19+00:00",
+      "last_check": "2026-06-19T12:38:04+00:00",
       "last_modified": "2026-06-17T09:50:56+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-06-18T21:31:35+00:00",
+      "last_check": "2026-06-19T12:38:19+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 138046,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-06-18T21:31:44+00:00",
+      "last_check": "2026-06-19T12:38:27+00:00",
       "last_modified": "2026-06-17T09:59:20+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 125967,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-06-18T21:31:25+00:00",
+      "last_check": "2026-06-19T12:38:10+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -96,7 +96,7 @@
       "size": 113368,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-06-18T21:31:38+00:00",
+      "last_check": "2026-06-19T12:38:21+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -110,7 +110,7 @@
       "size": 112883,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-06-18T21:31:41+00:00",
+      "last_check": "2026-06-19T12:38:24+00:00",
       "last_modified": "2026-06-17T10:06:12+00:00",
       "last_status": "unchanged"
     },
@@ -121,10 +121,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "bbc60dfa84b27cd56a247ec6055d3c426985135fe9f12c786bec4902fa99d376",
-      "size": 107563,
+      "size": 107583,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-06-18T21:31:33+00:00",
+      "last_check": "2026-06-19T12:38:17+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -138,7 +138,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-06-18T21:31:30+00:00",
+      "last_check": "2026-06-19T12:38:15+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -152,7 +152,7 @@
       "size": 114696,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-06-18T21:31:28+00:00",
+      "last_check": "2026-06-19T12:38:12+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }

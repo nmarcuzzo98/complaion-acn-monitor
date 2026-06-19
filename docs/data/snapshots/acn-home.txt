@@ -126,14 +126,14 @@ Favorisce percorsi formativi per lo sviluppo della forza lavoro di settore e pro
 CSIRT Italia
 L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione
 Esplora CSIRT Italia
-Alert -
-18/06/26 17:16
-Risolte vulnerabilità nei prodotti NGINIX
-Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web.
 Bollettino -
-18/06/26 16:32
+19/06/26 12:20
 FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
 Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN.
+Alert -
+19/06/26 08:25
+Risolte vulnerabilità nei prodotti NGINX
+Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web.
 Alert -
 18/06/26 16:17
 Risolte vulnerabilità in prodotti Atlassian
@@ -236,12 +236,8 @@ Rafforzare le capacità nazionali di scrutinio e certificazione tecnologica
 Potenziare le capacità cyber della Pubblica Amministrazione
 Scopri il PNRR
 CSIRT Italia- Alert e bollettini
-Alert -
-18/06/26 17:16
-Risolte vulnerabilità nei prodotti NGINIX
-Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web.
 Bollettino -
-18/06/26 16:32
+19/06/26 12:20
 FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
 Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN.
 Alert -
@@ -260,14 +256,14 @@ Alert -
 18/06/26 12:38
 Risolte vulnerabilità nei prodotti QNAP
 Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium.
+Alert -
+18/06/26 12:10
+Aggiornamenti di sicurezza Mozilla
+Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird.
 Scopri di più
 CSIRT Italia- Alert e bollettini
-Alert -
-18/06/26 17:16
-Risolte vulnerabilità nei prodotti NGINIX
-Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web.
 Bollettino -
-18/06/26 16:32
+19/06/26 12:20
 FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
 Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN.
 Alert -
@@ -286,6 +282,10 @@ Alert -
 18/06/26 12:38
 Risolte vulnerabilità nei prodotti QNAP
 Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium.
+Alert -
+18/06/26 12:10
+Aggiornamenti di sicurezza Mozilla
+Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird.
 Scopri di più
 Avvisi e opportunità
 Lavora con noi

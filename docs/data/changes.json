@@ -1,7 +1,237 @@
 {
-  "last_updated": "2026-06-18T21:31:45+00:00",
-  "total_events": 14,
+  "last_updated": "2026-06-19T12:38:28+00:00",
+  "total_events": 15,
   "events": [
+    {
+      "timestamp": "2026-06-19T12:38:02+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "50c4e8c78dc0522e17593cbeb2f0723f76e6e29953c0126558fad91a132cb565",
+      "new_hash": "8aa6ea94a2233a0efa8ed3781c6e253fe170dfe9c4c92f0076c5841c8ddeca5d",
+      "diff": {
+        "added": 15,
+        "removed": 15,
+        "summary": "+15 aggiunte, -15 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione"
+          },
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "18/06/26 17:16"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità nei prodotti NGINIX"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web."
+          },
+          {
+            "op": " ",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "18/06/26 16:32"
+          },
+          {
+            "op": "+",
+            "text": "19/06/26 12:20"
+          },
+          {
+            "op": " ",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": " ",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "19/06/26 08:25"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità nei prodotti NGINX"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web."
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "18/06/26 16:17"
+          },
+          {
+            "op": " ",
+            "text": "Scopri il PNRR"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "18/06/26 17:16"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità nei prodotti NGINIX"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web."
+          },
+          {
+            "op": " ",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "18/06/26 16:32"
+          },
+          {
+            "op": "+",
+            "text": "19/06/26 12:20"
+          },
+          {
+            "op": " ",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": " ",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": " ",
+            "text": "Risolte vulnerabilità nei prodotti QNAP"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:10"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Mozilla"
+          },
+          {
+            "op": "+",
+            "text": "Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "18/06/26 17:16"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità nei prodotti NGINIX"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due vulnerabilità di gravità “alta” in NGINX, noto software open source per la gestione del traffico e degli applicativi web."
+          },
+          {
+            "op": " ",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "18/06/26 16:32"
+          },
+          {
+            "op": "+",
+            "text": "19/06/26 12:20"
+          },
+          {
+            "op": " ",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": " ",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": " ",
+            "text": "Risolte vulnerabilità nei prodotti QNAP"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "18/06/26 12:10"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Mozilla"
+          },
+          {
+            "op": "+",
+            "text": "Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "Avvisi e opportunità"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-18T21:31:15+00:00",
       "id": "acn-home",
