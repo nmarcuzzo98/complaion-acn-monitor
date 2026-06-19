@@ -126,6 +126,10 @@ Favorisce percorsi formativi per lo sviluppo della forza lavoro di settore e pro
 CSIRT Italia
 L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione
 Esplora CSIRT Italia
+Alert -
+19/06/26 14:57
+Rilevate vulnerabilità in prodotti Splunk
+Rilevate nuove vulnerabilità, di cui una con gravità “critica” e tre con gravità “alta”, in Splunk Enterprise, Cloud Platform e Secure Gateway.
 Bollettino -
 19/06/26 12:20
 FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
@@ -170,10 +174,6 @@ Alert -
 17/06/26 14:31
 Critical Patch Update di Oracle
 Oracle ha rilasciato il Critical Patch Update di giugno che mira a correggere numerose vulnerabilità su più prodotti, di cui 122 con gravità “critica” e 102 con gravità “alta”.
-Bollettino -
-17/06/26 13:11
-Rilevata campagna phishing a tema “Fattura Elettronica”
-Questo CSIRT ha recentemente rilevato una campagna di phishing malevola veicolata tramite messaggi PEC, verosimilmente provenienti da caselle compromesse, contenenti allegati compressi in formato ZIP al cui interno è presente una pagina HTML malevola a tema “Fattura Elettronica”.
 Dipartimenti
 Certificazione e vigilanza
 Scopri di più
@@ -236,6 +236,10 @@ Rafforzare le capacità nazionali di scrutinio e certificazione tecnologica
 Potenziare le capacità cyber della Pubblica Amministrazione
 Scopri il PNRR
 CSIRT Italia- Alert e bollettini
+Alert -
+19/06/26 14:57
+Rilevate vulnerabilità in prodotti Splunk
+Rilevate nuove vulnerabilità, di cui una con gravità “critica” e tre con gravità “alta”, in Splunk Enterprise, Cloud Platform e Secure Gateway.
 Bollettino -
 19/06/26 12:20
 FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
@@ -256,12 +260,12 @@ Alert -
 18/06/26 12:38
 Risolte vulnerabilità nei prodotti QNAP
 Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium.
-Alert -
-18/06/26 12:10
-Aggiornamenti di sicurezza Mozilla
-Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird.
 Scopri di più
 CSIRT Italia- Alert e bollettini
+Alert -
+19/06/26 14:57
+Rilevate vulnerabilità in prodotti Splunk
+Rilevate nuove vulnerabilità, di cui una con gravità “critica” e tre con gravità “alta”, in Splunk Enterprise, Cloud Platform e Secure Gateway.
 Bollettino -
 19/06/26 12:20
 FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
@@ -282,10 +286,6 @@ Alert -
 18/06/26 12:38
 Risolte vulnerabilità nei prodotti QNAP
 Rilevate diverse vulnerabilità di sicurezza in QuMagie, applicazione per la gestione e organizzazione intelligente delle foto sui NAS e License Center servizio per gestire licenze software e servizi premium.
-Alert -
-18/06/26 12:10
-Aggiornamenti di sicurezza Mozilla
-Mozilla ha rilasciato aggiornamenti di sicurezza che risolvono nuove vulnerabilità, di cui 16 con gravità “alta” in Firefox, Firefox ESR, Firefox per iOS e Thunderbird.
 Scopri di più
 Avvisi e opportunità
 Lavora con noi
