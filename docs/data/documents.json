@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-06-20T10:21:28+00:00",
+  "last_scan": "2026-06-20T16:08:42+00:00",
   "total_tracked": 11,
   "items": [
     {
@@ -9,10 +9,10 @@
       "type": "page",
       "category": "Home",
       "hash": "bad7c1b2281868f8328df8362b5ec4315583e25ef0dd1ee3d67f6cbd20e18f50",
-      "size": 216399,
+      "size": 216371,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:53+00:00",
-      "last_check": "2026-06-20T10:21:02+00:00",
+      "last_check": "2026-06-20T16:08:16+00:00",
       "last_modified": "2026-06-19T19:17:28+00:00",
       "last_status": "unchanged"
     },
@@ -26,7 +26,7 @@
       "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-06-20T10:21:06+00:00",
+      "last_check": "2026-06-20T16:08:21+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -37,10 +37,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
-      "size": 159465,
+      "size": 159445,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-06-20T10:21:04+00:00",
+      "last_check": "2026-06-20T16:08:19+00:00",
       "last_modified": "2026-06-17T09:50:56+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-06-20T10:21:18+00:00",
+      "last_check": "2026-06-20T16:08:33+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 138046,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-06-20T10:21:26+00:00",
+      "last_check": "2026-06-20T16:08:40+00:00",
       "last_modified": "2026-06-17T09:59:20+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 125967,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-06-20T10:21:09+00:00",
+      "last_check": "2026-06-20T16:08:24+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -96,7 +96,7 @@
       "size": 113368,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-06-20T10:21:21+00:00",
+      "last_check": "2026-06-20T16:08:35+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -110,7 +110,7 @@
       "size": 112883,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-06-20T10:21:23+00:00",
+      "last_check": "2026-06-20T16:08:38+00:00",
       "last_modified": "2026-06-17T10:06:12+00:00",
       "last_status": "unchanged"
     },
@@ -124,7 +124,7 @@
       "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-06-20T10:21:16+00:00",
+      "last_check": "2026-06-20T16:08:31+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -138,7 +138,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-06-20T10:21:14+00:00",
+      "last_check": "2026-06-20T16:08:28+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -152,7 +152,7 @@
       "size": 114696,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-06-20T10:21:11+00:00",
+      "last_check": "2026-06-20T16:08:26+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }
