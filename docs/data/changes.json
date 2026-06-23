@@ -1,7 +1,305 @@
 {
-  "last_updated": "2026-06-23T10:50:41+00:00",
-  "total_events": 19,
+  "last_updated": "2026-06-23T17:32:17+00:00",
+  "total_events": 20,
   "events": [
+    {
+      "timestamp": "2026-06-23T17:31:49+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "70acca0bda078af0f427a3e580fe82c4897d97a885a7e474b6cd3d50f625906f",
+      "new_hash": "c65c8035f6195211ecc82c609de04554b8ccbc62196baec61c5c96b5de3ae589",
+      "diff": {
+        "added": 24,
+        "removed": 24,
+        "summary": "+24 aggiunte, -24 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": "+",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 15:15"
+          },
+          {
+            "op": "+",
+            "text": "Sanate vulnerabilità in IBM WebSphere"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano 4 vulnerabilità, di cui 3 con gravità “alta”, in IBM WebSphere, diffusa piattaforma middleware enterprise per la gestione, l'esecuzione e la scalabilità di applicazioni Java. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di autenticazione, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": " ",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": " ",
+            "text": "Avast: disponibile PoC pubblico per la CVE-2025-71326"
+          },
+          {
+            "op": " ",
+            "text": "Disponibile Proof of Concept (PoC) per la vulnerabilità identificata tramite la CVE-2025-71326 presente in Avast Antivirus (AV), noto software di sicurezza progettato per proteggere computer e dispositivi da minacce informatiche come malware, virus, ransomware e spyware. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato locale di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi target."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 16:12"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in Craft CMS"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due vulnerabilità di sicurezza di cui una con gravità “alta” in Craft CMS. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a utenti malintenzionati remoti autenticati, tramite richieste opportunamente predisposte, di eseguire codice remoto sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 14:14"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in Flowise"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una vulnerabilità con gravità “critica” in Flowise, piattaforma open-source con interfaccia drag & drop per costruire flussi personalizzati basati su modelli linguistici di grandi dimensioni (LLM). Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto non autenticato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Dipartimenti"
+          },
+          {
+            "op": " ",
+            "text": "Certificazione e vigilanza"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": "+",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 15:15"
+          },
+          {
+            "op": "+",
+            "text": "Sanate vulnerabilità in IBM WebSphere"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano 4 vulnerabilità, di cui 3 con gravità “alta”, in IBM WebSphere, diffusa piattaforma middleware enterprise per la gestione, l'esecuzione e la scalabilità di applicazioni Java. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di autenticazione, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": " ",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": " ",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 09:51"
+          },
+          {
+            "op": "-",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 08:04"
+          },
+          {
+            "op": "-",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": "-",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": "+",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 15:15"
+          },
+          {
+            "op": "+",
+            "text": "Sanate vulnerabilità in IBM WebSphere"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano 4 vulnerabilità, di cui 3 con gravità “alta”, in IBM WebSphere, diffusa piattaforma middleware enterprise per la gestione, l'esecuzione e la scalabilità di applicazioni Java. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di autenticazione, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": " ",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 09:51"
+          },
+          {
+            "op": "-",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 08:04"
+          },
+          {
+            "op": "-",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": "-",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "Avvisi e opportunità"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-23T10:50:36+00:00",
       "id": "acn-nis-aggiornamento",

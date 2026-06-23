@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-06-23T10:50:41+00:00",
+  "last_scan": "2026-06-23T17:32:17+00:00",
   "total_tracked": 11,
   "items": [
     {
@@ -8,12 +8,12 @@
       "url": "https://www.acn.gov.it/",
       "type": "page",
       "category": "Home",
-      "hash": "70acca0bda078af0f427a3e580fe82c4897d97a885a7e474b6cd3d50f625906f",
-      "size": 217614,
+      "hash": "c65c8035f6195211ecc82c609de04554b8ccbc62196baec61c5c96b5de3ae589",
+      "size": 217333,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:53+00:00",
-      "last_check": "2026-06-23T10:50:16+00:00",
-      "last_modified": "2026-06-23T10:50:16+00:00",
+      "last_check": "2026-06-23T17:31:49+00:00",
+      "last_modified": "2026-06-23T17:31:49+00:00",
       "last_status": "changed"
     },
     {
@@ -23,10 +23,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "6dca58c9a79dd81995a1610bfcc83859ca2559b2ff48612d24cf21388137ab46",
-      "size": 107129,
+      "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-06-23T10:50:20+00:00",
+      "last_check": "2026-06-23T17:31:55+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -37,10 +37,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
-      "size": 159471,
+      "size": 159445,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-06-23T10:50:18+00:00",
+      "last_check": "2026-06-23T17:31:53+00:00",
       "last_modified": "2026-06-17T09:50:56+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-06-23T10:50:31+00:00",
+      "last_check": "2026-06-23T17:32:09+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 138046,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-06-23T10:50:39+00:00",
+      "last_check": "2026-06-23T17:32:15+00:00",
       "last_modified": "2026-06-17T09:59:20+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 125967,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-06-23T10:50:23+00:00",
+      "last_check": "2026-06-23T17:31:58+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -93,10 +93,10 @@
       "type": "page",
       "category": "NIS2 - Obblighi",
       "hash": "25c8dd9583bf0bbe1adc8c06e8a5a901adf02245de38d4076fee236aba184c9e",
-      "size": 113368,
+      "size": 113388,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-06-23T10:50:34+00:00",
+      "last_check": "2026-06-23T17:32:10+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -110,9 +110,9 @@
       "size": 112882,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-06-23T10:50:36+00:00",
+      "last_check": "2026-06-23T17:32:13+00:00",
       "last_modified": "2026-06-23T10:50:36+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-categorizzazione",
@@ -121,10 +121,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "bbc60dfa84b27cd56a247ec6055d3c426985135fe9f12c786bec4902fa99d376",
-      "size": 107583,
+      "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-06-23T10:50:29+00:00",
+      "last_check": "2026-06-23T17:32:05+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -138,7 +138,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-06-23T10:50:27+00:00",
+      "last_check": "2026-06-23T17:32:03+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -152,7 +152,7 @@
       "size": 114732,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-06-23T10:50:25+00:00",
+      "last_check": "2026-06-23T17:32:01+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }
