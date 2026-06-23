@@ -1,7 +1,635 @@
 {
-  "last_updated": "2026-06-22T22:59:04+00:00",
-  "total_events": 17,
+  "last_updated": "2026-06-23T10:50:41+00:00",
+  "total_events": 19,
   "events": [
+    {
+      "timestamp": "2026-06-23T10:50:36+00:00",
+      "id": "acn-nis-aggiornamento",
+      "name": "ACN - Aggiornamento delle informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "aa56c74b1e9ef888d0f156eee9769f746ab429ef9e6f1fab05734e8bbfac3608",
+      "new_hash": "cc3b9e5a8ec8784621f69ff684007a99cc6d5d878b78ee0698f25cc609716936"
+    },
+    {
+      "timestamp": "2026-06-23T10:50:16+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "48e9a53bf2d4efac308ff957f1b1ddf36cb7195d0f516079fa00a6e4b42c89d5",
+      "new_hash": "70acca0bda078af0f427a3e580fe82c4897d97a885a7e474b6cd3d50f625906f",
+      "diff": {
+        "added": 64,
+        "removed": 64,
+        "summary": "+64 aggiunte, -64 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": "+",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 12:01"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 10:52"
+          },
+          {
+            "op": "+",
+            "text": "Autodesk: rilevata vulnerabilità in Fusion Desktop"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 09:54"
+          },
+          {
+            "op": "+",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 09:51"
+          },
+          {
+            "op": "+",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 08:04"
+          },
+          {
+            "op": "+",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": "+",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "22/06/26 17:48"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamenti di sicurezza prodotti Mitel"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate vulnerabilità in Craft CMS"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate due vulnerabilità di sicurezza di cui una con gravità “alta” in Craft CMS. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a utenti malintenzionati remoti autenticati, tramite richieste opportunamente predisposte, di eseguire codice remoto sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 14:36"
+          },
+          {
+            "op": "-",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": "-",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "22/06/26 14:14"
+          },
+          {
+            "op": " ",
+            "text": "Rilevata vulnerabilità in Flowise"
+          },
+          {
+            "op": " ",
+            "text": "Rilevata una vulnerabilità con gravità “critica” in Flowise, piattaforma open-source con interfaccia drag & drop per costruire flussi personalizzati basati su modelli linguistici di grandi dimensioni (LLM). Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto non autenticato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 12:59"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in Apache NiFi"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate 4 nuove vulnerabilità, di cui una con gravità “alta”, in Apache NiFi, piattaforma open source di dataflow, utilizzata per automatizzare e gestire i flussi di dati tra sistemi. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato il bypass dei meccanismi di sicurezza sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 11:50"
+          },
+          {
+            "op": "-",
+            "text": "Node.js: risolte molteplici vulnerabilità"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 12 vulnerabilità, di cui 2 con gravità “alta”, in Node.js, noto software open source per l’esecuzione di codice Javascript. Tali vulnerabilità, qualora sfruttate, potrebbero permettere la comprommissione della disponibilità del servizio e l’elusione dei meccanismi di autententicazione sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 11:22"
+          },
+          {
+            "op": "-",
+            "text": "EaseUS: PoC pubblici per il prodotto Partition Master"
+          },
+          {
+            "op": "-",
+            "text": "Disponibili dei Proof of Concept per 2 vulnerabilità con gravità “alta” presenti nel prodotto EaseUS Partition Master 14.5, nota suite per la gestione e manipolazione delle partizioni. Tali vulnerabilità potrebbero consentire l’elevazione dei privilegi utenti sulle istanze interessate."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "16/06/26 17:51"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in CodeIgniter"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “critica”, che interessa il software CodeIgniter, noto framework PHP open source utilizzato per sviluppare applicazioni web. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "19/06/26 14:57"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in prodotti Splunk"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate nuove vulnerabilità, di cui una con gravità “critica” e tre con gravità “alta”, in Splunk Enterprise, Cloud Platform e Secure Gateway."
+          },
+          {
+            "op": " ",
+            "text": "Dipartimenti"
+          },
+          {
+            "op": " ",
+            "text": "Certificazione e vigilanza"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:48"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza prodotti Mitel"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 12 vulnerabilità, di cui 11 con gravità “critica” e una con gravità “alta”, nei prodotti Mitel MiCollab e MiVoice Business Solution Virtual Instance (MiVB SVI)."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:42"
+          },
+          {
+            "op": "-",
+            "text": "Aomei: disponibili PoC pubblici per le CVE-2026-12778, CVE-2026-12779 e CVE-2026-12780"
+          },
+          {
+            "op": "-",
+            "text": "Disponibili Proof of Concept (PoC) per 3 vulnerabilità con gravità “alta” presenti nei prodotti Backupper, Partition Assistant Standard e Dynamic Disk Manager della suite AOMEI. Tali vulnerabilità risiedono nei relativi driver del kernel e potrebbero consentire l’alterazione dei dati e l’elevazione dei privilegi utente fino a livello SYSTEM da parte di un attaccante locale."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:38"
+          },
+          {
+            "op": "-",
+            "text": "Risolta vulnerabilità in PaperCut"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza per correggere una vulnerabilità con gravità “alta”, nella componente PaperCut Print Deploy Client per Windows di PaperCut NG/MF, soluzione software per la gestione e il controllo delle stampe."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:38"
+          },
+          {
+            "op": "-",
+            "text": "Avast: disponibile PoC pubblico per la CVE-2025-71326"
+          },
+          {
+            "op": "-",
+            "text": "Disponibile Proof of Concept (PoC) per la vulnerabilità identificata tramite la CVE-2025-71326 presente in Avast Antivirus (AV), noto software di sicurezza progettato per proteggere computer e dispositivi da minacce informatiche come malware, virus, ransomware e spyware. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato locale di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi target."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 16:12"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in Craft CMS"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due vulnerabilità di sicurezza di cui una con gravità “alta” in Craft CMS. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a utenti malintenzionati remoti autenticati, tramite richieste opportunamente predisposte, di eseguire codice remoto sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": "+",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 12:01"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 10:52"
+          },
+          {
+            "op": "+",
+            "text": "Autodesk: rilevata vulnerabilità in Fusion Desktop"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 09:54"
+          },
+          {
+            "op": "+",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 09:51"
+          },
+          {
+            "op": "+",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 14:36"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 08:04"
+          },
+          {
+            "op": " ",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": " ",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:48"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza prodotti Mitel"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 12 vulnerabilità, di cui 11 con gravità “critica” e una con gravità “alta”, nei prodotti Mitel MiCollab e MiVoice Business Solution Virtual Instance (MiVB SVI)."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:42"
+          },
+          {
+            "op": "-",
+            "text": "Aomei: disponibili PoC pubblici per le CVE-2026-12778, CVE-2026-12779 e CVE-2026-12780"
+          },
+          {
+            "op": "-",
+            "text": "Disponibili Proof of Concept (PoC) per 3 vulnerabilità con gravità “alta” presenti nei prodotti Backupper, Partition Assistant Standard e Dynamic Disk Manager della suite AOMEI. Tali vulnerabilità risiedono nei relativi driver del kernel e potrebbero consentire l’alterazione dei dati e l’elevazione dei privilegi utente fino a livello SYSTEM da parte di un attaccante locale."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:38"
+          },
+          {
+            "op": "-",
+            "text": "Avast: disponibile PoC pubblico per la CVE-2025-71326"
+          },
+          {
+            "op": "-",
+            "text": "Disponibile Proof of Concept (PoC) per la vulnerabilità identificata tramite la CVE-2025-71326 presente in Avast Antivirus (AV), noto software di sicurezza progettato per proteggere computer e dispositivi da minacce informatiche come malware, virus, ransomware e spyware. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato locale di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi target."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:38"
+          },
+          {
+            "op": "-",
+            "text": "Risolta vulnerabilità in PaperCut"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza per correggere una vulnerabilità con gravità “alta”, nella componente PaperCut Print Deploy Client per Windows di PaperCut NG/MF, soluzione software per la gestione e il controllo delle stampe."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 16:12"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in Craft CMS"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due vulnerabilità di sicurezza di cui una con gravità “alta” in Craft CMS. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a utenti malintenzionati remoti autenticati, tramite richieste opportunamente predisposte, di eseguire codice remoto sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": "+",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 12:01"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 10:52"
+          },
+          {
+            "op": "+",
+            "text": "Autodesk: rilevata vulnerabilità in Fusion Desktop"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 09:54"
+          },
+          {
+            "op": "+",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 09:51"
+          },
+          {
+            "op": "+",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 14:36"
+          },
+          {
+            "op": "+",
+            "text": "23/06/26 08:04"
+          },
+          {
+            "op": " ",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": " ",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-22T16:15:20+00:00",
       "id": "acn-home",
