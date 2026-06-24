@@ -1,7 +1,401 @@
 {
-  "last_updated": "2026-06-24T10:35:27+00:00",
-  "total_events": 21,
+  "last_updated": "2026-06-24T18:13:45+00:00",
+  "total_events": 22,
   "events": [
+    {
+      "timestamp": "2026-06-24T18:13:20+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "a7b20b50689d21d440caec5f132d04df7a2a668541b0e37ba1a2e645d1170477",
+      "new_hash": "f48c30357ebf48f418665269067f255f219f14d22fa349169ca58a39235cbc45",
+      "diff": {
+        "added": 36,
+        "removed": 36,
+        "summary": "+36 aggiunte, -36 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 16:48"
+          },
+          {
+            "op": "+",
+            "text": "ClickFix: campagna distribuisce codice malevolo"
+          },
+          {
+            "op": "+",
+            "text": "Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 16:05"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità nei prodotti NGINX"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate nuove vulnerabilità, di cui quattro di gravità “alta”, in NGINX, noto software open source per la gestione del traffico e degli applicativi web."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 15:27"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti Mensili Microsoft"
+          },
+          {
+            "op": "+",
+            "text": "Microsoft ha rilasciato gli aggiornamenti di sicurezza mensili che risolvono un totale di 138 nuove vulnerabilità."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 15:23"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate vulnerabilità in Squid"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate due nuove vulnerabilità in Squid, software open source utilizzato come caching proxy."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": " ",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Bollettino -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 08:04"
+          },
+          {
+            "op": "-",
+            "text": "FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet"
+          },
+          {
+            "op": "-",
+            "text": "Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:48"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza prodotti Mitel"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 12 vulnerabilità, di cui 11 con gravità “critica” e una con gravità “alta”, nei prodotti Mitel MiCollab e MiVoice Business Solution Virtual Instance (MiVB SVI)."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:42"
+          },
+          {
+            "op": "-",
+            "text": "Aomei: disponibili PoC pubblici per le CVE-2026-12778, CVE-2026-12779 e CVE-2026-12780"
+          },
+          {
+            "op": "-",
+            "text": "Disponibili Proof of Concept (PoC) per 3 vulnerabilità con gravità “alta” presenti nei prodotti Backupper, Partition Assistant Standard e Dynamic Disk Manager della suite AOMEI. Tali vulnerabilità risiedono nei relativi driver del kernel e potrebbero consentire l’alterazione dei dati e l’elevazione dei privilegi utente fino a livello SYSTEM da parte di un attaccante locale."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:38"
+          },
+          {
+            "op": "-",
+            "text": "Risolta vulnerabilità in PaperCut"
+          },
+          {
+            "op": "-",
+            "text": "Rilasciati aggiornamenti di sicurezza per correggere una vulnerabilità con gravità “alta”, nella componente PaperCut Print Deploy Client per Windows di PaperCut NG/MF, soluzione software per la gestione e il controllo delle stampe."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "22/06/26 17:38"
+          },
+          {
+            "op": "-",
+            "text": "Avast: disponibile PoC pubblico per la CVE-2025-71326"
+          },
+          {
+            "op": "-",
+            "text": "Disponibile Proof of Concept (PoC) per la vulnerabilità identificata tramite la CVE-2025-71326 presente in Avast Antivirus (AV), noto software di sicurezza progettato per proteggere computer e dispositivi da minacce informatiche come malware, virus, ransomware e spyware. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato locale di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi target."
+          },
+          {
+            "op": " ",
+            "text": "Dipartimenti"
+          },
+          {
+            "op": " ",
+            "text": "Certificazione e vigilanza"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 16:48"
+          },
+          {
+            "op": "+",
+            "text": "ClickFix: campagna distribuisce codice malevolo"
+          },
+          {
+            "op": "+",
+            "text": "Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 10:52"
+          },
+          {
+            "op": "-",
+            "text": "Autodesk: rilevata vulnerabilità in Fusion Desktop"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 09:54"
+          },
+          {
+            "op": "-",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "24/06/26 16:48"
+          },
+          {
+            "op": "+",
+            "text": "ClickFix: campagna distribuisce codice malevolo"
+          },
+          {
+            "op": "+",
+            "text": "Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”."
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": " ",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 10:52"
+          },
+          {
+            "op": "-",
+            "text": "Autodesk: rilevata vulnerabilità in Fusion Desktop"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 09:54"
+          },
+          {
+            "op": "-",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "Avvisi e opportunità"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-24T10:35:04+00:00",
       "id": "acn-home",

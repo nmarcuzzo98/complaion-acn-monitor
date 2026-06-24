@@ -127,6 +127,26 @@ CSIRT Italia
 L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione
 Esplora CSIRT Italia
 Alert -
+24/06/26 18:00
+Rilevata nuova vulnerabilità in Erlang Plug
+Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati.
+Alert -
+24/06/26 16:48
+ClickFix: campagna distribuisce codice malevolo
+Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”.
+Alert -
+24/06/26 16:05
+Risolte vulnerabilità nei prodotti NGINX
+Rilevate nuove vulnerabilità, di cui quattro di gravità “alta”, in NGINX, noto software open source per la gestione del traffico e degli applicativi web.
+Alert -
+24/06/26 15:27
+Aggiornamenti Mensili Microsoft
+Microsoft ha rilasciato gli aggiornamenti di sicurezza mensili che risolvono un totale di 138 nuove vulnerabilità.
+Alert -
+24/06/26 15:23
+Rilevate vulnerabilità in Squid
+Rilevate due nuove vulnerabilità in Squid, software open source utilizzato come caching proxy.
+Alert -
 23/06/26 16:03
 Aggiornamenti di sicurezza Android
 Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17.
@@ -154,26 +174,6 @@ Alert -
 23/06/26 09:51
 Sanata vulnerabilità prodotti TP-Link
 Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati.
-Bollettino -
-23/06/26 08:04
-FortiBleed: esposizione di credenziali SSL-VPN associate a dispositivi Fortinet esposti su Internet
-Questo CSIRT ha recentemente rilevato la diffusione di un dataset riconducibile a una campagna denominata “FortiBleed”, contenente informazioni associate a dispositivi Fortinet/FortiGate esposti su Internet e utilizzati per l’accesso remoto tramite SSL-VPN.
-Alert -
-22/06/26 17:48
-Aggiornamenti di sicurezza prodotti Mitel
-Rilasciati aggiornamenti di sicurezza che risolvono 12 vulnerabilità, di cui 11 con gravità “critica” e una con gravità “alta”, nei prodotti Mitel MiCollab e MiVoice Business Solution Virtual Instance (MiVB SVI).
-Alert -
-22/06/26 17:42
-Aomei: disponibili PoC pubblici per le CVE-2026-12778, CVE-2026-12779 e CVE-2026-12780
-Disponibili Proof of Concept (PoC) per 3 vulnerabilità con gravità “alta” presenti nei prodotti Backupper, Partition Assistant Standard e Dynamic Disk Manager della suite AOMEI. Tali vulnerabilità risiedono nei relativi driver del kernel e potrebbero consentire l’alterazione dei dati e l’elevazione dei privilegi utente fino a livello SYSTEM da parte di un attaccante locale.
-Alert -
-22/06/26 17:38
-Risolta vulnerabilità in PaperCut
-Rilasciati aggiornamenti di sicurezza per correggere una vulnerabilità con gravità “alta”, nella componente PaperCut Print Deploy Client per Windows di PaperCut NG/MF, soluzione software per la gestione e il controllo delle stampe.
-Alert -
-22/06/26 17:38
-Avast: disponibile PoC pubblico per la CVE-2025-71326
-Disponibile Proof of Concept (PoC) per la vulnerabilità identificata tramite la CVE-2025-71326 presente in Avast Antivirus (AV), noto software di sicurezza progettato per proteggere computer e dispositivi da minacce informatiche come malware, virus, ransomware e spyware. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato locale di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi target.
 Dipartimenti
 Certificazione e vigilanza
 Scopri di più
@@ -237,6 +237,14 @@ Potenziare le capacità cyber della Pubblica Amministrazione
 Scopri il PNRR
 CSIRT Italia- Alert e bollettini
 Alert -
+24/06/26 18:00
+Rilevata nuova vulnerabilità in Erlang Plug
+Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati.
+Alert -
+24/06/26 16:48
+ClickFix: campagna distribuisce codice malevolo
+Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”.
+Alert -
 23/06/26 16:03
 Aggiornamenti di sicurezza Android
 Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17.
@@ -252,17 +260,17 @@ Alert -
 23/06/26 12:01
 Rilevate vulnerabilità in MISP Project
 Rilevate sei nuove vulnerabilità, di cui due con gravità "critica" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence.
-Alert -
-23/06/26 10:52
-Autodesk: rilevata vulnerabilità in Fusion Desktop
-Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati.
-Alert -
-23/06/26 09:54
-Vulnerabilità in libssh2
-Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client.
 Scopri di più
 CSIRT Italia- Alert e bollettini
 Alert -
+24/06/26 18:00
+Rilevata nuova vulnerabilità in Erlang Plug
+Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati.
+Alert -
+24/06/26 16:48
+ClickFix: campagna distribuisce codice malevolo
+Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”.
+Alert -
 23/06/26 16:03
 Aggiornamenti di sicurezza Android
 Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17.
@@ -278,14 +286,6 @@ Alert -
 23/06/26 12:01
 Rilevate vulnerabilità in MISP Project
 Rilevate sei nuove vulnerabilità, di cui due con gravità "critica" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence.
-Alert -
-23/06/26 10:52
-Autodesk: rilevata vulnerabilità in Fusion Desktop
-Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati.
-Alert -
-23/06/26 09:54
-Vulnerabilità in libssh2
-Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client.
 Scopri di più
 Avvisi e opportunità
 Lavora con noi
