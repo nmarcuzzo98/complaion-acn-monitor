@@ -109,8 +109,8 @@ Chi siamo
 su RESILIENZA, PROTEZIONE E INNOVAZIONE
 In primo piano
 News -
-11 Giugno 2026
-ACN ha partecipato a Cyber Europe 2026
+24 Giugno 2026
+Online l’Operational Summary di ACN di maggio
 News -
 09 Giugno 2026
 In Acn le voci di donne che stanno ridisegnando l’IA
@@ -206,6 +206,9 @@ News -
 Forum PA 2026. Partecipazione, consapevolezza e curiosità al centro delle tre giornate ACN
 News -
 11 Giugno 2026
+ACN ha partecipato a Cyber Europe 2026
+News -
+11 Giugno 2026
 Aggiornate le Linee guida sulle funzioni crittografiche
 News -
 10 Giugno 2026
@@ -222,9 +225,6 @@ ACN, MAECI e ICE a Singapore portano le imprese cyber a GovWare 2026
 News -
 15 Maggio 2026
 Premio di laurea in cybersicurezza: al via la prima edizione dell’Avviso ACN
-News -
-12 Maggio 2026
-Il G7 vara le linee guida relative al Software Bill of Materials (SBOM) per l'intelligenza artificiale
 Scopri di più
 su comunicazione
 Tutti gli eventi

@@ -1,7 +1,113 @@
 {
-  "last_updated": "2026-06-23T22:49:01+00:00",
-  "total_events": 20,
+  "last_updated": "2026-06-24T10:35:27+00:00",
+  "total_events": 21,
   "events": [
+    {
+      "timestamp": "2026-06-24T10:35:04+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "c65c8035f6195211ecc82c609de04554b8ccbc62196baec61c5c96b5de3ae589",
+      "new_hash": "a7b20b50689d21d440caec5f132d04df7a2a668541b0e37ba1a2e645d1170477",
+      "diff": {
+        "added": 5,
+        "removed": 5,
+        "summary": "+5 aggiunte, -5 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "In primo piano"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "11 Giugno 2026"
+          },
+          {
+            "op": "-",
+            "text": "ACN ha partecipato a Cyber Europe 2026"
+          },
+          {
+            "op": "+",
+            "text": "24 Giugno 2026"
+          },
+          {
+            "op": "+",
+            "text": "Online l’Operational Summary di ACN di maggio"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "09 Giugno 2026"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "11 Giugno 2026"
+          },
+          {
+            "op": "+",
+            "text": "ACN ha partecipato a Cyber Europe 2026"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "11 Giugno 2026"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornate le Linee guida sulle funzioni crittografiche"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "15 Maggio 2026"
+          },
+          {
+            "op": " ",
+            "text": "Premio di laurea in cybersicurezza: al via la prima edizione dell’Avviso ACN"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "12 Maggio 2026"
+          },
+          {
+            "op": "-",
+            "text": "Il G7 vara le linee guida relative al Software Bill of Materials (SBOM) per l'intelligenza artificiale"
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "su comunicazione"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-23T17:31:49+00:00",
       "id": "acn-home",
