@@ -1,7 +1,433 @@
 {
-  "last_updated": "2026-06-24T22:57:03+00:00",
-  "total_events": 22,
+  "last_updated": "2026-06-25T10:25:20+00:00",
+  "total_events": 23,
   "events": [
+    {
+      "timestamp": "2026-06-25T10:24:49+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "f48c30357ebf48f418665269067f255f219f14d22fa349169ca58a39235cbc45",
+      "new_hash": "64a7f4cf204a37c4d0f19ecefa6e5c6c29df02199b28764bbd568df4b5a1ee66",
+      "diff": {
+        "added": 40,
+        "removed": 40,
+        "summary": "+40 aggiunte, -40 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 12:14"
+          },
+          {
+            "op": "+",
+            "text": "Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 11:15"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata vulnerabilità in GIMP"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in GIMP, noto software open-source di ritocco immagini e foto. Tale vulnerabilità risiede nella libreria GEGL e potrebbe consentire a utenti malintenzionati di eseguire codice arbitrario sui sistemi interessati tramite file opportunamente predisposti."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 10:33"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "+",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 18 nuove vulnerabilità di sicurezza, di cui 4 con gravità “critica” e 14 con gravità “alta”."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 07:53"
+          },
+          {
+            "op": "+",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "+",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": " ",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": " ",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": " ",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 12:01"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 10:52"
+          },
+          {
+            "op": "-",
+            "text": "Autodesk: rilevata vulnerabilità in Fusion Desktop"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “critica” in Autodesk Fusion Desktop, noto software CAD/CAM per progettazione e simulazione integrate. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 09:54"
+          },
+          {
+            "op": "-",
+            "text": "Vulnerabilità in libssh2"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 09:51"
+          },
+          {
+            "op": "-",
+            "text": "Sanata vulnerabilità prodotti TP-Link"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano una vulnerabilità con gravità “alta” in prodotti TP-Link. Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Dipartimenti"
+          },
+          {
+            "op": " ",
+            "text": "Certificazione e vigilanza"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 12:14"
+          },
+          {
+            "op": "+",
+            "text": "Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 11:15"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata vulnerabilità in GIMP"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in GIMP, noto software open-source di ritocco immagini e foto. Tale vulnerabilità risiede nella libreria GEGL e potrebbe consentire a utenti malintenzionati di eseguire codice arbitrario sui sistemi interessati tramite file opportunamente predisposti."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 10:33"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "+",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 18 nuove vulnerabilità di sicurezza, di cui 4 con gravità “critica” e 14 con gravità “alta”."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": " ",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": " ",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 15:15"
+          },
+          {
+            "op": "-",
+            "text": "Sanate vulnerabilità in IBM WebSphere"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano 4 vulnerabilità, di cui 3 con gravità “alta”, in IBM WebSphere, diffusa piattaforma middleware enterprise per la gestione, l'esecuzione e la scalabilità di applicazioni Java. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di autenticazione, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": "-",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 12:01"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 12:14"
+          },
+          {
+            "op": "+",
+            "text": "Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 11:15"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata vulnerabilità in GIMP"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in GIMP, noto software open-source di ritocco immagini e foto. Tale vulnerabilità risiede nella libreria GEGL e potrebbe consentire a utenti malintenzionati di eseguire codice arbitrario sui sistemi interessati tramite file opportunamente predisposti."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 10:33"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "+",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 18 nuove vulnerabilità di sicurezza, di cui 4 con gravità “critica” e 14 con gravità “alta”."
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": " ",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 15:15"
+          },
+          {
+            "op": "-",
+            "text": "Sanate vulnerabilità in IBM WebSphere"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano 4 vulnerabilità, di cui 3 con gravità “alta”, in IBM WebSphere, diffusa piattaforma middleware enterprise per la gestione, l'esecuzione e la scalabilità di applicazioni Java. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di autenticazione, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": "-",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 12:01"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in MISP Project"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate sei nuove vulnerabilità, di cui due con gravità \"critica\" e quattro con gravità “alta”, in MISP Project, nota piattaforma collaborativa di cyber threat intelligence."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "Avvisi e opportunità"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-24T18:13:20+00:00",
       "id": "acn-home",
