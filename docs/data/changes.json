@@ -1,7 +1,621 @@
 {
-  "last_updated": "2026-06-25T10:25:20+00:00",
-  "total_events": 23,
+  "last_updated": "2026-06-25T18:36:02+00:00",
+  "total_events": 24,
   "events": [
+    {
+      "timestamp": "2026-06-25T18:35:33+00:00",
+      "id": "acn-home",
+      "name": "ACN - Home",
+      "url": "https://www.acn.gov.it/",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "64a7f4cf204a37c4d0f19ecefa6e5c6c29df02199b28764bbd568df4b5a1ee66",
+      "new_hash": "45d7c3a8fa85533db53e7f6bf1a4f62e7176c7771f3cc9c3d5867a7af8076ac8",
+      "diff": {
+        "added": 64,
+        "removed": 64,
+        "summary": "+64 aggiunte, -64 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Esplora CSIRT Italia"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 16:24"
+          },
+          {
+            "op": "+",
+            "text": "Joomla JCE: sfruttamento attivo in rete della CVE-2026-48907"
+          },
+          {
+            "op": "+",
+            "text": "Rilevato sfruttamento attivo in rete della CVE-2026-48907 – già sanata dal vendor – presente nel plugin Joomla Content Editor (JCE) estensione per il noto CMS Joomla! utilizzata per la gestione avanzata dei contenuti, Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 15:48"
+          },
+          {
+            "op": "+",
+            "text": "Cisco CUCM: disponibile PoC per lo sfruttamento di vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Disponibile un Proof of Concept (PoC) per la CVE-2026-20230 – già sanata dal vendor – presente in Cisco Unified Communications Manager (CUCM) e Cisco Unified CM Session Management Edition (CUCM SME), note soluzioni Cisco per la gestione delle comunicazioni VoIP aziendali. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 14:44"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità su Cacti"
+          },
+          {
+            "op": "+",
+            "text": "Risolte 6 vulnerabilità, di cui 4 con gravità “critica” e 2 con gravità “alta”, in Cacti, noto web tool open-source che consente la visualizzazione di grafici per il monitoraggio delle reti. Tali vulnerabilità, qualora sfruttate, potrebbero permettere ad un utente malintenzionato di eludere i meccanismi di autenticazione, di alterare dati, e di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 14:11"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità su GitLab CE/EE"
+          },
+          {
+            "op": "+",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 13:30"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata nuova vulnerabilità in HP Accessory WMI Provider"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” nell’HP Accessory WMI Provider, componente software utilizzato per la gestione e l’interfacciamento delle docking station del medesimo produttore. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 12:36"
+          },
+          {
+            "op": "+",
+            "text": "Sanate vulnerabilità in Mastodon"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano 3 vulnerabilità con gravità “alta” in Mastodon, piattaforma di social networking open source e decentralizzata. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di sicurezza, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "25/06/26 12:14"
+          },
+          {
+            "op": " ",
+            "text": "Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "ClickFix: campagna distribuisce codice malevolo"
+          },
+          {
+            "op": " ",
+            "text": "Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 16:05"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità nei prodotti NGINX"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate nuove vulnerabilità, di cui quattro di gravità “alta”, in NGINX, noto software open source per la gestione del traffico e degli applicativi web."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 15:27"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti Mensili Microsoft"
+          },
+          {
+            "op": "-",
+            "text": "Microsoft ha rilasciato gli aggiornamenti di sicurezza mensili che risolvono un totale di 138 nuove vulnerabilità."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 15:23"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate vulnerabilità in Squid"
+          },
+          {
+            "op": "-",
+            "text": "Rilevate due nuove vulnerabilità in Squid, software open source utilizzato come caching proxy."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 15:15"
+          },
+          {
+            "op": "-",
+            "text": "Sanate vulnerabilità in IBM WebSphere"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza sanano 4 vulnerabilità, di cui 3 con gravità “alta”, in IBM WebSphere, diffusa piattaforma middleware enterprise per la gestione, l'esecuzione e la scalabilità di applicazioni Java. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di autenticazione, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 12:34"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Grafana"
+          },
+          {
+            "op": "-",
+            "text": "Risolte molteplici vulnerabilità di cui una con gravità “critica” e 3 con gravità ”alta” in Grafana, nota applicazione web per la visualizzazione e l’analisi interattiva di dati. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere e leggere file arbitrari sul filesystem dei sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Dipartimenti"
+          },
+          {
+            "op": " ",
+            "text": "Certificazione e vigilanza"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 15:48"
+          },
+          {
+            "op": "+",
+            "text": "Cisco CUCM: disponibile PoC per lo sfruttamento di vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Disponibile un Proof of Concept (PoC) per la CVE-2026-20230 – già sanata dal vendor – presente in Cisco Unified Communications Manager (CUCM) e Cisco Unified CM Session Management Edition (CUCM SME), note soluzioni Cisco per la gestione delle comunicazioni VoIP aziendali. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 14:44"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità su Cacti"
+          },
+          {
+            "op": "+",
+            "text": "Risolte 6 vulnerabilità, di cui 4 con gravità “critica” e 2 con gravità “alta”, in Cacti, noto web tool open-source che consente la visualizzazione di grafici per il monitoraggio delle reti. Tali vulnerabilità, qualora sfruttate, potrebbero permettere ad un utente malintenzionato di eludere i meccanismi di autenticazione, di alterare dati, e di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 14:11"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità su GitLab CE/EE"
+          },
+          {
+            "op": "+",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 13:30"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata nuova vulnerabilità in HP Accessory WMI Provider"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” nell’HP Accessory WMI Provider, componente software utilizzato per la gestione e l’interfacciamento delle docking station del medesimo produttore. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 12:36"
+          },
+          {
+            "op": "+",
+            "text": "Sanate vulnerabilità in Mastodon"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano 3 vulnerabilità con gravità “alta” in Mastodon, piattaforma di social networking open source e decentralizzata. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di sicurezza, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "25/06/26 12:14"
+          },
+          {
+            "op": " ",
+            "text": "Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "25/06/26 11:15"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in GIMP"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in GIMP, noto software open-source di ritocco immagini e foto. Tale vulnerabilità risiede nella libreria GEGL e potrebbe consentire a utenti malintenzionati di eseguire codice arbitrario sui sistemi interessati tramite file opportunamente predisposti."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "25/06/26 10:33"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 18 nuove vulnerabilità di sicurezza, di cui 4 con gravità “critica” e 14 con gravità “alta”."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 16:48"
+          },
+          {
+            "op": "-",
+            "text": "ClickFix: campagna distribuisce codice malevolo"
+          },
+          {
+            "op": "-",
+            "text": "Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "CSIRT Italia- Alert e bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 15:48"
+          },
+          {
+            "op": "+",
+            "text": "Cisco CUCM: disponibile PoC per lo sfruttamento di vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Disponibile un Proof of Concept (PoC) per la CVE-2026-20230 – già sanata dal vendor – presente in Cisco Unified Communications Manager (CUCM) e Cisco Unified CM Session Management Edition (CUCM SME), note soluzioni Cisco per la gestione delle comunicazioni VoIP aziendali. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati"
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 14:44"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità su Cacti"
+          },
+          {
+            "op": "+",
+            "text": "Risolte 6 vulnerabilità, di cui 4 con gravità “critica” e 2 con gravità “alta”, in Cacti, noto web tool open-source che consente la visualizzazione di grafici per il monitoraggio delle reti. Tali vulnerabilità, qualora sfruttate, potrebbero permettere ad un utente malintenzionato di eludere i meccanismi di autenticazione, di alterare dati, e di eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 14:11"
+          },
+          {
+            "op": "+",
+            "text": "Risolte vulnerabilità su GitLab CE/EE"
+          },
+          {
+            "op": "+",
+            "text": "Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 13:30"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata nuova vulnerabilità in HP Accessory WMI Provider"
+          },
+          {
+            "op": "+",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” nell’HP Accessory WMI Provider, componente software utilizzato per la gestione e l’interfacciamento delle docking station del medesimo produttore. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi interessati."
+          },
+          {
+            "op": "+",
+            "text": "Alert -"
+          },
+          {
+            "op": "+",
+            "text": "25/06/26 12:36"
+          },
+          {
+            "op": "+",
+            "text": "Sanate vulnerabilità in Mastodon"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamenti di sicurezza sanano 3 vulnerabilità con gravità “alta” in Mastodon, piattaforma di social networking open source e decentralizzata. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di sicurezza, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": " ",
+            "text": "Alert -"
+          },
+          {
+            "op": " ",
+            "text": "25/06/26 12:14"
+          },
+          {
+            "op": " ",
+            "text": "Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "25/06/26 11:15"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata vulnerabilità in GIMP"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una vulnerabilità con gravità “alta” in GIMP, noto software open-source di ritocco immagini e foto. Tale vulnerabilità risiede nella libreria GEGL e potrebbe consentire a utenti malintenzionati di eseguire codice arbitrario sui sistemi interessati tramite file opportunamente predisposti."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "25/06/26 10:33"
+          },
+          {
+            "op": "-",
+            "text": "Risolte vulnerabilità in Google Chrome"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 18 nuove vulnerabilità di sicurezza, di cui 4 con gravità “critica” e 14 con gravità “alta”."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 18:00"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata nuova vulnerabilità in Erlang Plug"
+          },
+          {
+            "op": "-",
+            "text": "Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "24/06/26 16:48"
+          },
+          {
+            "op": "-",
+            "text": "ClickFix: campagna distribuisce codice malevolo"
+          },
+          {
+            "op": "-",
+            "text": "Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”."
+          },
+          {
+            "op": "-",
+            "text": "Alert -"
+          },
+          {
+            "op": "-",
+            "text": "23/06/26 16:03"
+          },
+          {
+            "op": "-",
+            "text": "Aggiornamenti di sicurezza Android"
+          },
+          {
+            "op": "-",
+            "text": "Google ha rilasciato aggiornamenti di sicurezza per sanare diverse vulnerabilità che interessano il sistema operativo Android 17."
+          },
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "Avvisi e opportunità"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-06-25T10:24:49+00:00",
       "id": "acn-home",
