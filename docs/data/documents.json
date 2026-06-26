@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-06-26T15:23:51+00:00",
+  "last_scan": "2026-06-26T18:14:01+00:00",
   "total_tracked": 10,
   "items": [
     {
@@ -9,10 +9,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "6dca58c9a79dd81995a1610bfcc83859ca2559b2ff48612d24cf21388137ab46",
-      "size": 107146,
+      "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-06-26T15:23:31+00:00",
+      "last_check": "2026-06-26T18:13:41+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -23,10 +23,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
-      "size": 159465,
+      "size": 159445,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-06-26T15:23:28+00:00",
+      "last_check": "2026-06-26T18:13:38+00:00",
       "last_modified": "2026-06-17T09:50:56+00:00",
       "last_status": "unchanged"
     },
@@ -37,10 +37,10 @@
       "type": "page",
       "category": "NIS2 - Ambito",
       "hash": "aaa0eb84ac3f3bcf49814d6a917701477aecc9f5244fde981661acbcdeb4dbe0",
-      "size": 103313,
+      "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-06-26T15:23:42+00:00",
+      "last_check": "2026-06-26T18:13:51+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 138046,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-06-26T15:23:49+00:00",
+      "last_check": "2026-06-26T18:13:59+00:00",
       "last_modified": "2026-06-17T09:59:20+00:00",
       "last_status": "unchanged"
     },
@@ -65,10 +65,10 @@
       "type": "page",
       "category": "NIS2 - Normativa",
       "hash": "6a4774118a1206d1599bf12a63500605b32b4a3bd6513066ded911b37aaecbe7",
-      "size": 125982,
+      "size": 125967,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-06-26T15:23:33+00:00",
+      "last_check": "2026-06-26T18:13:43+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 113368,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-06-26T15:23:44+00:00",
+      "last_check": "2026-06-26T18:13:54+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -93,10 +93,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "cc3b9e5a8ec8784621f69ff684007a99cc6d5d878b78ee0698f25cc609716936",
-      "size": 112897,
+      "size": 112882,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-06-26T15:23:46+00:00",
+      "last_check": "2026-06-26T18:13:57+00:00",
       "last_modified": "2026-06-23T10:50:36+00:00",
       "last_status": "unchanged"
     },
@@ -110,7 +110,7 @@
       "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-06-26T15:23:40+00:00",
+      "last_check": "2026-06-26T18:13:50+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -121,10 +121,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "ee91695437d8057703be177af411f4424a4ed9326aad3b528d3bd4716a80567e",
-      "size": 113096,
+      "size": 113116,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-06-26T15:23:37+00:00",
+      "last_check": "2026-06-26T18:13:47+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -138,7 +138,7 @@
       "size": 114732,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-06-26T15:23:35+00:00",
+      "last_check": "2026-06-26T18:13:45+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }
