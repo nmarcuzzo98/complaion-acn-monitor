@@ -1,0 +1,66 @@
+{
+  "last_updated": "2026-06-26T10:19:58+00:00",
+  "total_deadlines": 6,
+  "deadlines": [
+    {
+      "date": "2025-01-29",
+      "date_text": "29 Gennaio 2025",
+      "context": "MI News - 04 Febbraio 2025 Gli obblighi NIS in dirittura d'arrivo, ecco la prossima scadenza News - 29 Gennaio 2025 NIS: riunito nella sede di ACN il tavolo per l’at",
+      "source_id": "acn-portale-nis",
+      "source_name": "ACN - Portale NIS",
+      "source_url": "https://www.acn.gov.it/portale/nis",
+      "first_seen": "2026-06-26T10:19:58+00:00",
+      "last_seen": "2026-06-26T10:19:58+00:00"
+    },
+    {
+      "date": "2025-02-04",
+      "date_text": "04 Febbraio 2025",
+      "context": "News - 17 Febbraio 2025 ACN a Cosenza: la cybersicurezza al centro della crescita delle PMI News - 04 Febbraio 2025 Gli obblighi NIS in dirittura d'arrivo, ecco la p",
+      "source_id": "acn-portale-nis",
+      "source_name": "ACN - Portale NIS",
+      "source_url": "https://www.acn.gov.it/portale/nis",
+      "first_seen": "2026-06-26T10:19:58+00:00",
+      "last_seen": "2026-06-26T10:19:58+00:00"
+    },
+    {
+      "date": "2025-02-28",
+      "date_text": "28 febbraio 2025",
+      "context": "nuova finestra Home NIS Obblighi Obblighi Sei un soggetto NIS? Dal 1° dicembre 2024 e non oltre il 28 febbraio 2025, i soggetti pubblici e privati a cui si applica l",
+      "source_id": "acn-nis-obblighi",
+      "source_name": "ACN - Obblighi",
+      "source_url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "first_seen": "2026-06-26T10:19:58+00:00",
+      "last_seen": "2026-06-26T10:19:58+00:00"
+    },
+    {
+      "date": "2025-03-31",
+      "date_text": "31 marzo 2025",
+      "context": "l'individuazione di ulteriori soggetti ai sensi dell'articolo 3, comma 13, del decreto NIS Entro il 31 marzo 2025 Determinazione ACN , su proposta delle Autorità d",
+      "source_id": "acn-nis-normativa",
+      "source_name": "ACN - La normativa",
+      "source_url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "first_seen": "2026-06-26T10:19:58+00:00",
+      "last_seen": "2026-06-26T10:19:58+00:00"
+    },
+    {
+      "date": "2025-05-31",
+      "date_text": "31 maggio 2025",
+      "context": "correttezza dei dati anagrafici e di contatto, nonché della delega, del punto di contatto, entro il 31 maggio 2025 i soggetti NIS dovranno designare il sostituto pu",
+      "source_id": "acn-nis-aggiornamento",
+      "source_name": "ACN - Aggiornamento delle informazioni",
+      "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "first_seen": "2026-06-26T10:19:58+00:00",
+      "last_seen": "2026-06-26T10:19:58+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "date_text": "11 Giugno 2026",
+      "context": "6 Forum PA 2026. Partecipazione, consapevolezza e curiosità al centro delle tre giornate ACN News - 11 Giugno 2026 ACN ha partecipato a Cyber Europe 2026 News - 11",
+      "source_id": "acn-home",
+      "source_name": "ACN - Home",
+      "source_url": "https://www.acn.gov.it/",
+      "first_seen": "2026-06-26T10:19:58+00:00",
+      "last_seen": "2026-06-26T10:19:58+00:00"
+    }
+  ]
+}

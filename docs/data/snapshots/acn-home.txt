@@ -127,6 +127,26 @@ CSIRT Italia
 L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione
 Esplora CSIRT Italia
 Alert -
+26/06/26 11:36
+Risolta vulnerabilità in prodotti Spring
+Spring ha rilasciato aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “alta” nei propri prodotti.
+Alert -
+26/06/26 10:55
+Rilevate vulnerabilità in Cursor
+Rilevate 2 nuove vulnerabilità con gravità “critica” che interessano il software Cursor, noto editor di codice basato sull’intelligenza artificiale. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati.
+Alert -
+26/06/26 10:35
+Joomla SP Page Builder: sfruttamento attivo in rete della CVE-2026-48908
+Rilevato sfruttamento attivo in rete della CVE-2026-48908 – già sanata dal vendor – presente nel plugin SP Page Builder per il noto CMS Joomla! Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Alert -
+26/06/26 07:56
+Ubiquiti: rilevate nuove vulnerabilità
+Rilevate nuove vulnerabilità di sicurezza, di cui quattro con gravità “critica” e una con gravità “alta”, in diversi prodotti Ubiquiti.
+Alert -
+26/06/26 07:39
+Risolte vulnerabilità su GitLab CE/EE
+Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati.
+Alert -
 25/06/26 16:24
 Joomla JCE: sfruttamento attivo in rete della CVE-2026-48907
 Rilevato sfruttamento attivo in rete della CVE-2026-48907 – già sanata dal vendor – presente nel plugin Joomla Content Editor (JCE) estensione per il noto CMS Joomla! utilizzata per la gestione avanzata dei contenuti, Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
@@ -138,10 +158,6 @@ Alert -
 25/06/26 14:44
 Risolte vulnerabilità su Cacti
 Risolte 6 vulnerabilità, di cui 4 con gravità “critica” e 2 con gravità “alta”, in Cacti, noto web tool open-source che consente la visualizzazione di grafici per il monitoraggio delle reti. Tali vulnerabilità, qualora sfruttate, potrebbero permettere ad un utente malintenzionato di eludere i meccanismi di autenticazione, di alterare dati, e di eseguire codice arbitrario sui sistemi interessati.
-Alert -
-25/06/26 14:11
-Risolte vulnerabilità su GitLab CE/EE
-Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati.
 Alert -
 25/06/26 13:30
 Rilevata nuova vulnerabilità in HP Accessory WMI Provider
@@ -158,22 +174,6 @@ Alert -
 25/06/26 11:15
 Rilevata vulnerabilità in GIMP
 Rilevata una vulnerabilità con gravità “alta” in GIMP, noto software open-source di ritocco immagini e foto. Tale vulnerabilità risiede nella libreria GEGL e potrebbe consentire a utenti malintenzionati di eseguire codice arbitrario sui sistemi interessati tramite file opportunamente predisposti.
-Alert -
-25/06/26 10:33
-Risolte vulnerabilità in Google Chrome
-Google ha rilasciato un aggiornamento per il browser Chrome al fine di correggere 18 nuove vulnerabilità di sicurezza, di cui 4 con gravità “critica” e 14 con gravità “alta”.
-Alert -
-25/06/26 07:53
-Vulnerabilità in libssh2
-Rilevate tre nuove vulnerabilità, di cui una con gravità “critica” e due con gravità “alta”, in libssh2, nota libreria open-source che implementa il protocollo SSH per applicazioni client.
-Alert -
-24/06/26 18:00
-Rilevata nuova vulnerabilità in Erlang Plug
-Rilevata una nuova vulnerabilità con gravità “alta” in Plug, middleware web utilizzato in ambiente Elixir/Erlang per la gestione e l’elaborazione delle richieste HTTP. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di compromettere la disponibilità del servizio sui sistemi interessati.
-Alert -
-24/06/26 16:48
-ClickFix: campagna distribuisce codice malevolo
-Proseguono le campagne di phishing che utilizzano l’ingegneria sociale per esortare le potenziali vittime ad eseguire codice malevolo all’interno del proprio sistema operativo tramite la funzione “incolla”.
 Dipartimenti
 Certificazione e vigilanza
 Scopri di più
@@ -237,6 +237,18 @@ Potenziare le capacità cyber della Pubblica Amministrazione
 Scopri il PNRR
 CSIRT Italia- Alert e bollettini
 Alert -
+26/06/26 11:36
+Risolta vulnerabilità in prodotti Spring
+Spring ha rilasciato aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “alta” nei propri prodotti.
+Alert -
+26/06/26 10:55
+Rilevate vulnerabilità in Cursor
+Rilevate 2 nuove vulnerabilità con gravità “critica” che interessano il software Cursor, noto editor di codice basato sull’intelligenza artificiale. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati.
+Alert -
+26/06/26 10:35
+Joomla SP Page Builder: sfruttamento attivo in rete della CVE-2026-48908
+Rilevato sfruttamento attivo in rete della CVE-2026-48908 – già sanata dal vendor – presente nel plugin SP Page Builder per il noto CMS Joomla! Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Alert -
 25/06/26 15:48
 Cisco CUCM: disponibile PoC per lo sfruttamento di vulnerabilità
 Disponibile un Proof of Concept (PoC) per la CVE-2026-20230 – già sanata dal vendor – presente in Cisco Unified Communications Manager (CUCM) e Cisco Unified CM Session Management Edition (CUCM SME), note soluzioni Cisco per la gestione delle comunicazioni VoIP aziendali. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati
@@ -245,24 +257,24 @@ Alert -
 Risolte vulnerabilità su Cacti
 Risolte 6 vulnerabilità, di cui 4 con gravità “critica” e 2 con gravità “alta”, in Cacti, noto web tool open-source che consente la visualizzazione di grafici per il monitoraggio delle reti. Tali vulnerabilità, qualora sfruttate, potrebbero permettere ad un utente malintenzionato di eludere i meccanismi di autenticazione, di alterare dati, e di eseguire codice arbitrario sui sistemi interessati.
 Alert -
-25/06/26 14:11
-Risolte vulnerabilità su GitLab CE/EE
-Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati.
-Alert -
 25/06/26 13:30
 Rilevata nuova vulnerabilità in HP Accessory WMI Provider
 Rilevata una nuova vulnerabilità con gravità “alta” nell’HP Accessory WMI Provider, componente software utilizzato per la gestione e l’interfacciamento delle docking station del medesimo produttore. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi interessati.
-Alert -
-25/06/26 12:36
-Sanate vulnerabilità in Mastodon
-Aggiornamenti di sicurezza sanano 3 vulnerabilità con gravità “alta” in Mastodon, piattaforma di social networking open source e decentralizzata. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di sicurezza, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati.
-Alert -
-25/06/26 12:14
-Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità
-Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted.
 Scopri di più
 CSIRT Italia- Alert e bollettini
 Alert -
+26/06/26 11:36
+Risolta vulnerabilità in prodotti Spring
+Spring ha rilasciato aggiornamenti di sicurezza per sanare una vulnerabilità con gravità “alta” nei propri prodotti.
+Alert -
+26/06/26 10:55
+Rilevate vulnerabilità in Cursor
+Rilevate 2 nuove vulnerabilità con gravità “critica” che interessano il software Cursor, noto editor di codice basato sull’intelligenza artificiale. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati.
+Alert -
+26/06/26 10:35
+Joomla SP Page Builder: sfruttamento attivo in rete della CVE-2026-48908
+Rilevato sfruttamento attivo in rete della CVE-2026-48908 – già sanata dal vendor – presente nel plugin SP Page Builder per il noto CMS Joomla! Tale vulnerabilità, qualora sfruttata, potrebbe consentire a un utente malintenzionato remoto di eseguire codice arbitrario sui sistemi interessati.
+Alert -
 25/06/26 15:48
 Cisco CUCM: disponibile PoC per lo sfruttamento di vulnerabilità
 Disponibile un Proof of Concept (PoC) per la CVE-2026-20230 – già sanata dal vendor – presente in Cisco Unified Communications Manager (CUCM) e Cisco Unified CM Session Management Edition (CUCM SME), note soluzioni Cisco per la gestione delle comunicazioni VoIP aziendali. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di scrivere file arbitrari sul filesystem dei sistemi interessati
@@ -271,21 +283,9 @@ Alert -
 Risolte vulnerabilità su Cacti
 Risolte 6 vulnerabilità, di cui 4 con gravità “critica” e 2 con gravità “alta”, in Cacti, noto web tool open-source che consente la visualizzazione di grafici per il monitoraggio delle reti. Tali vulnerabilità, qualora sfruttate, potrebbero permettere ad un utente malintenzionato di eludere i meccanismi di autenticazione, di alterare dati, e di eseguire codice arbitrario sui sistemi interessati.
 Alert -
-25/06/26 14:11
-Risolte vulnerabilità su GitLab CE/EE
-Rilasciati aggiornamenti di sicurezza che risolvono 13 vulnerabilità, di cui 3 con gravità “alta”, in GitLab Community Edition (CE) ed Enterprise Edition (EE). Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato l'accesso ad informazioni sensibili e l’esecuzione di codice arbitrario sui sistemi interessati.
-Alert -
 25/06/26 13:30
 Rilevata nuova vulnerabilità in HP Accessory WMI Provider
 Rilevata una nuova vulnerabilità con gravità “alta” nell’HP Accessory WMI Provider, componente software utilizzato per la gestione e l’interfacciamento delle docking station del medesimo produttore. Tale vulnerabilità, qualora sfruttata, potrebbe consentire ad un utente malintenzionato di elevare i propri privilegi ed eseguire codice arbitrario sui sistemi interessati.
-Alert -
-25/06/26 12:36
-Sanate vulnerabilità in Mastodon
-Aggiornamenti di sicurezza sanano 3 vulnerabilità con gravità “alta” in Mastodon, piattaforma di social networking open source e decentralizzata. Tali vulnerabilità, qualora sfruttate, potrebbero consentire a un utente malintenzionato di eludere i meccanismi di sicurezza, accedere a informazioni sensibili e compromettere la disponibilità del servizio sui sistemi interessati.
-Alert -
-25/06/26 12:14
-Gogs: disponibili PoC per lo sfruttamento di nuove vulnerabilità
-Disponibili Proof of Concept (PoC) per lo sfruttamento di 20 nuove vulnerabilità, di cui tre con gravità “critica” e 11 con gravità “alta”, in Gogs, un popolare servizio Git self-hosted.
 Scopri di più
 Avvisi e opportunità
 Lavora con noi
