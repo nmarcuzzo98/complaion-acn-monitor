@@ -2,11 +2,9 @@ name: ACN NIS2 Monitor
 
 on:
   schedule:
-    # Ogni ora al minuto 7 (offset per evitare picchi di GitHub Actions)
     - cron: '7 * * * *'
-  workflow_dispatch:    # Permette esecuzione manuale dal tab Actions
+  workflow_dispatch:
 
-# Permessi minimi per push automatico
 permissions:
   contents: write
 
@@ -17,7 +15,10 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -38,7 +39,7 @@ jobs:
       - name: Run ACN scan
         run: python scripts/scrape_acn.py
 
-      - name: Commit & push changes (se ci sono variazioni)
+      - name: Commit & push changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -48,5 +49,5 @@ jobs:
           else
             git commit -m "chore(monitor): auto-scan $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
-            echo "✓ Modifiche committate e pushate."
+            echo "Modifiche committate e pushate."
           fi
