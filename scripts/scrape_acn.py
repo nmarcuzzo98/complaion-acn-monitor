@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Complaion - ACN Monitor (v5)
+Complaion - ACN Monitor (v5.1)
 Scraper con SNAPSHOTS + DIFF + AI SUMMARY + PDF TEXT + ESTRAZIONE SCADENZE.
 
-Novita v5:
-- AI summary del diff via Google Gemini (gratis, free tier)
-- Estrazione testo dai PDF e diff testuale anche sui PDF
-- Estrazione automatica delle scadenze NIS2 via regex pattern matching
-- Salva snapshot anche per i PDF
+Novita v5.1 rispetto a v5:
+- Seed list di scadenze NIS2 note (30/06/2026, 31/10/2026, finestra 2027, ecc.)
+- Filtro automatico delle date passate (sia in estrazione sia in salvataggio)
+- Esclusione date in contesti "News -", "Alert -", "Bollettino -", "Articolo -"
+- Trigger keywords per scadenze piu stringenti
 """
 
 import difflib
@@ -90,11 +90,79 @@ PDF_DISCOVERY_KEYWORDS = ["nis", "categorizzazione", "determinazione", "obblighi
 
 
 # =============================================================================
+# SEED DEADLINES - Scadenze NIS2 note (hardcoded)
+# =============================================================================
+# Sono sempre presenti finche non scadono. Vengono auto-rimosse dopo la data.
+
+SEED_DEADLINES = [
+    {
+        "date": "2026-06-30",
+        "date_text": "30 giugno 2026",
+        "context": "Termine indicativo per la categorizzazione dei soggetti NIS2 registrati nella finestra 2026, sulla base delle determinazioni ACN (cfr. Determinazione 260409/2024 sulla Categorizzazione).",
+        "source_id": "seed-cat-2026",
+        "source_name": "Scadenza NIS2 - Categorizzazione 2026",
+        "source_url": "https://www.acn.gov.it/portale/nis/categorizzazione",
+    },
+    {
+        "date": "2026-10-31",
+        "date_text": "31 ottobre 2026",
+        "context": "Termine per l'attuazione delle misure di sicurezza base ai sensi della Determinazione ACN n. 164179/2025 per i soggetti NIS2 registrati nel 2026.",
+        "source_id": "seed-misure-2026",
+        "source_name": "Scadenza NIS2 - Misure di sicurezza base",
+        "source_url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+    },
+    {
+        "date": "2027-01-01",
+        "date_text": "1 gennaio 2027",
+        "context": "Apertura della finestra annuale di registrazione NIS2 per il 2027 (1 gennaio - 28 febbraio). I soggetti che ricadono nell'ambito devono procedere alla registrazione sul portale ACN.",
+        "source_id": "seed-reg-2027-apertura",
+        "source_name": "Scadenza NIS2 - Apertura registrazione 2027",
+        "source_url": "https://www.acn.gov.it/portale/nis/registrazione",
+    },
+    {
+        "date": "2027-02-28",
+        "date_text": "28 febbraio 2027",
+        "context": "Chiusura della finestra annuale di registrazione NIS2 per il 2027 (art. 7 D.Lgs. 138/2024). Termine ultimo per la prima registrazione o per l'aggiornamento dei dati anagrafici dei soggetti gia registrati.",
+        "source_id": "seed-reg-2027-chiusura",
+        "source_name": "Scadenza NIS2 - Chiusura registrazione 2027",
+        "source_url": "https://www.acn.gov.it/portale/nis/registrazione",
+    },
+    {
+        "date": "2027-04-15",
+        "date_text": "15 aprile 2027",
+        "context": "Apertura della finestra annuale di aggiornamento delle informazioni NIS2 (15 aprile - 31 maggio). I soggetti devono verificare e aggiornare i dati comunicati durante la registrazione.",
+        "source_id": "seed-agg-2027-apertura",
+        "source_name": "Scadenza NIS2 - Apertura aggiornamento informazioni 2027",
+        "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+    },
+    {
+        "date": "2027-04-17",
+        "date_text": "17 aprile 2027",
+        "context": "Termine entro il quale ACN aggiorna e pubblica l'elenco dei soggetti essenziali e importanti ai sensi dell'art. 7, comma 4, D.Lgs. 138/2024.",
+        "source_id": "seed-elenco-2027",
+        "source_name": "Scadenza NIS2 - Aggiornamento elenco ACN 2027",
+        "source_url": "https://www.acn.gov.it/portale/nis/la-normativa",
+    },
+    {
+        "date": "2027-05-31",
+        "date_text": "31 maggio 2027",
+        "context": "Chiusura della finestra annuale di aggiornamento delle informazioni NIS2. Termine ultimo per la verifica/aggiornamento dei dati e per la designazione del sostituto del punto di contatto.",
+        "source_id": "seed-agg-2027-chiusura",
+        "source_name": "Scadenza NIS2 - Chiusura aggiornamento informazioni 2027",
+        "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+    },
+]
+
+
+# =============================================================================
 # UTILITY GENERALI
 # =============================================================================
 
 def utc_now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+def today_str():
+    return datetime.now().strftime("%Y-%m-%d")
 
 def fetch(url):
     last_err = None
@@ -162,7 +230,6 @@ def extract_pdf_text(pdf_bytes):
                 page_text = page.extract_text() or ""
                 text_parts.append(page_text)
         text = "\n".join(text_parts)
-        # Normalizza whitespace
         text = re.sub(r"[ \t]+", " ", text)
         text = re.sub(r"\n{3,}", "\n\n", text)
         return text.strip()
@@ -255,7 +322,6 @@ def ai_summarize(resource_name, diff_data, resource_type="page"):
         genai.configure(api_key=GEMINI_API_KEY)
         model = genai.GenerativeModel(GEMINI_MODEL)
 
-        # Prepara il diff testuale (solo righe + e -)
         diff_text_parts = []
         for line in diff_data["lines"]:
             op = line.get("op", " ")
@@ -299,26 +365,29 @@ MONTHS_IT = {
     "luglio": 7, "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
 }
 
-# Trigger keywords che indicano una scadenza (in lowercase, cerchiamo nei 50 chars prima)
+# Trigger keywords che indicano una scadenza (richiesti nei 80 chars PRIMA della data).
 DEADLINE_TRIGGERS = [
-    "entro", "termine", "scadenza", "scade", "deadline", "scadono", "scadr",
-    "entro la data", "dovranno", "obbligo entro", "non oltre"
+    "entro il", "entro la", "entro le", "entro l'",
+    "termine", "scadenza", "scade il", "scade la", "scadr",
+    "deadline", "non oltre", "obbligo entro", "dovranno", "dovra",
+    "a far data dal", "a decorrere dal",
 ]
 
-# Pattern regex per date in italiano
+# Pattern che indicano contesto di news/articolo (esclusi anche se hanno trigger).
+EXCLUDE_PATTERNS = [
+    "news -", "alert -", "bollettino -", "articolo -", "comunicato -",
+    "newsletter -", "pubblicato il", "press release",
+]
+
 DATE_PATTERNS = [
-    # "28 febbraio 2026" o "28 Febbraio 2026"
     (re.compile(r'\b(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})\b', re.IGNORECASE), "verbose"),
-    # "28/02/2026"
     (re.compile(r'\b(\d{1,2})/(\d{1,2})/(\d{4})\b'), "slash"),
-    # "28.02.2026"
     (re.compile(r'\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b'), "dot"),
-    # ISO "2026-02-28"
     (re.compile(r'\b(\d{4})-(\d{2})-(\d{2})\b'), "iso"),
 ]
 
 def parse_date(match, pattern_type):
-    """Restituisce (date_iso, date_text) o None se non valida/passata."""
+    """Restituisce (date_iso, date_text) o None se non valida."""
     try:
         if pattern_type == "verbose":
             day = int(match.group(1))
@@ -335,35 +404,51 @@ def parse_date(match, pattern_type):
         else:
             return None
         dt = datetime(year, month, day)
-        # Filtra date troppo vecchie (>2 anni nel passato) o troppo future (>5 anni)
+        # Range anno ragionevole
         now = datetime.now()
-        if dt.year < now.year - 2 or dt.year > now.year + 5:
+        if dt.year < now.year - 1 or dt.year > now.year + 5:
             return None
-        return dt.strftime("%Y-%m-%d"), match.group(0)
+        return dt.strftime("%Y-%m-%d"), match.group(0), dt
     except (ValueError, KeyError):
         return None
 
 def extract_deadlines(text, source_id, source_name, source_url):
     """
-    Cerca pattern di scadenze nel testo. Restituisce lista di dict.
-    Strategia: trova una data e verifica che nei 80 chars prima ci sia un trigger keyword.
+    Estrae scadenze dal testo. Regole:
+    1. La data deve avere un trigger keyword nei 80 chars precedenti.
+    2. La data NON deve apparire in un contesto news/articolo.
+    3. La data deve essere oggi o nel futuro.
     """
     if not text:
         return []
     text_lower = text.lower()
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
     found = []
+
     for pattern, ptype in DATE_PATTERNS:
         for m in pattern.finditer(text):
             start, end = m.span()
-            # Controlla che nei 80 chars prima ci sia un trigger keyword
+
+            # Regola 2: esclude contesti news/articolo (cerca pattern nei 30 chars prima/dopo)
+            window_around = text_lower[max(0, start - 30):min(len(text), end + 10)]
+            if any(np in window_around for np in EXCLUDE_PATTERNS):
+                continue
+
+            # Regola 1: richiede trigger keyword nei 80 chars prima
             window_before = text_lower[max(0, start - 80):start]
             has_trigger = any(t in window_before for t in DEADLINE_TRIGGERS)
             if not has_trigger:
                 continue
+
             parsed = parse_date(m, ptype)
             if not parsed:
                 continue
-            date_iso, date_text = parsed
+            date_iso, date_text, dt = parsed
+
+            # Regola 3: solo date >= oggi
+            if dt < today:
+                continue
+
             # Contesto: 100 chars prima e 50 dopo
             ctx_start = max(0, start - 100)
             ctx_end = min(len(text), end + 50)
@@ -380,19 +465,25 @@ def extract_deadlines(text, source_id, source_name, source_url):
     return found
 
 def merge_deadlines(existing_deadlines, new_deadlines):
-    """Merge: dedup per (date, source_id, context-prefix)."""
+    """Merge: dedup per (date, source_id, context-prefix). Filtra date passate."""
+    today = today_str()
     seen_keys = {}
     for d in existing_deadlines:
+        if d.get("date", "") < today:
+            continue
         key = (d["date"], d["source_id"], d.get("context", "")[:60])
         seen_keys[key] = d
     for d in new_deadlines:
+        if d.get("date", "") < today:
+            continue
         key = (d["date"], d["source_id"], d.get("context", "")[:60])
         if key in seen_keys:
             seen_keys[key]["last_seen"] = utc_now_iso()
         else:
-            d["first_seen"] = utc_now_iso()
-            d["last_seen"] = utc_now_iso()
-            seen_keys[key] = d
+            d_copy = dict(d)
+            d_copy["first_seen"] = utc_now_iso()
+            d_copy["last_seen"] = utc_now_iso()
+            seen_keys[key] = d_copy
     return sorted(seen_keys.values(), key=lambda x: x["date"])
 
 
@@ -423,7 +514,7 @@ def scan():
     current_items = []
     new_changes = []
     discovered_pdfs = []
-    all_deadlines_from_scan = []  # ogni risorsa contribuisce con le sue scadenze
+    all_deadlines_from_scan = []
 
     for target in TARGETS:
         print(f"[scan] {target['name']} ({target['url']})")
@@ -444,7 +535,6 @@ def scan():
                 current_items.append(prev)
             continue
 
-        # Estrai testo normalizzato + hash
         normalized_text = normalize_html(content)
         content_hash = sha256_hex(normalized_text.encode("utf-8"))
 
@@ -461,7 +551,6 @@ def scan():
         }
         current_items.append(item)
 
-        # Diff + snapshot + AI summary
         if status_label in ("new", "changed"):
             change_event = {
                 "timestamp": utc_now_iso(), "id": item["id"], "name": item["name"],
@@ -473,7 +562,6 @@ def scan():
                 if status_label == "changed" and old_text:
                     diff = compute_diff(old_text, normalized_text)
                     change_event["diff"] = diff
-                    # AI summary del diff
                     summary = ai_summarize(item["name"], diff, "page")
                     if summary:
                         change_event["ai_summary"] = summary
@@ -490,13 +578,11 @@ def scan():
             new_changes.append(change_event)
             print(f"  [{status_label.upper()}] hash variato")
 
-        # Estrazione scadenze dalla pagina (sempre, anche se non c'è variazione)
         deadlines = extract_deadlines(normalized_text, item["id"], item["name"], item["url"])
         if deadlines:
             print(f"  [deadlines] trovate {len(deadlines)} potenziali scadenze")
             all_deadlines_from_scan.extend(deadlines)
 
-        # Scoperta PDF
         if DISCOVER_PDFS and ctype.startswith("text/html"):
             for pdf in extract_pdf_links(content, target["url"]):
                 discovered_pdfs.append({
@@ -506,7 +592,7 @@ def scan():
                 })
         time.sleep(SLEEP_BETWEEN)
 
-    # SCAN PDF (con estrazione testo + diff + AI summary)
+    # SCAN PDF
     tracked_urls = {it["url"] for it in current_items}
     seen_pdf_ids = set()
     pdfs_to_scan = []
@@ -526,12 +612,10 @@ def scan():
         if status >= 400 or not ctype.lower().startswith("application/pdf"):
             continue
 
-        # Estrazione testo PDF + hash sul testo
         pdf_text = extract_pdf_text(content)
         if pdf_text:
             content_hash = sha256_hex(pdf_text.encode("utf-8"))
         else:
-            # Fallback hash binario
             content_hash = sha256_hex(content)
 
         prev = previous_index.get(pdf["id"])
@@ -573,7 +657,6 @@ def scan():
                 save_snapshot(pdf["id"], pdf_text)
             new_changes.append(change_event)
 
-        # Scadenze nei PDF
         if pdf_text:
             deadlines = extract_deadlines(pdf_text, pdf["id"], pdf["name"], pdf["url"])
             if deadlines:
@@ -582,7 +665,6 @@ def scan():
 
         time.sleep(SLEEP_BETWEEN)
 
-    # Conserva voci stale
     current_ids = {it["id"] for it in current_items}
     for old_id, old_item in previous_index.items():
         if old_id not in current_ids:
@@ -597,14 +679,15 @@ def scan():
 
 
 def main():
-    print(f"=== Complaion - ACN Monitor v5 - scan {utc_now_iso()} ===")
+    print(f"=== Complaion - ACN Monitor v5.1 - scan {utc_now_iso()} ===")
     print(f"  pdfplumber: {'OK' if PDFPLUMBER_AVAILABLE else 'NO'}")
     print(f"  google-generativeai: {'OK' if GENAI_AVAILABLE else 'NO'}")
     print(f"  GEMINI_API_KEY: {'SET' if GEMINI_API_KEY else 'NOT SET'}")
+    print(f"  Seed deadlines hardcoded: {len(SEED_DEADLINES)}")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    documents_state, new_changes, deadlines = scan()
+    documents_state, new_changes, deadlines_from_scan = scan()
 
     # Update changes
     changes_log = safe_load_json(CHANGES_FILE, default={"events": []})
@@ -616,15 +699,18 @@ def main():
     events.sort(key=lambda c: c.get("timestamp", ""), reverse=True)
     changes_log = {"last_updated": utc_now_iso(), "total_events": len(events), "events": events}
 
-    # Update deadlines
+    # Update deadlines: merge esistenti + estratte + seed (con dedup + filtro date passate)
     existing_deadlines = safe_load_json(DEADLINES_FILE, default={"deadlines": []})
     if not isinstance(existing_deadlines, dict):
         existing_deadlines = {"deadlines": []}
-    merged_deadlines = merge_deadlines(existing_deadlines.get("deadlines", []), deadlines)
+
+    merged = merge_deadlines(existing_deadlines.get("deadlines", []), deadlines_from_scan)
+    merged = merge_deadlines(merged, SEED_DEADLINES)
+
     deadlines_state = {
         "last_updated": utc_now_iso(),
-        "total_deadlines": len(merged_deadlines),
-        "deadlines": merged_deadlines,
+        "total_deadlines": len(merged),
+        "deadlines": merged,
     }
 
     save_json(DOCS_FILE, documents_state)
@@ -635,7 +721,8 @@ def main():
     print(f"Risorse tracciate: {documents_state['total_tracked']}")
     print(f"Variazioni rilevate in questo scan: {len(new_changes)}")
     print(f"Eventi totali nel log: {len(events)}")
-    print(f"Scadenze totali trovate: {len(merged_deadlines)} (nuove in questo scan: {len(deadlines)})")
+    print(f"Scadenze totali attive (post-merge, future): {len(merged)}")
+    print(f"  di cui da scan: {len(deadlines_from_scan)}, da seed: {len(SEED_DEADLINES)}")
     return 0
 
 
