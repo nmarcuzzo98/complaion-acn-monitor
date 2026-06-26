@@ -791,3 +791,212 @@ h2 .icon { font-size: 20px; }
   .diff-line .diff-prefix { width: 14px; }
 }
 
+/* ==============================================================
+   Complaion - ACN Monitor v5 - CSS DA APPENDERE in fondo a style.css
+   Nuovi blocchi:
+   - .ai-summary (riassunto AI nel modal)
+   - .ai-badge (badge sulle change-items)
+   - .deadline-item (cards scadenze)
+   - .deadlines-section (sezione scadenze sulla home)
+   ============================================================== */
+
+/* ============== AI SUMMARY (nel modal diff) ============== */
+.ai-summary {
+  background: linear-gradient(135deg, var(--bg-card) 0%, rgba(154, 175, 152, 0.08) 100%);
+  border: 1.5px solid var(--primary);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin: 16px 0;
+  position: relative;
+}
+
+[data-theme="dark"] .ai-summary {
+  background: linear-gradient(135deg, rgba(154, 175, 152, 0.06) 0%, rgba(154, 175, 152, 0.12) 100%);
+}
+
+.ai-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.ai-summary-icon {
+  font-size: 20px;
+  filter: drop-shadow(0 0 4px rgba(9, 45, 11, 0.2));
+}
+
+.ai-summary-title {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ai-summary-body {
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.ai-summary-footer {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-style: italic;
+}
+
+/* Badge AI sulle change-items */
+.ai-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--primary);
+  color: var(--bg-accent);
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+  letter-spacing: 0.4px;
+}
+
+[data-theme="dark"] .ai-badge {
+  background: var(--primary);
+  color: #0F1A12;
+}
+
+/* ============== DEADLINES SECTION ============== */
+.deadlines-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.deadlines-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.deadlines-header h2 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-primary);
+}
+
+.deadlines-meta {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.deadlines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.deadline-item {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: var(--bg-soft);
+  border-left: 4px solid var(--border);
+  transition: transform 0.12s ease;
+}
+
+.deadline-item:hover {
+  transform: translateX(2px);
+}
+
+.deadline-item.urgency-critical {
+  border-left-color: #C03A2B;
+  background: linear-gradient(90deg, rgba(192, 58, 43, 0.07) 0%, var(--bg-soft) 25%);
+}
+
+.deadline-item.urgency-warning {
+  border-left-color: #D9881C;
+  background: linear-gradient(90deg, rgba(217, 136, 28, 0.07) 0%, var(--bg-soft) 25%);
+}
+
+.deadline-item.urgency-ok {
+  border-left-color: var(--primary);
+}
+
+.deadline-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.deadline-date-main {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.deadline-date-rel {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+}
+
+.deadline-item.urgency-critical .deadline-date-rel { color: #C03A2B; }
+.deadline-item.urgency-warning  .deadline-date-rel { color: #D9881C; }
+
+.deadline-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.deadline-context {
+  color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.45;
+  font-style: italic;
+}
+
+.deadline-source {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.deadline-source a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.deadline-source a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .deadline-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .deadline-date {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+  }
+}
