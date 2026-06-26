@@ -73,7 +73,6 @@ GEMINI_MAX_DIFF_CHARS = 8000  # max diff inviato all'LLM
 # =============================================================================
 
 TARGETS = [
-    {"id": "acn-home", "name": "ACN - Home", "url": "https://www.acn.gov.it/", "type": "page", "category": "Home"},
     {"id": "acn-portale-nis", "name": "ACN - Portale NIS", "url": "https://www.acn.gov.it/portale/nis", "type": "page", "category": "NIS2"},
     {"id": "acn-portale-nis-faq", "name": "ACN - FAQ NIS", "url": "https://www.acn.gov.it/portale/nis/faq", "type": "page", "category": "NIS2"},
     {"id": "acn-nis-normativa", "name": "ACN - La normativa", "url": "https://www.acn.gov.it/portale/nis/la-normativa", "type": "page", "category": "NIS2 - Normativa"},
