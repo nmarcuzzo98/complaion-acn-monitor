@@ -1,14 +1,19 @@
 /* ==============================================================
-   Complaion - ACN Monitor - Dashboard v4
-   Aggiunge il modal "Dettaglio variazione" con diff colorato.
+   Complaion - ACN Monitor - Dashboard v5
+   Novita v5:
+   - AI summary del diff in cima al modal
+   - Sezione "Scadenze NIS2 rilevate" sulla home
+   - Caricamento di scadenze.json
    ============================================================== */
 
-const DOCS_URL    = "data/documents.json";
-const CHANGES_URL = "data/changes.json";
+const DOCS_URL      = "data/documents.json";
+const CHANGES_URL   = "data/changes.json";
+const DEADLINES_URL = "data/scadenze.json";
 
 const state = {
   documents: { items: [], last_scan: null },
   changes:   { events: [], last_updated: null },
+  deadlines: { deadlines: [], last_updated: null },
   filters: { search: "", status: "", type: "", category: "", sortBy: "last_modified" },
   chartInstance: null,
 };
@@ -37,12 +42,14 @@ function toggleTheme() {
 // ============================================================
 async function loadData() {
   try {
-    const [docsRes, changesRes] = await Promise.all([
+    const [docsRes, changesRes, deadlinesRes] = await Promise.all([
       fetch(DOCS_URL, { cache: "no-store" }),
       fetch(CHANGES_URL, { cache: "no-store" }),
+      fetch(DEADLINES_URL, { cache: "no-store" }),
     ]);
-    if (docsRes.ok)    state.documents = await docsRes.json();
-    if (changesRes.ok) state.changes   = await changesRes.json();
+    if (docsRes.ok)      state.documents = await docsRes.json();
+    if (changesRes.ok)   state.changes   = await changesRes.json();
+    if (deadlinesRes.ok) state.deadlines = await deadlinesRes.json();
   } catch (e) {
     console.error("Errore caricamento dati:", e);
   }
@@ -58,6 +65,13 @@ function fmtDateTime(iso) {
     return d.toLocaleString("it-IT", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" });
   } catch { return iso; }
 }
+function fmtDate(iso) {
+  if (!iso) return "—";
+  try {
+    const d = new Date(iso);
+    return d.toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" });
+  } catch { return iso; }
+}
 function fmtRelative(iso) {
   if (!iso) return "—";
   const diffMs = Date.now() - new Date(iso).getTime();
@@ -69,6 +83,12 @@ function fmtRelative(iso) {
   const dd = Math.floor(h / 24);
   if (dd < 30)       return `${dd} g fa`;
   return `${Math.floor(dd / 30)} mesi fa`;
+}
+function daysUntil(iso) {
+  if (!iso) return null;
+  const target = new Date(iso); target.setHours(0, 0, 0, 0);
+  const today  = new Date(); today.setHours(0, 0, 0, 0);
+  return Math.round((target - today) / 86400000);
 }
 function fmtSize(b) {
   if (!b) return "—";
@@ -105,6 +125,18 @@ function renderStats() {
   document.getElementById("stat-changes-7d").textContent  = within(7);
   document.getElementById("stat-changes-30d").textContent = within(30);
   document.getElementById("stat-pdfs").textContent       = active.filter(d => d.type === "pdf").length;
+
+  // Aggiunge stat scadenze imminenti (entro 60 gg) se l'elemento esiste
+  const statDeadlinesEl = document.getElementById("stat-deadlines");
+  if (statDeadlinesEl) {
+    const dlList = state.deadlines.deadlines || [];
+    const imminent = dlList.filter(d => {
+      const du = daysUntil(d.date);
+      return du !== null && du >= 0 && du <= 60;
+    }).length;
+    statDeadlinesEl.textContent = imminent;
+  }
+
   document.getElementById("last-scan").textContent =
     "Ultima scansione: " + fmtDateTime(state.documents.last_scan) + " (" + fmtRelative(state.documents.last_scan) + ")";
 }
@@ -168,6 +200,57 @@ function renderChart() {
 }
 
 // ============================================================
+// DEADLINES (Scadenze NIS2 rilevate)
+// ============================================================
+function renderDeadlines() {
+  const container = document.getElementById("deadlines-list");
+  const meta = document.getElementById("deadlines-meta");
+  if (!container) return;
+
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  // Mostra solo scadenze >= oggi (le passate vengono filtrate), ordinate per data crescente
+  const all = (state.deadlines.deadlines || []).filter(d => {
+    const du = daysUntil(d.date);
+    return du !== null && du >= 0;
+  });
+  all.sort((a, b) => a.date.localeCompare(b.date));
+  const top = all.slice(0, 10);
+
+  if (meta) meta.textContent = `${all.length} scadenz${all.length !== 1 ? "e future" : "a futura"} rilevat${all.length !== 1 ? "e" : "a"}`;
+
+  if (top.length === 0) {
+    container.innerHTML = '<div class="empty">Nessuna scadenza futura estratta dai contenuti ACN. Il monitor controlla automaticamente ad ogni scansione.</div>';
+    return;
+  }
+
+  container.innerHTML = top.map(d => {
+    const du = daysUntil(d.date);
+    let urgencyClass = "ok";
+    if (du <= 14) urgencyClass = "critical";
+    else if (du <= 60) urgencyClass = "warning";
+    const urgencyLabel = du === 0 ? "Oggi" :
+                         du === 1 ? "Domani" :
+                         du < 0 ? `${Math.abs(du)} g fa` :
+                         `tra ${du} giorni`;
+    return `
+      <div class="deadline-item urgency-${urgencyClass}">
+        <div class="deadline-date">
+          <div class="deadline-date-main">${fmtDate(d.date)}</div>
+          <div class="deadline-date-rel">${urgencyLabel}</div>
+        </div>
+        <div class="deadline-body">
+          <div class="deadline-context">…${escape(d.context)}…</div>
+          <div class="deadline-source">
+            <span class="badge cat">Fonte</span>
+            <a href="${escape(d.source_url)}" target="_blank" rel="noopener">${escape(d.source_name)}</a>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+// ============================================================
 // CHANGES LIST (con click → open diff modal)
 // ============================================================
 function renderChanges() {
@@ -184,7 +267,7 @@ function renderChanges() {
     <div class="change-item status-${ev.status}" data-event-idx="${idx}">
       <div class="change-icon">${ev.status === "new" ? "🔵" : "🟡"}</div>
       <div class="change-body">
-        <div class="change-title">${escape(ev.name)}</div>
+        <div class="change-title">${escape(ev.name)} ${ev.ai_summary ? '<span class="ai-badge" title="Riassunto AI disponibile">✨ AI</span>' : ''}</div>
         <div class="change-meta">
           ${ev.status === "new" ? "Nuova risorsa rilevata" : "Contenuto modificato"} ·
           ${typeIcon(ev.type)} ${ev.type === "pdf" ? "PDF" : "Pagina"}
@@ -209,7 +292,7 @@ function renderChanges() {
 }
 
 // ============================================================
-// DIFF MODAL
+// DIFF MODAL (v5: con AI summary in cima)
 // ============================================================
 function openDiffModal(event) {
   const modal = document.getElementById("diff-modal");
@@ -218,6 +301,21 @@ function openDiffModal(event) {
 
   const titleIcon = event.status === "new" ? "🔵" : "🟡";
   const titleText = event.status === "new" ? "Nuova risorsa rilevata" : "Variazione rilevata";
+
+  // AI SUMMARY block (se presente)
+  let aiSummaryHtml = "";
+  if (event.ai_summary) {
+    aiSummaryHtml = `
+      <div class="ai-summary">
+        <div class="ai-summary-header">
+          <span class="ai-summary-icon">✨</span>
+          <span class="ai-summary-title">Riassunto AI della variazione</span>
+        </div>
+        <div class="ai-summary-body">${escape(event.ai_summary)}</div>
+        <div class="ai-summary-footer">Generato automaticamente — verificare sempre sulla fonte ACN</div>
+      </div>
+    `;
+  }
 
   const diff = event.diff;
   let diffHtml = "";
@@ -233,7 +331,7 @@ function openDiffModal(event) {
       </div>
     `;
   } else {
-    diffHtml = '<div class="diff-empty">Non è disponibile un diff testuale per questa variazione (probabilmente è un PDF, oppure è la prima volta che la risorsa viene tracciata e non c\'è una versione precedente).</div>';
+    diffHtml = '<div class="diff-empty">Non è disponibile un diff testuale per questa variazione.</div>';
   }
 
   body.innerHTML = `
@@ -250,6 +348,7 @@ function openDiffModal(event) {
         <a class="btn-primary" href="${escape(event.url)}" target="_blank" rel="noopener">↗ Apri risorsa ACN</a>
       </div>
     </div>
+    ${aiSummaryHtml}
     ${diffHtml}
   `;
 
@@ -377,6 +476,7 @@ function bindEvents() {
   bindEvents();
   renderStats();
   renderChart();
+  renderDeadlines();
   renderChanges();
   renderResources();
 })();
