@@ -1,66 +1,76 @@
 {
-  "last_updated": "2026-06-26T13:11:43+00:00",
-  "total_deadlines": 6,
+  "last_updated": "2026-06-26T13:26:00+00:00",
+  "total_deadlines": 7,
   "deadlines": [
     {
-      "date": "2025-01-29",
-      "date_text": "29 Gennaio 2025",
-      "context": "MI News - 04 Febbraio 2025 Gli obblighi NIS in dirittura d'arrivo, ecco la prossima scadenza News - 29 Gennaio 2025 NIS: riunito nella sede di ACN il tavolo per l’at",
-      "source_id": "acn-portale-nis",
-      "source_name": "ACN - Portale NIS",
-      "source_url": "https://www.acn.gov.it/portale/nis",
-      "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T13:11:43+00:00"
+      "date": "2026-06-30",
+      "date_text": "30 giugno 2026",
+      "context": "Termine indicativo per la categorizzazione dei soggetti NIS2 registrati nella finestra 2026, sulla base delle determinazioni ACN (cfr. Determinazione 260409/2024 sulla Categorizzazione).",
+      "source_id": "seed-cat-2026",
+      "source_name": "Scadenza NIS2 - Categorizzazione 2026",
+      "source_url": "https://www.acn.gov.it/portale/nis/categorizzazione",
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
     },
     {
-      "date": "2025-02-04",
-      "date_text": "04 Febbraio 2025",
-      "context": "News - 17 Febbraio 2025 ACN a Cosenza: la cybersicurezza al centro della crescita delle PMI News - 04 Febbraio 2025 Gli obblighi NIS in dirittura d'arrivo, ecco la p",
-      "source_id": "acn-portale-nis",
-      "source_name": "ACN - Portale NIS",
-      "source_url": "https://www.acn.gov.it/portale/nis",
-      "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T13:11:43+00:00"
+      "date": "2026-10-31",
+      "date_text": "31 ottobre 2026",
+      "context": "Termine per l'attuazione delle misure di sicurezza base ai sensi della Determinazione ACN n. 164179/2025 per i soggetti NIS2 registrati nel 2026.",
+      "source_id": "seed-misure-2026",
+      "source_name": "Scadenza NIS2 - Misure di sicurezza base",
+      "source_url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
     },
     {
-      "date": "2025-02-28",
-      "date_text": "28 febbraio 2025",
-      "context": "nuova finestra Home NIS Obblighi Obblighi Sei un soggetto NIS? Dal 1° dicembre 2024 e non oltre il 28 febbraio 2025, i soggetti pubblici e privati a cui si applica l",
-      "source_id": "acn-nis-obblighi",
-      "source_name": "ACN - Obblighi",
-      "source_url": "https://www.acn.gov.it/portale/nis/obblighi",
-      "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T13:11:43+00:00"
+      "date": "2027-01-01",
+      "date_text": "1 gennaio 2027",
+      "context": "Apertura della finestra annuale di registrazione NIS2 per il 2027 (1 gennaio - 28 febbraio). I soggetti che ricadono nell'ambito devono procedere alla registrazione sul portale ACN.",
+      "source_id": "seed-reg-2027-apertura",
+      "source_name": "Scadenza NIS2 - Apertura registrazione 2027",
+      "source_url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
     },
     {
-      "date": "2025-03-31",
-      "date_text": "31 marzo 2025",
-      "context": "l'individuazione di ulteriori soggetti ai sensi dell'articolo 3, comma 13, del decreto NIS Entro il 31 marzo 2025 Determinazione ACN , su proposta delle Autorità d",
-      "source_id": "acn-nis-normativa",
-      "source_name": "ACN - La normativa",
-      "source_url": "https://www.acn.gov.it/portale/nis/la-normativa",
-      "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T13:11:43+00:00"
+      "date": "2027-02-28",
+      "date_text": "28 febbraio 2027",
+      "context": "Chiusura della finestra annuale di registrazione NIS2 per il 2027 (art. 7 D.Lgs. 138/2024). Termine ultimo per la prima registrazione o per l'aggiornamento dei dati anagrafici dei soggetti gia registrati.",
+      "source_id": "seed-reg-2027-chiusura",
+      "source_name": "Scadenza NIS2 - Chiusura registrazione 2027",
+      "source_url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
     },
     {
-      "date": "2025-05-31",
-      "date_text": "31 maggio 2025",
-      "context": "correttezza dei dati anagrafici e di contatto, nonché della delega, del punto di contatto, entro il 31 maggio 2025 i soggetti NIS dovranno designare il sostituto pu",
-      "source_id": "acn-nis-aggiornamento",
-      "source_name": "ACN - Aggiornamento delle informazioni",
+      "date": "2027-04-15",
+      "date_text": "15 aprile 2027",
+      "context": "Apertura della finestra annuale di aggiornamento delle informazioni NIS2 (15 aprile - 31 maggio). I soggetti devono verificare e aggiornare i dati comunicati durante la registrazione.",
+      "source_id": "seed-agg-2027-apertura",
+      "source_name": "Scadenza NIS2 - Apertura aggiornamento informazioni 2027",
       "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
-      "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T13:11:43+00:00"
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
     },
     {
-      "date": "2026-06-11",
-      "date_text": "11 Giugno 2026",
-      "context": "6 Forum PA 2026. Partecipazione, consapevolezza e curiosità al centro delle tre giornate ACN News - 11 Giugno 2026 ACN ha partecipato a Cyber Europe 2026 News - 11",
-      "source_id": "acn-home",
-      "source_name": "ACN - Home",
-      "source_url": "https://www.acn.gov.it/",
-      "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T10:19:58+00:00"
+      "date": "2027-04-17",
+      "date_text": "17 aprile 2027",
+      "context": "Termine entro il quale ACN aggiorna e pubblica l'elenco dei soggetti essenziali e importanti ai sensi dell'art. 7, comma 4, D.Lgs. 138/2024.",
+      "source_id": "seed-elenco-2027",
+      "source_name": "Scadenza NIS2 - Aggiornamento elenco ACN 2027",
+      "source_url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
+    },
+    {
+      "date": "2027-05-31",
+      "date_text": "31 maggio 2027",
+      "context": "Chiusura della finestra annuale di aggiornamento delle informazioni NIS2. Termine ultimo per la verifica/aggiornamento dei dati e per la designazione del sostituto del punto di contatto.",
+      "source_id": "seed-agg-2027-chiusura",
+      "source_name": "Scadenza NIS2 - Chiusura aggiornamento informazioni 2027",
+      "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "first_seen": "2026-06-26T13:26:00+00:00",
+      "last_seen": "2026-06-26T13:26:00+00:00"
     }
   ]
 }
