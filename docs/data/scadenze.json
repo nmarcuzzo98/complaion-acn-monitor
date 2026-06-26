@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T11:20:49+00:00",
+  "last_updated": "2026-06-26T13:11:43+00:00",
   "total_deadlines": 6,
   "deadlines": [
     {
@@ -10,7 +10,7 @@
       "source_name": "ACN - Portale NIS",
       "source_url": "https://www.acn.gov.it/portale/nis",
       "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T11:20:49+00:00"
+      "last_seen": "2026-06-26T13:11:43+00:00"
     },
     {
       "date": "2025-02-04",
@@ -20,7 +20,7 @@
       "source_name": "ACN - Portale NIS",
       "source_url": "https://www.acn.gov.it/portale/nis",
       "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T11:20:49+00:00"
+      "last_seen": "2026-06-26T13:11:43+00:00"
     },
     {
       "date": "2025-02-28",
@@ -30,7 +30,7 @@
       "source_name": "ACN - Obblighi",
       "source_url": "https://www.acn.gov.it/portale/nis/obblighi",
       "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T11:20:49+00:00"
+      "last_seen": "2026-06-26T13:11:43+00:00"
     },
     {
       "date": "2025-03-31",
@@ -40,7 +40,7 @@
       "source_name": "ACN - La normativa",
       "source_url": "https://www.acn.gov.it/portale/nis/la-normativa",
       "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T11:20:49+00:00"
+      "last_seen": "2026-06-26T13:11:43+00:00"
     },
     {
       "date": "2025-05-31",
@@ -50,7 +50,7 @@
       "source_name": "ACN - Aggiornamento delle informazioni",
       "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
       "first_seen": "2026-06-26T10:19:58+00:00",
-      "last_seen": "2026-06-26T11:20:49+00:00"
+      "last_seen": "2026-06-26T13:11:43+00:00"
     },
     {
       "date": "2026-06-11",
