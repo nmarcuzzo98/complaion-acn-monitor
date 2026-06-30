@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T23:39:25+00:00",
+  "last_updated": "2026-06-30T11:30:30+00:00",
   "total_deadlines": 7,
   "deadlines": [
     {
@@ -10,7 +10,7 @@
       "source_name": "Scadenza NIS2 - Categorizzazione 2026",
       "source_url": "https://www.acn.gov.it/portale/nis/categorizzazione",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     },
     {
       "date": "2026-10-31",
@@ -20,7 +20,7 @@
       "source_name": "Scadenza NIS2 - Misure di sicurezza base",
       "source_url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     },
     {
       "date": "2027-01-01",
@@ -30,7 +30,7 @@
       "source_name": "Scadenza NIS2 - Apertura registrazione 2027",
       "source_url": "https://www.acn.gov.it/portale/nis/registrazione",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     },
     {
       "date": "2027-02-28",
@@ -40,7 +40,7 @@
       "source_name": "Scadenza NIS2 - Chiusura registrazione 2027",
       "source_url": "https://www.acn.gov.it/portale/nis/registrazione",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     },
     {
       "date": "2027-04-15",
@@ -50,7 +50,7 @@
       "source_name": "Scadenza NIS2 - Apertura aggiornamento informazioni 2027",
       "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     },
     {
       "date": "2027-04-17",
@@ -60,7 +60,7 @@
       "source_name": "Scadenza NIS2 - Aggiornamento elenco ACN 2027",
       "source_url": "https://www.acn.gov.it/portale/nis/la-normativa",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     },
     {
       "date": "2027-05-31",
@@ -70,7 +70,7 @@
       "source_name": "Scadenza NIS2 - Chiusura aggiornamento informazioni 2027",
       "source_url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
       "first_seen": "2026-06-26T13:26:00+00:00",
-      "last_seen": "2026-06-29T23:39:25+00:00"
+      "last_seen": "2026-06-30T11:30:30+00:00"
     }
   ]
 }
