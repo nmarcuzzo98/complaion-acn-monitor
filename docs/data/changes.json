@@ -1,5 +1,2710 @@
 {
-  "last_updated": "2026-07-14T12:00:54+00:00",
-  "total_events": 0,
-  "events": []
+  "last_updated": "2026-07-14T12:04:36+00:00",
+  "total_events": 8,
+  "events": [
+    {
+      "timestamp": "2026-07-14T12:04:34+00:00",
+      "id": "acn-portale-nis-faq-ruoli-e-procedure",
+      "name": "ACN FAQ - Ruoli e procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "3c06fdab128bc10f5ff0a35bcf6783bdad791432d2583eb4830a906d56b7469b",
+      "diff": {
+        "added": 111,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Ruoli e procedure - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Ruoli e procedure"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:31+00:00",
+      "id": "acn-portale-nis-faq-categorizzazione",
+      "name": "ACN FAQ - Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "b8dafcf001cafdae5107554813ad3fc469bfd2a47a74cadd371d6c54192fe217",
+      "diff": {
+        "added": 111,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Categorizzazione - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:28+00:00",
+      "id": "acn-portale-nis-faq-aggiornamento-delle-informazioni",
+      "name": "ACN FAQ - Aggiornamento delle informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "9e120b809917ec912720ae546302e15c61b15069f12288c32a7b4a40400b22bd",
+      "diff": {
+        "added": 108,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Aggiornamento delle informazioni - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:25+00:00",
+      "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
+      "name": "ACN FAQ - Misure di sicurezza e notifica di incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "4c79f42d5e314119db7a52894abcd9e988152f8f6925b1f38da6dea818897361",
+      "diff": {
+        "added": 107,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Misure di sicurezza e notifica di incidenti - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Misure di sicurezza e notifica di incidenti"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:23+00:00",
+      "id": "acn-portale-nis-faq-registrazione",
+      "name": "ACN FAQ - Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "cdf26d9d5591c7de29d3a6fb39ee108857fe2b24ce76be2d11934a4a80211d7e",
+      "diff": {
+        "added": 112,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Registrazione - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:20+00:00",
+      "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
+      "name": "ACN FAQ - Settori, sottosettori e tipologie di soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "04375459fdaad7cdff353c27cacec5f27b8ebdbf1fcecbc30f7e357651336fc1",
+      "diff": {
+        "added": 106,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:16+00:00",
+      "id": "acn-portale-nis-faq-ambito",
+      "name": "ACN FAQ - Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "cc006c0f46a1b4f06f5439b10f820f454acf48166f9ce4916f9349d98e9f089d",
+      "diff": {
+        "added": 116,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Ambito - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Ambito"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-14T12:04:13+00:00",
+      "id": "acn-portale-nis-faq-profili-generali",
+      "name": "ACN FAQ - Profili generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "type": "page",
+      "status": "new",
+      "previous_hash": null,
+      "new_hash": "104a224993e501ca95ddfb43a8b742ba3549eed246fd42ba544a21c44929630b",
+      "diff": {
+        "added": 111,
+        "removed": 0,
+        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+        "truncated": true,
+        "lines": [
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Profili generali - ACN"
+          },
+          {
+            "op": "+",
+            "text": "Skip to Main Content"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti NIS - Profili generali"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia:"
+          },
+          {
+            "op": "+",
+            "text": "Linkedin: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Youtube: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "seguici_su"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia:"
+          },
+          {
+            "op": "+",
+            "text": "Twitter: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Telegram: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "RSS: apre una nuova finestra"
+          },
+          {
+            "op": "+",
+            "text": "Lingue disponibili:"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": "ITA"
+          },
+          {
+            "op": "+",
+            "text": ": italiano"
+          },
+          {
+            "op": "+",
+            "text": "ENG"
+          },
+          {
+            "op": "+",
+            "text": ": english"
+          },
+          {
+            "op": "+",
+            "text": "Apri menu principale"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia per la"
+          },
+          {
+            "op": "+",
+            "text": "cybersicurezza nazionale"
+          },
+          {
+            "op": "+",
+            "text": "Segnala un incidente informatico"
+          },
+          {
+            "op": "+",
+            "text": "apri_ricerca"
+          },
+          {
+            "op": "+",
+            "text": "Menu"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "Agenzia"
+          },
+          {
+            "op": "+",
+            "text": "L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio."
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Organizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Strategia"
+          },
+          {
+            "op": "+",
+            "text": "Attività"
+          },
+          {
+            "op": "+",
+            "text": "Relazione annuale"
+          },
+          {
+            "op": "+",
+            "text": "Comunicazione"
+          },
+          {
+            "op": "+",
+            "text": "Avvisi"
+          },
+          {
+            "op": "+",
+            "text": "Coordinamento interministeriale"
+          },
+          {
+            "op": "+",
+            "text": "Relazioni Internazionali e Affari Europei"
+          },
+          {
+            "op": "+",
+            "text": "Eventi"
+          },
+          {
+            "op": "+",
+            "text": "PNRR"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NIS"
+          },
+          {
+            "op": "+",
+            "text": "La normativa"
+          },
+          {
+            "op": "+",
+            "text": "Ambito"
+          },
+          {
+            "op": "+",
+            "text": "Registrazione"
+          },
+          {
+            "op": "+",
+            "text": "Obblighi"
+          },
+          {
+            "op": "+",
+            "text": "Modalità e specifiche di base"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": "+",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Cloud"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Scopri Cloud"
+          },
+          {
+            "op": "+",
+            "text": "Regolamento Cloud per la PA"
+          },
+          {
+            "op": "+",
+            "text": "Catalogo delle Infrastrutture digitali e dei Servizi cloud"
+          },
+          {
+            "op": "+",
+            "text": "Qualificazione e adeguamento"
+          },
+          {
+            "op": "+",
+            "text": "Documentazione utile"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Il Team dell'Agenzia per la risposta agli incidenti cyber"
+          },
+          {
+            "op": "+",
+            "text": "Scopri CSIRT Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Glossario"
+          },
+          {
+            "op": "+",
+            "text": "Alert e Bollettini"
+          },
+          {
+            "op": "+",
+            "text": "Pubblicazioni"
+          },
+          {
+            "op": "+",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": "+",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": "+",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887."
+          },
+          {
+            "op": "+",
+            "text": "Scopri NCC Italia"
+          },
+          {
+            "op": "+",
+            "text": "Chi siamo"
+          },
+          {
+            "op": "+",
+            "text": "Opportunità di finanziamento"
+          },
+          {
+            "op": "+",
+            "text": "Community"
+          },
+          {
+            "op": "+",
+            "text": "Notizie ed eventi"
+          }
+        ]
+      }
+    }
+  ]
 }
