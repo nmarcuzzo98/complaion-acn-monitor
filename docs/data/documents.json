@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-07-14T12:04:36+00:00",
+  "last_scan": "2026-07-14T16:45:14+00:00",
   "total_tracked": 18,
   "items": [
     {
@@ -12,7 +12,7 @@
       "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-07-14T12:03:53+00:00",
+      "last_check": "2026-07-14T16:44:27+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -22,13 +22,13 @@
       "url": "https://www.acn.gov.it/portale/nis",
       "type": "page",
       "category": "NIS2",
-      "hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
-      "size": 159445,
+      "hash": "0056cbbc191973d455b5a2d31c1228aeaa1cff52399db10ddd28bd762b76b600",
+      "size": 159418,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-07-14T12:03:51+00:00",
-      "last_modified": "2026-06-17T09:50:56+00:00",
-      "last_status": "unchanged"
+      "last_check": "2026-07-14T16:44:24+00:00",
+      "last_modified": "2026-07-14T16:44:24+00:00",
+      "last_status": "changed"
     },
     {
       "id": "acn-nis-ambito",
@@ -40,7 +40,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-07-14T12:04:04+00:00",
+      "last_check": "2026-07-14T16:44:38+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -51,12 +51,12 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "9e120b809917ec912720ae546302e15c61b15069f12288c32a7b4a40400b22bd",
-      "size": 206789,
+      "size": 206788,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:28+00:00",
-      "last_check": "2026-07-14T12:04:28+00:00",
+      "last_check": "2026-07-14T16:45:06+00:00",
       "last_modified": "2026-07-14T12:04:28+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-ambito",
@@ -68,9 +68,9 @@
       "size": 206387,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:16+00:00",
-      "last_check": "2026-07-14T12:04:16+00:00",
+      "last_check": "2026-07-14T16:44:52+00:00",
       "last_modified": "2026-07-14T12:04:16+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-categorizzazione",
@@ -82,9 +82,9 @@
       "size": 131770,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:31+00:00",
-      "last_check": "2026-07-14T12:04:31+00:00",
+      "last_check": "2026-07-14T16:45:10+00:00",
       "last_modified": "2026-07-14T12:04:31+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
@@ -93,12 +93,12 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "4c79f42d5e314119db7a52894abcd9e988152f8f6925b1f38da6dea818897361",
-      "size": 167108,
+      "size": 167128,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:25+00:00",
-      "last_check": "2026-07-14T12:04:25+00:00",
+      "last_check": "2026-07-14T16:45:02+00:00",
       "last_modified": "2026-07-14T12:04:25+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-profili-generali",
@@ -110,9 +110,9 @@
       "size": 143330,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:13+00:00",
-      "last_check": "2026-07-14T12:04:13+00:00",
+      "last_check": "2026-07-14T16:44:48+00:00",
       "last_modified": "2026-07-14T12:04:13+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-registrazione",
@@ -124,9 +124,9 @@
       "size": 159214,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:23+00:00",
-      "last_check": "2026-07-14T12:04:23+00:00",
+      "last_check": "2026-07-14T16:45:00+00:00",
       "last_modified": "2026-07-14T12:04:23+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
@@ -138,9 +138,9 @@
       "size": 201027,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:34+00:00",
-      "last_check": "2026-07-14T12:04:34+00:00",
+      "last_check": "2026-07-14T16:45:13+00:00",
       "last_modified": "2026-07-14T12:04:34+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
@@ -152,9 +152,9 @@
       "size": 428684,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:20+00:00",
-      "last_check": "2026-07-14T12:04:20+00:00",
+      "last_check": "2026-07-14T16:44:56+00:00",
       "last_modified": "2026-07-14T12:04:20+00:00",
-      "last_status": "new"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-notizie-eventi",
@@ -162,13 +162,13 @@
       "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
       "type": "page",
       "category": "NIS2 - News",
-      "hash": "224fa28b0ebe54a0469dc2b3c723523238036e63ac26ad0be6487233cd5dd908",
-      "size": 138046,
+      "hash": "07cbf5f1d2628e7e9691743af77d246324d8b48166cac881fff4208163437564",
+      "size": 137730,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-07-14T12:04:10+00:00",
-      "last_modified": "2026-06-17T09:59:20+00:00",
-      "last_status": "unchanged"
+      "last_check": "2026-07-14T16:44:46+00:00",
+      "last_modified": "2026-07-14T16:44:46+00:00",
+      "last_status": "changed"
     },
     {
       "id": "acn-nis-normativa",
@@ -177,10 +177,10 @@
       "type": "page",
       "category": "NIS2 - Normativa",
       "hash": "6a4774118a1206d1599bf12a63500605b32b4a3bd6513066ded911b37aaecbe7",
-      "size": 125967,
+      "size": 125987,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-07-14T12:03:55+00:00",
+      "last_check": "2026-07-14T16:44:29+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -194,7 +194,7 @@
       "size": 113368,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-07-14T12:04:06+00:00",
+      "last_check": "2026-07-14T16:44:40+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -208,7 +208,7 @@
       "size": 112882,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-07-14T12:04:08+00:00",
+      "last_check": "2026-07-14T16:44:43+00:00",
       "last_modified": "2026-06-23T10:50:36+00:00",
       "last_status": "unchanged"
     },
@@ -222,7 +222,7 @@
       "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-07-14T12:04:02+00:00",
+      "last_check": "2026-07-14T16:44:35+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -236,7 +236,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-07-14T12:03:59+00:00",
+      "last_check": "2026-07-14T16:44:33+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -247,10 +247,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "393931206ab720040050b6690a75d00d4ec17610957b5025fbae31a190f4deb2",
-      "size": 114732,
+      "size": 114753,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-07-14T12:03:57+00:00",
+      "last_check": "2026-07-14T16:44:31+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }

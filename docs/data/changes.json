@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-07-14T12:04:36+00:00",
-  "total_events": 8,
+  "last_updated": "2026-07-14T16:45:14+00:00",
+  "total_events": 10,
   "events": [
+    {
+      "timestamp": "2026-07-14T16:44:46+00:00",
+      "id": "acn-nis-notizie-eventi",
+      "name": "ACN - Notizie ed eventi NIS",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "224fa28b0ebe54a0469dc2b3c723523238036e63ac26ad0be6487233cd5dd908",
+      "new_hash": "07cbf5f1d2628e7e9691743af77d246324d8b48166cac881fff4208163437564"
+    },
+    {
+      "timestamp": "2026-07-14T16:44:24+00:00",
+      "id": "acn-portale-nis",
+      "name": "ACN - Portale NIS",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "cc6bb703a5142ada941ef6e9db8dfce21f2f1b7395b124bb600603eab5ffce23",
+      "new_hash": "0056cbbc191973d455b5a2d31c1228aeaa1cff52399db10ddd28bd762b76b600"
+    },
     {
       "timestamp": "2026-07-14T12:04:34+00:00",
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
