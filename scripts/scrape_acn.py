@@ -74,7 +74,7 @@ GEMINI_MAX_DIFF_CHARS = 8000  # max diff inviato all'LLM
 
 TARGETS = [
     {"id": "acn-portale-nis", "name": "ACN - Portale NIS", "url": "https://www.acn.gov.it/portale/nis", "type": "page", "category": "NIS2"},
-    {"id": "acn-portale-nis-faq", "name": "ACN - FAQ NIS", "url": "https://www.acn.gov.it/portale/nis/faq", "type": "page", "category": "NIS2"},
+    {"id": "acn-portale-nis-faq", "name": "ACN - FAQ NIS", "url": "https://www.acn.gov.it/portale/nis/faq", "type": "page", "category": "NIS2", "expand_children": True},
     {"id": "acn-nis-normativa", "name": "ACN - La normativa", "url": "https://www.acn.gov.it/portale/nis/la-normativa", "type": "page", "category": "NIS2 - Normativa"},
     {"id": "acn-nis-registrazione", "name": "ACN - Registrazione NIS", "url": "https://www.acn.gov.it/portale/nis/registrazione", "type": "page", "category": "NIS2 - Operativo"},
     {"id": "acn-nis-modalita-specifiche", "name": "ACN - Modalita e specifiche di base", "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base", "type": "page", "category": "NIS2 - Operativo"},
@@ -87,6 +87,15 @@ TARGETS = [
 
 DISCOVER_PDFS = True
 PDF_DISCOVERY_KEYWORDS = ["nis", "categorizzazione", "determinazione", "obblighi", "cybersicurezza", "cyber", "tassonomia", "misure", "piattaforma"]
+
+# Auto-discovery config per hub pages con sotto-sezioni (es. FAQ organizzate per categoria)
+CHILD_DISCOVERY = {
+    "acn-portale-nis-faq": {
+        "child_url_regex": r"^/portale/nis/faq/[^/?#]+/?$",
+        "child_category": "NIS2 - FAQ",
+        "child_name_prefix": "ACN FAQ",
+    },
+}
 
 
 # =============================================================================
@@ -259,6 +268,85 @@ def extract_pdf_links(html_bytes, base_url):
             seen.add(f["url"])
             out.append(f)
     return out
+
+
+# =============================================================================
+# AUTO-DISCOVERY DEI SUB-TARGET (hub pages)
+# =============================================================================
+
+def _slug_from_url(url):
+    """Ritorna un slug id-friendly derivato dall'ultimo segmento del path."""
+    try:
+        parts = [p for p in urlparse(url).path.split("/") if p]
+        return parts[-1] if parts else "root"
+    except Exception:
+        return "unknown"
+
+
+def discover_child_targets(hub_target, html_bytes):
+    """
+    Estrae dai link interni della pagina hub i sub-target da monitorare
+    autonomamente (es. sotto-sezioni FAQ). Ritorna una lista di dict target
+    compatibili con TARGETS.
+
+    Configurato tramite CHILD_DISCOVERY[hub_id] con:
+      - child_url_regex   : pattern sul path della URL child
+      - child_category    : categoria da assegnare ai child
+      - child_name_prefix : prefisso per il name (poi seguito dal testo del link)
+    """
+    config = CHILD_DISCOVERY.get(hub_target.get("id"))
+    if not config:
+        return []
+    try:
+        soup = BeautifulSoup(html_bytes, "html.parser")
+    except Exception:
+        return []
+    hub_url = hub_target["url"]
+    hub_parsed = urlparse(hub_url)
+    hub_canonical = hub_url.split("#")[0].split("?")[0].rstrip("/")
+    pattern = re.compile(config["child_url_regex"])
+    prefix = config.get("child_name_prefix", "FAQ")
+    category = config.get("child_category", hub_target.get("category", ""))
+
+    children = []
+    seen_urls = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href or href.startswith("#") or href.lower().startswith("javascript:"):
+            continue
+        absolute = urljoin(hub_url, href)
+        parsed = urlparse(absolute)
+        # Solo stesso dominio
+        if parsed.netloc.lower() != hub_parsed.netloc.lower():
+            continue
+        # Deve matchare il pattern del path
+        if not pattern.match(parsed.path):
+            continue
+        # Rimuovi fragment/query per la canonical
+        canonical = absolute.split("#")[0].split("?")[0]
+        canonical_stripped = canonical.rstrip("/")
+        # Evita la hub stessa
+        if canonical_stripped == hub_canonical:
+            continue
+        if canonical_stripped in seen_urls:
+            continue
+        seen_urls.add(canonical_stripped)
+
+        slug = _slug_from_url(canonical_stripped)
+        text = a.get_text(separator=" ", strip=True) or slug.replace("-", " ").title()
+        child_id = f"{hub_target['id']}-{re.sub(r'[^a-zA-Z0-9_-]', '-', slug)[:60]}"
+        # Nome breve: prefix + testo del link (tagliato)
+        child_name = f"{prefix} - {text[:80]}"
+        children.append({
+            "id": child_id,
+            "name": child_name,
+            "url": canonical,
+            "type": "page",
+            "category": category,
+            "parent_id": hub_target["id"],
+            "auto_discovered": True,
+        })
+    return children
 
 
 # =============================================================================
@@ -516,7 +604,14 @@ def scan():
     discovered_pdfs = []
     all_deadlines_from_scan = []
 
-    for target in TARGETS:
+    # Coda mutable: parte dai TARGETS statici e cresce se un hub espande sub-target
+    targets_queue = list(TARGETS)
+    seen_target_urls = {t["url"].split("#")[0].split("?")[0].rstrip("/") for t in targets_queue}
+    seen_target_ids = {t["id"] for t in targets_queue}
+    idx = 0
+    while idx < len(targets_queue):
+        target = targets_queue[idx]
+        idx += 1
         print(f"[scan] {target['name']} ({target['url']})")
         try:
             content, status, ctype = fetch(target["url"])
@@ -590,6 +685,22 @@ def scan():
                     "name": pdf["name"] or "Documento PDF",
                     "url": pdf["url"], "type": "pdf", "category": "Documento PDF",
                 })
+
+        # AUTO-DISCOVERY sub-target per hub pages (es. sotto-sezioni FAQ)
+        if target.get("expand_children") and ctype.startswith("text/html"):
+            children = discover_child_targets(target, content)
+            appended = 0
+            for child in children:
+                child_canonical = child["url"].split("#")[0].split("?")[0].rstrip("/")
+                if child_canonical in seen_target_urls or child["id"] in seen_target_ids:
+                    continue
+                seen_target_urls.add(child_canonical)
+                seen_target_ids.add(child["id"])
+                targets_queue.append(child)
+                appended += 1
+            if appended:
+                print(f"  [discover] {appended} sub-target aggiunti dinamicamente")
+
         time.sleep(SLEEP_BETWEEN)
 
     # SCAN PDF
