@@ -74,7 +74,7 @@ GEMINI_MAX_DIFF_CHARS = 8000  # max diff inviato all'LLM
 
 TARGETS = [
     {"id": "acn-portale-nis", "name": "ACN - Portale NIS", "url": "https://www.acn.gov.it/portale/nis", "type": "page", "category": "NIS2"},
-    {"id": "acn-portale-nis-faq", "name": "ACN - FAQ NIS", "url": "https://www.acn.gov.it/portale/nis/faq", "type": "page", "category": "NIS2", "expand_children": True},
+    {"id": "acn-portale-nis-faq", "name": "ACN - FAQ NIS", "url": "https://www.acn.gov.it/portale/faq/nis", "type": "page", "category": "NIS2", "expand_children": True},
     {"id": "acn-nis-normativa", "name": "ACN - La normativa", "url": "https://www.acn.gov.it/portale/nis/la-normativa", "type": "page", "category": "NIS2 - Normativa"},
     {"id": "acn-nis-registrazione", "name": "ACN - Registrazione NIS", "url": "https://www.acn.gov.it/portale/nis/registrazione", "type": "page", "category": "NIS2 - Operativo"},
     {"id": "acn-nis-modalita-specifiche", "name": "ACN - Modalita e specifiche di base", "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base", "type": "page", "category": "NIS2 - Operativo"},
@@ -91,7 +91,7 @@ PDF_DISCOVERY_KEYWORDS = ["nis", "categorizzazione", "determinazione", "obblighi
 # Auto-discovery config per hub pages con sotto-sezioni (es. FAQ organizzate per categoria)
 CHILD_DISCOVERY = {
     "acn-portale-nis-faq": {
-        "child_url_regex": r"^/portale/nis/faq/[^/?#]+/?$",
+        "child_url_regex": r"^/portale/faq/nis/[^/?#]+/?$",
         "child_category": "NIS2 - FAQ",
         "child_name_prefix": "ACN FAQ",
     },
