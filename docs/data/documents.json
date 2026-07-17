@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-07-17T22:00:01+00:00",
+  "last_scan": "2026-07-17T22:56:19+00:00",
   "total_tracked": 18,
   "items": [
     {
@@ -12,7 +12,7 @@
       "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-07-17T21:59:09+00:00",
+      "last_check": "2026-07-17T22:55:23+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -26,7 +26,7 @@
       "size": 159418,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-07-17T21:59:07+00:00",
+      "last_check": "2026-07-17T22:55:21+00:00",
       "last_modified": "2026-07-14T16:44:24+00:00",
       "last_status": "unchanged"
     },
@@ -40,7 +40,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-07-17T21:59:21+00:00",
+      "last_check": "2026-07-17T22:55:35+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 206789,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:28+00:00",
-      "last_check": "2026-07-17T21:59:57+00:00",
+      "last_check": "2026-07-17T22:56:10+00:00",
       "last_modified": "2026-07-14T12:04:28+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 206387,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:16+00:00",
-      "last_check": "2026-07-17T21:59:35+00:00",
+      "last_check": "2026-07-17T22:55:51+00:00",
       "last_modified": "2026-07-14T12:04:16+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 131770,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:31+00:00",
-      "last_check": "2026-07-17T21:59:59+00:00",
+      "last_check": "2026-07-17T22:56:13+00:00",
       "last_modified": "2026-07-14T12:04:31+00:00",
       "last_status": "unchanged"
     },
@@ -96,7 +96,7 @@
       "size": 167108,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:25+00:00",
-      "last_check": "2026-07-17T21:59:51+00:00",
+      "last_check": "2026-07-17T22:56:05+00:00",
       "last_modified": "2026-07-14T12:04:25+00:00",
       "last_status": "unchanged"
     },
@@ -110,7 +110,7 @@
       "size": 143330,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:13+00:00",
-      "last_check": "2026-07-17T21:59:32+00:00",
+      "last_check": "2026-07-17T22:55:46+00:00",
       "last_modified": "2026-07-14T12:04:13+00:00",
       "last_status": "unchanged"
     },
@@ -124,7 +124,7 @@
       "size": 159214,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:23+00:00",
-      "last_check": "2026-07-17T21:59:48+00:00",
+      "last_check": "2026-07-17T22:56:03+00:00",
       "last_modified": "2026-07-14T12:04:23+00:00",
       "last_status": "unchanged"
     },
@@ -138,9 +138,9 @@
       "size": 201027,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:34+00:00",
-      "last_check": "2026-07-17T22:00:01+00:00",
+      "last_check": "2026-07-17T22:56:17+00:00",
       "last_modified": "2026-07-14T12:04:34+00:00",
-      "last_status": "http_404"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
@@ -152,7 +152,7 @@
       "size": 428684,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:20+00:00",
-      "last_check": "2026-07-17T21:59:44+00:00",
+      "last_check": "2026-07-17T22:55:59+00:00",
       "last_modified": "2026-07-14T12:04:20+00:00",
       "last_status": "unchanged"
     },
@@ -166,7 +166,7 @@
       "size": 137730,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-07-17T21:59:29+00:00",
+      "last_check": "2026-07-17T22:55:43+00:00",
       "last_modified": "2026-07-14T16:44:46+00:00",
       "last_status": "unchanged"
     },
@@ -180,7 +180,7 @@
       "size": 125967,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-07-17T21:59:12+00:00",
+      "last_check": "2026-07-17T22:55:26+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -194,7 +194,7 @@
       "size": 113368,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-07-17T21:59:23+00:00",
+      "last_check": "2026-07-17T22:55:38+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -208,7 +208,7 @@
       "size": 112882,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-07-17T21:59:25+00:00",
+      "last_check": "2026-07-17T22:55:40+00:00",
       "last_modified": "2026-06-23T10:50:36+00:00",
       "last_status": "unchanged"
     },
@@ -222,7 +222,7 @@
       "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-07-17T21:59:19+00:00",
+      "last_check": "2026-07-17T22:55:33+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -236,7 +236,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-07-17T21:59:17+00:00",
+      "last_check": "2026-07-17T22:55:30+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -250,7 +250,7 @@
       "size": 114732,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-07-17T21:59:14+00:00",
+      "last_check": "2026-07-17T22:55:28+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }
