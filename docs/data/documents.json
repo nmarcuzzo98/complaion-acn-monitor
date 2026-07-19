@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-07-19T03:32:38+00:00",
+  "last_scan": "2026-07-19T06:36:31+00:00",
   "total_tracked": 18,
   "items": [
     {
@@ -12,7 +12,7 @@
       "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-07-19T03:31:46+00:00",
+      "last_check": "2026-07-19T06:35:54+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -23,10 +23,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "0056cbbc191973d455b5a2d31c1228aeaa1cff52399db10ddd28bd762b76b600",
-      "size": 159418,
+      "size": 159438,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-07-19T03:31:43+00:00",
+      "last_check": "2026-07-19T06:35:52+00:00",
       "last_modified": "2026-07-14T16:44:24+00:00",
       "last_status": "unchanged"
     },
@@ -40,7 +40,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-07-19T03:31:58+00:00",
+      "last_check": "2026-07-19T06:36:05+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 206789,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:28+00:00",
-      "last_check": "2026-07-19T03:32:29+00:00",
+      "last_check": "2026-07-19T06:36:25+00:00",
       "last_modified": "2026-07-14T12:04:28+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 206387,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:16+00:00",
-      "last_check": "2026-07-19T03:32:11+00:00",
+      "last_check": "2026-07-19T06:36:16+00:00",
       "last_modified": "2026-07-14T12:04:16+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 131770,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:31+00:00",
-      "last_check": "2026-07-19T03:32:32+00:00",
+      "last_check": "2026-07-19T06:36:27+00:00",
       "last_modified": "2026-07-14T12:04:31+00:00",
       "last_status": "unchanged"
     },
@@ -93,10 +93,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "4c79f42d5e314119db7a52894abcd9e988152f8f6925b1f38da6dea818897361",
-      "size": 167108,
+      "size": 167128,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:25+00:00",
-      "last_check": "2026-07-19T03:32:25+00:00",
+      "last_check": "2026-07-19T06:36:23+00:00",
       "last_modified": "2026-07-14T12:04:25+00:00",
       "last_status": "unchanged"
     },
@@ -107,10 +107,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "104a224993e501ca95ddfb43a8b742ba3549eed246fd42ba544a21c44929630b",
-      "size": 143330,
+      "size": 143348,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:13+00:00",
-      "last_check": "2026-07-19T03:32:07+00:00",
+      "last_check": "2026-07-19T06:36:13+00:00",
       "last_modified": "2026-07-14T12:04:13+00:00",
       "last_status": "unchanged"
     },
@@ -121,10 +121,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "cdf26d9d5591c7de29d3a6fb39ee108857fe2b24ce76be2d11934a4a80211d7e",
-      "size": 159214,
+      "size": 159232,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:23+00:00",
-      "last_check": "2026-07-19T03:32:23+00:00",
+      "last_check": "2026-07-19T06:36:21+00:00",
       "last_modified": "2026-07-14T12:04:23+00:00",
       "last_status": "unchanged"
     },
@@ -135,10 +135,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "3c06fdab128bc10f5ff0a35bcf6783bdad791432d2583eb4830a906d56b7469b",
-      "size": 201027,
+      "size": 201045,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:34+00:00",
-      "last_check": "2026-07-19T03:32:36+00:00",
+      "last_check": "2026-07-19T06:36:30+00:00",
       "last_modified": "2026-07-14T12:04:34+00:00",
       "last_status": "unchanged"
     },
@@ -152,7 +152,7 @@
       "size": 428684,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:20+00:00",
-      "last_check": "2026-07-19T03:32:20+00:00",
+      "last_check": "2026-07-19T06:36:18+00:00",
       "last_modified": "2026-07-14T12:04:20+00:00",
       "last_status": "unchanged"
     },
@@ -163,10 +163,10 @@
       "type": "page",
       "category": "NIS2 - News",
       "hash": "07cbf5f1d2628e7e9691743af77d246324d8b48166cac881fff4208163437564",
-      "size": 137730,
+      "size": 137751,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-07-19T03:32:05+00:00",
+      "last_check": "2026-07-19T06:36:11+00:00",
       "last_modified": "2026-07-14T16:44:46+00:00",
       "last_status": "unchanged"
     },
@@ -180,7 +180,7 @@
       "size": 125967,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-07-19T03:31:48+00:00",
+      "last_check": "2026-07-19T06:35:56+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -191,10 +191,10 @@
       "type": "page",
       "category": "NIS2 - Obblighi",
       "hash": "25c8dd9583bf0bbe1adc8c06e8a5a901adf02245de38d4076fee236aba184c9e",
-      "size": 113368,
+      "size": 113388,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-07-19T03:32:00+00:00",
+      "last_check": "2026-07-19T06:36:07+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -205,10 +205,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "cc3b9e5a8ec8784621f69ff684007a99cc6d5d878b78ee0698f25cc609716936",
-      "size": 112882,
+      "size": 112903,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-07-19T03:32:03+00:00",
+      "last_check": "2026-07-19T06:36:09+00:00",
       "last_modified": "2026-06-23T10:50:36+00:00",
       "last_status": "unchanged"
     },
@@ -222,7 +222,7 @@
       "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-07-19T03:31:55+00:00",
+      "last_check": "2026-07-19T06:36:03+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -236,7 +236,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-07-19T03:31:53+00:00",
+      "last_check": "2026-07-19T06:36:00+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -250,7 +250,7 @@
       "size": 114732,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-07-19T03:31:51+00:00",
+      "last_check": "2026-07-19T06:35:58+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }
