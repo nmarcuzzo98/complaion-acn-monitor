@@ -1,7 +1,353 @@
 {
-  "last_updated": "2026-07-24T15:35:18+00:00",
-  "total_events": 10,
+  "last_updated": "2026-07-24T17:44:32+00:00",
+  "total_events": 13,
   "events": [
+    {
+      "timestamp": "2026-07-24T17:44:20+00:00",
+      "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
+      "name": "ACN FAQ - Misure di sicurezza e notifica di incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "4c79f42d5e314119db7a52894abcd9e988152f8f6925b1f38da6dea818897361",
+      "new_hash": "4d691bbc82c7202056b2bde776fd2a80d4395df0dc58b8693a3950bbd14edb87",
+      "diff": {
+        "added": 32,
+        "removed": 0,
+        "summary": "+32 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Ai fini di quanto richiesto dalla misura in parola, non è obbligatorio adeguare i contratti di fornitura già in essere. L’inserimento dei requisiti di sicurezza – che sulla base di quanto previsto dalla misura GV.SC-01 sono definiti in accordo agli esiti della valutazione del rischio associato alle forniture e coerenti con le misure di sicurezza di base applicate dal soggetto NIS ai sistemi informativi e di rete – è pertanto obbligatorio, fatte salve motivate e documentate ragioni normative o tecniche, per i contratti stipulati, rinnovati o prorogati a partire dal termine per l’adozione delle misure di sicurezza."
+          },
+          {
+            "op": " ",
+            "text": "Tale termine, per i soggetti iscritti nell’elenco dei soggetti NIS entro il 31 dicembre 2025, è fissato in diciotto mesi dalla ricezione, della comunicazione di inserimento nel medesimo elenco."
+          },
+          {
+            "op": "+",
+            "text": "MSB.13. Qual è il processo che deve essere adottato ai fini di garantire la sicurezza della catena di approvvigionamento?"
+          },
+          {
+            "op": "+",
+            "text": "Con riferimento alla sicurezza della catena di approvvigionamento, le misure di sicurezza di base delineano un processo articolato nelle seguenti fasi (tra parentesi sono riportati i punti delle misure cui le fasi fanno riferimento):"
+          },
+          {
+            "op": "+",
+            "text": "valutazione del rischio associato alla fornitura"
+          },
+          {
+            "op": "+",
+            "text": ", è valutato e documentato il rischio associato alle forniture (ai sensi della misura GV.SC-07 punto 1);"
+          },
+          {
+            "op": "+",
+            "text": "identificazione dei requisiti di sicurezza"
+          },
+          {
+            "op": "+",
+            "text": ", in accordo agli esiti della valutazione del rischio associato alla fornitura di cui al punto precedente, sono definiti requisiti di sicurezza sulla fornitura coerenti con le misure di sicurezza applicate ai propri sistemi informativi e di rete (ai sensi della misura GV.SC-01 punto 1);"
+          },
+          {
+            "op": "+",
+            "text": "enforcement dei requisiti"
+          },
+          {
+            "op": "+",
+            "text": ", i requisiti di sicurezza definiti sono inseriti – fatte salve motivate e documentate ragioni normative o tecniche – nelle richieste di offerta, bandi di gara (ivi inclusi gli accordi quadro e la relativa documentazione), contratti, accordi e convenzioni relativi alle forniture con potenziali impatti sulla sicurezza dei sistemi informativi e di rete (ai sensi della misura GV.SC-05 punto 1);"
+          },
+          {
+            "op": "+",
+            "text": "verifica dei requisiti"
+          },
+          {
+            "op": "+",
+            "text": ", è verificata periodicamente e documentata la conformità delle forniture ai requisiti inseriti nei documenti indicati al punto precedente (ai sensi della misura GV.SC-07 punto 2)."
+          },
+          {
+            "op": "+",
+            "text": "MSB.14. Quali sono i criteri da considerare ai fini della valutazione del rischio associato alla fornitura?"
+          },
+          {
+            "op": "+",
+            "text": "Con riferimento alla fase di “valutazione del rischio associato alla fornitura” (vds. FAQ MSB.13), come indicato dal punto 1 della misura GV.SC-07, sono da valutare almeno i seguenti criteri:"
+          },
+          {
+            "op": "+",
+            "text": "il livello di accesso del fornitore ai sistemi informativi e di rete del soggetto NIS;"
+          },
+          {
+            "op": "+",
+            "text": "l'accesso del fornitore alla proprietà intellettuale e ai dati anche sulla base della loro criticità;"
+          },
+          {
+            "op": "+",
+            "text": "l'impatto di una grave interruzione della fornitura;"
+          },
+          {
+            "op": "+",
+            "text": "i tempi e i costi di ripristino in caso di indisponibilità dei servizi;"
+          },
+          {
+            "op": "+",
+            "text": "i ruoli e le responsabilità del fornitore nel governo dei sistemi informativi e di rete."
+          },
+          {
+            "op": "+",
+            "text": "MSB.15. I requisiti di sicurezza devono essere definiti per tutte le forniture?"
+          },
+          {
+            "op": "+",
+            "text": "Con riferimento alla fase di “identificazione dei requisiti di sicurezza” (vds. FAQ MSB.13), si evidenzia che non è richiesto che i requisiti di sicurezza siano definiti per tutte le forniture."
+          },
+          {
+            "op": "+",
+            "text": "Il punto 1 della misura GV.SC-01 prevede infatti che i requisiti di sicurezza siano definiti in merito all’affidamento di forniture con potenziali impatti sulla sicurezza, ossia (in accordo a quanto riportato nella FAQ MSB.8) per le forniture la cui eventuale compromissione può determinare effetti sulla capacità dei sistemi informativi e di rete di resistere, con un determinato livello di affidabilità, agli eventi che potrebbero compromettere la disponibilità, l'autenticità, l'integrità o la riservatezza dei dati conservati, trasmessi o elaborati o dei servizi offerti da tali sistemi informativi e di rete o accessibili attraverso di essi."
+          },
+          {
+            "op": "+",
+            "text": "MSB.16. Nelle richieste di offerta, bandi di gara (ivi inclusi gli accordi quadro e la relativa documentazione), contratti, accordi e convenzioni devono essere inseriti tutti i requisiti previsti dalle misure di sicurezza di base e devono riportare testualmente quanto riportato dalle misure di sicurezza?"
+          },
+          {
+            "op": "+",
+            "text": "Con riferimento alla fase di “enforcement dei requisiti” (vds. FAQ MSB.13), si evidenzia che non è richiesto che siano necessariamente inseriti tutti i requisiti previsti dalle misure di sicurezza di base."
+          },
+          {
+            "op": "+",
+            "text": "Il punto 1 della misura GV.SC-01 prevede infatti che i requisiti di sicurezza sulle forniture siano individuati in accordo agli esiti della valutazione del rischio associato alla fornitura e che siano coerenti con le misure di sicurezza applicate ai propri sistemi informativi e di rete (vds. FAQ MSB.15)."
+          },
+          {
+            "op": "+",
+            "text": "Inoltre, non è richiesto che i requisiti di sicurezza riportino fedelmente il testo delle misure di sicurezza NIS applicabili ma è sufficiente che ne recepiscano il contenuto sostanziale."
+          },
+          {
+            "op": "+",
+            "text": "Come infatti indicato al punto 1 della misura GV.SC-01, i requisiti da inserire – definiti in accordo agli esiti della valutazione del rischio associata alla fornitura in accordo ai criteri indicati (si veda a riguardo la FAQ MSB.14) – sono coerenti con le misure di sicurezza applicate dal soggetto NIS ai sistemi informativi e di rete."
+          },
+          {
+            "op": "+",
+            "text": "MSB.17. La nozione di “misure di gestione dei rischi di cybersicurezza” di cui all’articolo 24 deve essere interpretata nel senso che tutte le principali categorie di misure ivi elencate (quali, a titolo esemplificativo, analisi dei rischi, gestione degli incidenti, continuità operativa, sicurezza della supply chain e sicurezza nello sviluppo e manutenzione dei sistemi) costituiscono un insieme minimo che deve essere sempre applicato dalle Amministrazioni di riferimento?"
+          },
+          {
+            "op": "+",
+            "text": "No. L’applicazione di tali categorie deve essere modulata fino alla eventuale esclusione di talune di esse, in funzione del contesto operativo, del livello di rischio e della criticità dei servizi affidati dalla singola Amministrazione."
+          },
+          {
+            "op": "+",
+            "text": "Al riguardo, a titolo esemplificativo, si rappresenta che, nel caso di affidamento di servizi non ICT – quali, ad esempio, il servizio di pulizia, il servizio di vigilanza (senza l’uso di strumenti digitali come quelli di videosorveglianza), servizi di progettazione (senza l’uso di metodologia BIM) – pur permanendo in capo all’amministrazione gli obblighi generali di gestione del rischio di cybersicurezza, i requisiti delle misure di sicurezza da applicare al fornitore dovranno essere coerenti con l’oggetto della prestazione e al concreto profilo di rischio."
+          },
+          {
+            "op": "+",
+            "text": "MSB.18 Qualora l’operatore economico aggiudicatario sia costituito in forma di RTI, le misure di sicurezza possono essere soddisfatte da tutte le imprese componenti il RTI (o Consorzi stabili o di altro tipo di consorzi)?"
+          },
+          {
+            "op": "+",
+            "text": "Nei casi in cui l’operatore economico aggiudicatario sia costituito in forma di RTI, le misure di sicurezza dovranno essere soddisfatte dai soli componenti che erogano (anche parzialmente) la prestazione contrattuale che ha impatti sulla sicurezza informatica (vds MSB.8). Ciò tenuto conto dei diversi ruoli e delle possibili ripartizioni delle attività nell’ambito del RTI medesimo, nonché dei principi di accountability, adeguatezza e proporzionalità nella gestione del rischio di cui alla normativa NIS2 e in coerenza con un approccio risk-based."
+          },
+          {
+            "op": "+",
+            "text": "MSB.19 Con riferimento ai contratti misti, nei quali coesistano prestazioni di diversa natura — ad esempio componenti ICT e componenti non ICT — come devono essere applicati i requisiti delle misure di sicurezza?"
+          },
+          {
+            "op": "+",
+            "text": "Come indicato nella FAQ MSB.17, l’applicazione dei requisiti di sicurezza deve essere modulata tenendo conto della loro proporzionalità, pertinenza e adeguatezza rispetto alle specifiche prestazioni affidate, evitando l’imposizione generalizzata di obblighi non coerenti con la natura dell’affidamento o con il rischio di cybersicurezza concretamente rilevabile."
+          },
+          {
+            "op": " ",
+            "text": "Incidenti significativi di base"
+          },
+          {
+            "op": " ",
+            "text": "ISB.G.1 Quali incidenti devono essere notificati allo CSIRT Italia?"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-24T17:44:00+00:00",
+      "id": "acn-nis-notizie-eventi",
+      "name": "ACN - Notizie ed eventi NIS",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "07cbf5f1d2628e7e9691743af77d246324d8b48166cac881fff4208163437564",
+      "new_hash": "b0306ab0911b322b8c62aa540751af45393595857746d1696cdd65432ee6f75b",
+      "diff": {
+        "added": 7,
+        "removed": 8,
+        "summary": "+7 aggiunte, -8 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Notizie"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "24 Luglio 2026"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS"
+          },
+          {
+            "op": "+",
+            "text": "L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sul processo e i requisiti di sicurezza da implementare per proteggere la sicurezza della catena di approvvigionamento dei soggetti NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati"
+          },
+          {
+            "op": "+",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "ACN"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "14 Luglio 2026"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS"
+          },
+          {
+            "op": " ",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": " ",
+            "text": "NIS"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "27 Novembre 2024"
+          },
+          {
+            "op": "-",
+            "text": "NIS2, convegno ACN all'Università Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza"
+          },
+          {
+            "op": "-",
+            "text": "Interventi del Magnifico Rettore Polimeni, del Sottosegretario di Stato Mantovano e del Vice Direttore Ciardi"
+          },
+          {
+            "op": "-",
+            "text": "Università"
+          },
+          {
+            "op": "-",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": "-",
+            "text": "NIS"
+          },
+          {
+            "op": "-",
+            "text": "ACN"
+          },
+          {
+            "op": " ",
+            "text": "Informazioni su"
+          },
+          {
+            "op": " ",
+            "text": "Agenzia per la"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-07-24T17:43:34+00:00",
+      "id": "acn-portale-nis",
+      "name": "ACN - Portale NIS",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "0056cbbc191973d455b5a2d31c1228aeaa1cff52399db10ddd28bd762b76b600",
+      "new_hash": "02aeef1e88704f0e8b0630e1a81a6892565efa6235c861ef53884168c87cbc31",
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "summary": "+3 aggiunte, -3 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "24 Luglio 2026"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "14 Luglio 2026"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS"
+          },
+          {
+            "op": " ",
+            "text": "29 Novembre 2024"
+          },
+          {
+            "op": " ",
+            "text": "NIS: attiva dal 1° dicembre la registrazione sulla piattaforma ACN"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "27 Novembre 2024"
+          },
+          {
+            "op": "-",
+            "text": "NIS2, convegno ACN all'Università Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": " ",
+            "text": "Consulta le domande frequenti sulla nuova direttiva NIS"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-07-14T16:44:46+00:00",
       "id": "acn-nis-notizie-eventi",
