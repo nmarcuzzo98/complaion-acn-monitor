@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-07-31T13:01:45+00:00",
+  "last_scan": "2026-07-31T15:24:54+00:00",
   "total_tracked": 18,
   "items": [
     {
@@ -12,7 +12,7 @@
       "size": 107131,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-07-31T13:00:57+00:00",
+      "last_check": "2026-07-31T15:24:01+00:00",
       "last_modified": "2026-06-17T09:50:58+00:00",
       "last_status": "unchanged"
     },
@@ -23,10 +23,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "02aeef1e88704f0e8b0630e1a81a6892565efa6235c861ef53884168c87cbc31",
-      "size": 159332,
+      "size": 159338,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-07-31T13:00:54+00:00",
+      "last_check": "2026-07-31T15:23:59+00:00",
       "last_modified": "2026-07-24T17:43:34+00:00",
       "last_status": "unchanged"
     },
@@ -40,7 +40,7 @@
       "size": 103298,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-07-31T13:01:09+00:00",
+      "last_check": "2026-07-31T15:24:15+00:00",
       "last_modified": "2026-06-17T09:59:13+00:00",
       "last_status": "unchanged"
     },
@@ -51,10 +51,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "9e120b809917ec912720ae546302e15c61b15069f12288c32a7b4a40400b22bd",
-      "size": 206789,
+      "size": 206788,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:28+00:00",
-      "last_check": "2026-07-31T13:01:37+00:00",
+      "last_check": "2026-07-31T15:24:47+00:00",
       "last_modified": "2026-07-14T12:04:28+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 206387,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:16+00:00",
-      "last_check": "2026-07-31T13:01:24+00:00",
+      "last_check": "2026-07-31T15:24:29+00:00",
       "last_modified": "2026-07-14T12:04:16+00:00",
       "last_status": "unchanged"
     },
@@ -82,7 +82,7 @@
       "size": 131770,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:31+00:00",
-      "last_check": "2026-07-31T13:01:39+00:00",
+      "last_check": "2026-07-31T15:24:50+00:00",
       "last_modified": "2026-07-14T12:04:31+00:00",
       "last_status": "unchanged"
     },
@@ -96,7 +96,7 @@
       "size": 183229,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:25+00:00",
-      "last_check": "2026-07-31T13:01:32+00:00",
+      "last_check": "2026-07-31T15:24:43+00:00",
       "last_modified": "2026-07-24T17:44:20+00:00",
       "last_status": "unchanged"
     },
@@ -110,7 +110,7 @@
       "size": 143330,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:13+00:00",
-      "last_check": "2026-07-31T13:01:20+00:00",
+      "last_check": "2026-07-31T15:24:25+00:00",
       "last_modified": "2026-07-14T12:04:13+00:00",
       "last_status": "unchanged"
     },
@@ -121,10 +121,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "cdf26d9d5591c7de29d3a6fb39ee108857fe2b24ce76be2d11934a4a80211d7e",
-      "size": 159213,
+      "size": 159214,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:23+00:00",
-      "last_check": "2026-07-31T13:01:29+00:00",
+      "last_check": "2026-07-31T15:24:40+00:00",
       "last_modified": "2026-07-14T12:04:23+00:00",
       "last_status": "unchanged"
     },
@@ -135,10 +135,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "3c06fdab128bc10f5ff0a35bcf6783bdad791432d2583eb4830a906d56b7469b",
-      "size": 201027,
+      "size": 201047,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:34+00:00",
-      "last_check": "2026-07-31T13:01:44+00:00",
+      "last_check": "2026-07-31T15:24:52+00:00",
       "last_modified": "2026-07-14T12:04:34+00:00",
       "last_status": "unchanged"
     },
@@ -149,10 +149,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "04375459fdaad7cdff353c27cacec5f27b8ebdbf1fcecbc30f7e357651336fc1",
-      "size": 428704,
+      "size": 428684,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:20+00:00",
-      "last_check": "2026-07-31T13:01:26+00:00",
+      "last_check": "2026-07-31T15:24:37+00:00",
       "last_modified": "2026-07-14T12:04:20+00:00",
       "last_status": "unchanged"
     },
@@ -166,7 +166,7 @@
       "size": 137613,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-07-31T13:01:17+00:00",
+      "last_check": "2026-07-31T15:24:23+00:00",
       "last_modified": "2026-07-24T17:44:00+00:00",
       "last_status": "unchanged"
     },
@@ -180,7 +180,7 @@
       "size": 125987,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-07-31T13:00:59+00:00",
+      "last_check": "2026-07-31T15:24:03+00:00",
       "last_modified": "2026-06-17T09:59:02+00:00",
       "last_status": "unchanged"
     },
@@ -194,7 +194,7 @@
       "size": 113368,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-07-31T13:01:12+00:00",
+      "last_check": "2026-07-31T15:24:17+00:00",
       "last_modified": "2026-06-17T09:59:15+00:00",
       "last_status": "unchanged"
     },
@@ -208,7 +208,7 @@
       "size": 112882,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-07-31T13:01:14+00:00",
+      "last_check": "2026-07-31T15:24:20+00:00",
       "last_modified": "2026-06-23T10:50:36+00:00",
       "last_status": "unchanged"
     },
@@ -222,7 +222,7 @@
       "size": 107563,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-07-31T13:01:07+00:00",
+      "last_check": "2026-07-31T15:24:12+00:00",
       "last_modified": "2026-06-17T09:59:11+00:00",
       "last_status": "unchanged"
     },
@@ -236,7 +236,7 @@
       "size": 113096,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-07-31T13:01:04+00:00",
+      "last_check": "2026-07-31T15:24:07+00:00",
       "last_modified": "2026-06-17T10:06:02+00:00",
       "last_status": "unchanged"
     },
@@ -250,7 +250,7 @@
       "size": 114732,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-07-31T13:01:02+00:00",
+      "last_check": "2026-07-31T15:24:05+00:00",
       "last_modified": "2026-06-17T09:59:04+00:00",
       "last_status": "unchanged"
     }
