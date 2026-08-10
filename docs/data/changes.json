@@ -1,7 +1,349 @@
 {
-  "last_updated": "2026-08-10T10:23:52+00:00",
-  "total_events": 23,
+  "last_updated": "2026-08-10T11:54:07+00:00",
+  "total_events": 32,
   "events": [
+    {
+      "timestamp": "2026-08-10T11:54:06+00:00",
+      "id": "acn-portale-nis-faq-ruoli-e-procedure",
+      "name": "ACN FAQ - Ruoli e procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "3c6aa818442f8aa1f303da865d7f6fcc3d0d0961b7a1ef24a595f84940fdab4a",
+      "new_hash": "3c06fdab128bc10f5ff0a35bcf6783bdad791432d2583eb4830a906d56b7469b",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:54:01+00:00",
+      "id": "acn-portale-nis-faq-categorizzazione",
+      "name": "ACN FAQ - Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "db78251c303fd8748dcb4410417a86d2bdab91343e25dc778eee3c05cd3de24e",
+      "new_hash": "b8dafcf001cafdae5107554813ad3fc469bfd2a47a74cadd371d6c54192fe217",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:58+00:00",
+      "id": "acn-portale-nis-faq-aggiornamento-delle-informazioni",
+      "name": "ACN FAQ - Aggiornamento delle informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "180e1ba4536955e9fbbeeaa969d4639a278265030cbfcac1742a73083c3e8ff6",
+      "new_hash": "9e120b809917ec912720ae546302e15c61b15069f12288c32a7b4a40400b22bd",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:54+00:00",
+      "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
+      "name": "ACN FAQ - Misure di sicurezza e notifica di incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "3a667937810e602b3cfa817ec61013b5338c03b75b256d6bfac4435f32637413",
+      "new_hash": "4d691bbc82c7202056b2bde776fd2a80d4395df0dc58b8693a3950bbd14edb87",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:51+00:00",
+      "id": "acn-portale-nis-faq-registrazione",
+      "name": "ACN FAQ - Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "bf8043ef430d153b977c313f50528668c2ad099936c96b079df052c9aa0e26a0",
+      "new_hash": "cdf26d9d5591c7de29d3a6fb39ee108857fe2b24ce76be2d11934a4a80211d7e",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:48+00:00",
+      "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
+      "name": "ACN FAQ - Settori, sottosettori e tipologie di soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "03776b894419879a2a6011e31391d1e8f3a9a7677d10f21c41357c99a0ed36bf",
+      "new_hash": "04375459fdaad7cdff353c27cacec5f27b8ebdbf1fcecbc30f7e357651336fc1",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:44+00:00",
+      "id": "acn-portale-nis-faq-ambito",
+      "name": "ACN FAQ - Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "627f70fe9d43e8cc5dab3d44dc26afc750fe2c2aada4472b710d1bfb26224b70",
+      "new_hash": "cc006c0f46a1b4f06f5439b10f820f454acf48166f9ce4916f9349d98e9f089d",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:41+00:00",
+      "id": "acn-portale-nis-faq-profili-generali",
+      "name": "ACN FAQ - Profili generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "552c6305a4a9259c002e8d7d2823acecd3a51c256478d05363183703eba3d3eb",
+      "new_hash": "104a224993e501ca95ddfb43a8b742ba3549eed246fd42ba544a21c44929630b",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-10T11:53:20+00:00",
+      "id": "acn-portale-nis-faq",
+      "name": "ACN - FAQ NIS",
+      "url": "https://www.acn.gov.it/portale/faq/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "0a13b0ad9bc212f74a5dc68ef5931fe0751862bd7410aa0ddfefb7b6b26012de",
+      "new_hash": "6dca58c9a79dd81995a1610bfcc83859ca2559b2ff48612d24cf21388137ab46",
+      "diff": {
+        "added": 0,
+        "removed": 1,
+        "summary": "+0 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-08-10T10:23:51+00:00",
       "id": "acn-portale-nis-faq-monitoraggio-vigilanza-esecuzione",

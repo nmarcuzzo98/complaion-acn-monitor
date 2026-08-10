@@ -118,7 +118,6 @@ Misure di sicurezza e notifica di incidenti
 Aggiornamento delle informazioni
 Categorizzazione
 Ruoli e procedure
-Monitoraggio, vigilanza ed esecuzione
 PSNC
 Concorsi
 CSIRT Italia
