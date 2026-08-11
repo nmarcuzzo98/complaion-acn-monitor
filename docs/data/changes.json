@@ -1,7 +1,875 @@
 {
-  "last_updated": "2026-08-11T05:57:47+00:00",
-  "total_events": 32,
+  "last_updated": "2026-08-11T07:18:23+00:00",
+  "total_events": 42,
   "events": [
+    {
+      "timestamp": "2026-08-11T07:18:21+00:00",
+      "id": "acn-portale-nis-faq-ruoli-e-procedure",
+      "name": "ACN FAQ - Ruoli e procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "3c06fdab128bc10f5ff0a35bcf6783bdad791432d2583eb4830a906d56b7469b",
+      "new_hash": "aca97ba5e9f3a20f9e45c248ac316db1823701b059a0fd4bbcf9415c3830691f",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:18:19+00:00",
+      "id": "acn-portale-nis-faq-monitoraggio-vigilanza-esecuzione",
+      "name": "ACN FAQ - Monitoraggio, vigilanza ed esecuzione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "fe45d7a5a72bdfc2d6edfd12279505e539ececebefd5fc995765498e2182a6a2",
+      "new_hash": "f4f24c753c1f37a3be43536c0f172a651649e58f3520aad5029c19000d097558",
+      "diff": {
+        "added": 48,
+        "removed": 63,
+        "summary": "+48 aggiunte, -63 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": "-",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Concorsi"
+          },
+          {
+            "op": " ",
+            "text": "NCC Italia"
+          },
+          {
+            "op": " ",
+            "text": "Strategia Nazionale di Cybersicurezza"
+          },
+          {
+            "op": "-",
+            "text": "NIS - Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "NIS - Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato."
+          },
+          {
+            "op": " ",
+            "text": "Nessun risultato trovato"
+          },
+          {
+            "op": "-",
+            "text": "CAT.1 Quali sono gli obblighi previsti dall’articolo 30 del decreto NIS a carico dei soggetti NIS ?"
+          },
+          {
+            "op": "-",
+            "text": "Gli obblighi previsti a carico dei soggetti NIS dall’articolo 30 del decreto NIS consistono nell’elencazione e categorizzazione di tutte le attività svolte e i servizi erogati. Tali attività devono essere svolte dal 1° maggio al 30 giugno di ogni anno a partire dalla ricezione della prima comunicazione di cui all'articolo 7, comma 3, lettera a) del predetto decreto. Si veda per i dettagli quanto previsto dall’articolo 3 della"
+          },
+          {
+            "op": "-",
+            "text": "Determina 155238/2026"
+          },
+          {
+            "op": "-",
+            "text": "."
+          },
+          {
+            "op": "-",
+            "text": "CAT.2 Che cosa si intende per elencazione e categorizzazione delle attività e dei servizi?"
+          },
+          {
+            "op": "-",
+            "text": "Per elencazione e categorizzazione delle attività e dei servizi si intende il processo di elaborazione dell’elenco di attività e servizi del soggetto comprensivo dell’assegnazione a tali attività e servizi della relativa categoria di rilevanza (cosiddetto"
+          },
+          {
+            "op": "-",
+            "text": "elenco categorizzato"
+          },
+          {
+            "op": "-",
+            "text": ")."
+          },
+          {
+            "op": "-",
+            "text": "Per ulteriori informazioni, si faccia riferimento alla"
+          },
+          {
+            "op": "-",
+            "text": "guida alla lettura del modello di categorizzazione"
+          },
+          {
+            "op": "-",
+            "text": "."
+          },
+          {
+            "op": "-",
+            "text": "CAT.3 Qual è la finalità dell’elencazione e categorizzazione delle attività e dei servizi?"
+          },
+          {
+            "op": "-",
+            "text": "La finalità perseguita attraverso l’elencazione e la categorizzazione delle attività e dei servizi è quella di aggregare attività e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e così    corrispondere a quanto disposto dall’articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attività e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano."
+          },
+          {
+            "op": "-",
+            "text": "L’elencazione, ma soprattutto la categorizzazione delle attività e dei servizi, con l’attribuzione della categoria di rilevanza “minimo”, “basso”, “medio” e “alto”, è pertanto il presupposto per l’identificazione delle misure di sicurezza adeguate che il soggetto NIS deve mettere in atto, incluse le cosiddette “"
+          },
+          {
+            "op": "-",
+            "text": "misure di sicurezza a lungo termine"
+          },
+          {
+            "op": "-",
+            "text": "” che saranno stabilite mediante successive determinazioni dell’Agenzia per la cybersicurezza nazionale entro la fine del 2026 e riguarderanno le fasi successive a quelle di prima applicazione."
+          },
+          {
+            "op": "-",
+            "text": "Ad oggi, infatti, in accordo a quanto previsto dall’articolo 42 del decreto che disciplina la fase di prima applicazione, sono state definite, con la"
+          },
+          {
+            "op": "-",
+            "text": "determina 379907/2025"
+          },
+          {
+            "op": "-",
+            "text": ", le cosiddette"
+          },
+          {
+            "op": "-",
+            "text": "misure di sicurezza di base"
+          },
+          {
+            "op": "-",
+            "text": "."
+          },
+          {
+            "op": "-",
+            "text": "Le misure di sicurezza di base saranno quindi integrate, entro la fine del 2026, da misure di sicurezza aggiuntive – caratterizzate da requisiti di livello avanzato rispetto a quelle di base – e confluiranno nelle misure di sicurezza a lungo termine per la realizzazione delle quali verrà stabilito anche l’arco temporale entro il quale questa attività dovrà essere completata."
+          },
+          {
+            "op": "-",
+            "text": "CAT.4 Come viene effettuata l’elencazione e categorizzazione delle attività e dei servizi?"
+          },
+          {
+            "op": "-",
+            "text": "I soggetti NIS provvedono all’elencazione e alla categorizzazione di tutte le attività svolte e dei servizi erogati, internamente ed esternamente, suddivisi nelle macro-aree di cui al modello di categorizzazione predisposto dall’Agenzia per la cybersicurezza nazionale, tramite la piattaforma digitale di cui all’articolo 7, comma 1, del decreto NIS, con le modalità stabilite dalla"
+          },
+          {
+            "op": "-",
+            "text": "Determinazione ACN 127437/2026"
+          },
+          {
+            "op": "-",
+            "text": "."
+          },
+          {
+            "op": "-",
+            "text": "CAT.5 Che cosa è il modello di categorizzazione?"
+          },
+          {
+            "op": "-",
+            "text": "Il Modello di categorizzazione, disciplinato dalla"
+          },
+          {
+            "op": "-",
+            "text": "Determina 155238/2026"
+          },
+          {
+            "op": "-",
+            "text": ", è il modello elaborato dall’ACN – con il concorso delle Autorità di settore NIS nonché avvalendosi anche dei contributi offerti dalle associazioni di categoria, anche per mezzo dei Tavoli Settoriali – in accordo al quale i soggetti NIS predispongono l’elenco di attività e servizi del soggetto, comprensivo della relativa categoria di rilevanza."
+          },
+          {
+            "op": "-",
+            "text": "In particolare, il modello struttura le attività e i servizi di un’organizzazione in macro-aree (ciascuna delle quali rappresenta un insieme astratto di attività e servizi che possono essere caratterizzati da elementi in comune come, ad esempio, utenti, finalità o tipologia di prestazione) ognuna delle quali è caratterizzata da una denominazione, una descrizione e una categoria di rilevanza pre-assegnata."
+          },
+          {
+            "op": "-",
+            "text": "CAT.6 Cosa rappresenta la categoria di rilevanza di un’attività o un di un servizio?"
+          },
+          {
+            "op": "-",
+            "text": "La categoria di rilevanza di un’attività o di un servizio rappresenta il livello dell’impatto di una possibile compromissione di quell’attività o di quel servizio sulla capacità del soggetto di svolgere correttamente le"
+          },
+          {
+            "op": "-",
+            "text": "attività"
+          },
+          {
+            "op": "-",
+            "text": "e i"
+          },
+          {
+            "op": "-",
+            "text": "servizi NIS"
+          },
+          {
+            "op": "-",
+            "text": ", ossia le attività e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS.  Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto."
+          },
+          {
+            "op": "-",
+            "text": "CAT.7 Come si procede in concreto all’elencazione e categorizzazione delle attività e dei servizi?"
+          },
+          {
+            "op": "-",
+            "text": "Ai fini dell’elencazione e categorizzazione delle attività e dei servizi, il soggetto può adottare un processo articolato nelle seguenti fasi:"
+          },
+          {
+            "op": "-",
+            "text": "Identificazione attività/servizi"
+          },
+          {
+            "op": "-",
+            "text": ": sono individuati tutti i servizi e le attività svolti dall’organizzazione e supportati, svolti o erogati da sistemi informativi e di rete. Non è richiesto l’uso di una specifica metodologia e ogni soggetto potrà, pertanto, utilizzare quella maggiormente adatta al proprio contesto;"
+          },
+          {
+            "op": "-",
+            "text": "mappatura attività/servizi in macro-aree"
+          },
+          {
+            "op": "-",
+            "text": ": le attività e i servizi individuati sono associati alle macro-aree definite dal modello di categorizzazione che meglio ne rappresenta le finalità e le caratteristiche. Poiché ogni attività/servizio deve essere associata a una sola macro-area, qualora un’attività o un servizio siano riconducibili a più macro-aree, è necessario procedere a una loro ulteriore scomposizione, al fine di associarli a una specifica macro-area;"
+          },
+          {
+            "op": "-",
+            "text": "attribuzione categoria di rilevanza"
+          },
+          {
+            "op": "-",
+            "text": ": per ogni attività/servizio individuato è assegnata una specifica categoria di rilevanza. Ai sensi dell’articolo 3, comma 3, della citata"
+          },
+          {
+            "op": "-",
+            "text": "Determina 155238/2026"
+          },
+          {
+            "op": "-",
+            "text": "– sulla base della valutazione dell’impatto di una possibile compromissione dell’attività o del servizio sulla capacità del soggetto di svolgere correttamente le attività e i servizi per i quali è stato censito come soggetto NIS e conservando la documentazione recante tale analisi – il soggetto potrà comunque indicare una categoria di rilevanza per un’attività o un servizio differente da quella pre-assegnata alla macro-area. Di conseguenza, una stessa macro-area potrà avere al suo interno attività e servizi con differenti categorie di rilevanza."
+          },
+          {
+            "op": "-",
+            "text": "Questo è un processo suggerito e non è vincolante per il soggetto, il quale può adottare altre modalità di analisi o anche impiegare gli esiti di analisi di impatto già svolte precedentemente."
+          },
+          {
+            "op": "-",
+            "text": "CAT.8 Come è coordinata la categorizzazione con la classificazione dei dati e servizi per la Pubblica Amministrazione?"
+          },
+          {
+            "op": "-",
+            "text": "L’articolo 3 del Decreto Direttoriale ACN n. 21007/24 del 27 giugno 2024, cosiddetto"
+          },
+          {
+            "op": "-",
+            "text": "Regolamento Cloud"
+          },
+          {
+            "op": "-",
+            "text": ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici.  Le modalità per la predisposizione dell’elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all’allegato 1 del Regolamento Cloud."
+          },
+          {
+            "op": "-",
+            "text": "L’articolo 4 della"
+          },
+          {
+            "op": "-",
+            "text": "Determina 155238/2026"
+          },
+          {
+            "op": "-",
+            "text": "prevede che i soggetti NIS che hanno svolto la classificazione dei dati e dei servizi di cui al citato articolo 3 del Regolamento Cloud, applicano il modello stabilito da tale Regolamento ai fini dell’elencazione e categorizzazione delle attività e dei servizi."
+          },
+          {
+            "op": "-",
+            "text": "In particolare, a tali soggetti sarà presentato l’elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facoltà di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto è tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
+          },
+          {
+            "op": "-",
+            "text": "CAT.9 Come si coordina la categorizzazione con la disciplina del perimetro di sicurezza nazionale cibernetica?"
+          },
+          {
+            "op": "-",
+            "text": "Ai sensi dell’articolo 5 della"
+          },
+          {
+            "op": "-",
+            "text": "Determina 155238/2026"
+          },
+          {
+            "op": "-",
+            "text": "le attività e i servizi a cui si applicano gli obblighi imposti dal decreto-legge 21 settembre 2019, n. 105 non sono oggetto del processo di elencazione e categorizzazione, essendo già etichettati con la categoria di rilevanza “impatto alto”."
+          },
+          {
+            "op": "-",
+            "text": "Pertanto, i servizi che sono oggetto del Perimetro di sicurezza nazionale cibernetica non vanno indicati nell’elenco categorizzato."
+          },
+          {
+            "op": "+",
+            "text": "MVE.1 In cosa consiste l’attività di vigilanza ed esecuzione dell’Autorità nazionale competente NIS e quali sono i principi generali che la regolano?"
+          },
+          {
+            "op": "+",
+            "text": "L’attività di vigilanza ed esecuzione dell’Agenzia, nella sua qualità di Autorità nazionale competente NIS (v. FAQ GEN.4), nei confronti dei soggetti NIS consiste nelle attività di cui al Capo V del decreto NIS e si svolge nei seguenti quattro ambiti:"
+          },
+          {
+            "op": "+",
+            "text": "monitoraggio, analisi e supporto ai soggetti NIS (v. FAQ MVE.2);"
+          },
+          {
+            "op": "+",
+            "text": "verifiche e ispezioni (v. FAQ MVE.3);"
+          },
+          {
+            "op": "+",
+            "text": "misure di esecuzione (v. FAQ MVE.4);"
+          },
+          {
+            "op": "+",
+            "text": "sanzioni amministrative pecuniarie e accessorie (v. FAQ MVE.5)."
+          },
+          {
+            "op": "+",
+            "text": "Nell’esercizio di tale attività, con un approccio graduale basato sul rischio, l’Agenzia monitora e valuta il rispetto da parte dei soggetti NIS degli obblighi previsti dall’articolo 7 e dal Capo IV del decreto NIS (Obblighi in materia di gestione del rischio per la sicurezza informatica e di notifica di incidente), nonché di quelli stabiliti dalla"
+          },
+          {
+            "op": "+",
+            "text": "Determinazione ACN 379887/2025"
+          },
+          {
+            "op": "+",
+            "text": "(v. FAQ REG.1 e AGA.3), dalla"
+          },
+          {
+            "op": "+",
+            "text": "Determinazione ACN 379907/2025"
+          },
+          {
+            "op": "+",
+            "text": "(v. FAQ GEN.9) e dalla"
+          },
+          {
+            "op": "+",
+            "text": "Determinazione ACN 136118/2024"
+          },
+          {
+            "op": "+",
+            "text": "(v. FAQ ACI.1)."
+          },
+          {
+            "op": "+",
+            "text": "Effettività, proporzionalità e dissuasività sono i principi generali che regolano lo svolgimento di tale attività effettuato dall’Agenzia tenendo conto delle peculiarità di ciascuna fattispecie e comunque almeno dei seguenti elementi (articolo 34, comma 6, del decreto NIS):"
+          },
+          {
+            "op": "+",
+            "text": "la gravità della violazione e l'importanza delle disposizioni violate;"
+          },
+          {
+            "op": "+",
+            "text": "la durata della violazione;"
+          },
+          {
+            "op": "+",
+            "text": "eventuali precedenti violazioni pertinenti commesse dal soggetto interessato;"
+          },
+          {
+            "op": "+",
+            "text": "qualsiasi danno materiale o immateriale causato, incluse le perdite finanziarie o economiche, gli effetti sugli altri servizi e il numero di utenti interessati;"
+          },
+          {
+            "op": "+",
+            "text": "un'eventuale condotta intenzionale o negligenza da parte dell'autore della violazione;"
+          },
+          {
+            "op": "+",
+            "text": "qualsiasi misura adottata dal soggetto per prevenire o attenuare il danno materiale o immateriale;"
+          },
+          {
+            "op": "+",
+            "text": "qualsiasi adesione a codici di condotta o meccanismi di certificazione approvati;"
+          },
+          {
+            "op": "+",
+            "text": "il livello di collaborazione delle persone fisiche o giuridiche ritenute responsabili con l’Autorità nazionale competente NIS."
+          },
+          {
+            "op": "+",
+            "text": "MVE.2 In cosa consiste l’attività di monitoraggio, analisi e supporto prevista dall’articolo 35 del decreto NIS?"
+          },
+          {
+            "op": "+",
+            "text": "Il monitoraggio, l’analisi e il supporto previsti dall’articolo 35 del decreto NIS costituiscono il primo ambito in cui si svolge l’attività di vigilanza ed esecuzione dell’Agenzia (v. FAQ MVE.1)."
+          },
+          {
+            "op": "+",
+            "text": "Tale attività, a  carattere sistematico e continuativo, è diretta ad agevolare la conoscenza dei soggetti NIS, ad accompagnarli nell’attuazione degli obblighi, nonché a consentire all’Agenzia di acquisire e valutare correttamente le informazioni necessarie a tal fine."
+          },
+          {
+            "op": "+",
+            "text": "In particolare:"
+          },
+          {
+            "op": "+",
+            "text": "l’attività di monitoraggio consiste nell’acquisizione da parte dell’Agenzia di tutti gli elementi necessari a conoscere lo stato di attuazione degli obblighi da parte di ciascun soggetto NIS, attraverso le azioni di cui all’articolo 35, comma 3, del decreto NIS;"
+          },
+          {
+            "op": "+",
+            "text": "l’attività di analisi consiste nella valutazione complessiva delle risultanze acquisite in fase di monitoraggio, al fine di stabilire l’ordine di priorità degli interventi di supporto, nonché di individuare gli indirizzi di sviluppo della regolamentazione, ai sensi dell’articolo 35, comma 5, del decreto NIS;"
+          },
+          {
+            "op": "+",
+            "text": "l’attività di supporto consiste negli interventi con i quali l’Agenzia accompagna i soggetti NIS nell’attuazione degli obblighi, agendo prima e indipendentemente dall’esercizio dei poteri ispettivi e di esecuzione."
+          },
+          {
+            "op": "+",
+            "text": "Ad esempio, l’attività di monitoraggio e analisi si fonda sulle informazioni che i soggetti trasmettono in adempimento degli obblighi previsti dal decreto NIS, a partire da quelle rese ai fini della registrazione. Ove tali informazioni non siano sufficienti, l’Autorità nazionale competente NIS può acquisirne di ulteriori, richiedendo, tra l’altro, ai soggetti una rendicontazione, anche periodica, o autovalutazioni."
+          },
+          {
+            "op": "+",
+            "text": "Tra le attività di supporto rientrano, infine, a titolo esemplificativo, le raccomandazioni, la predisposizione delle FAQ, la pubblicazione di linee guida, nonché la copiosa attività divulgativa esercitata nell’ambito dei Tavoli settoriali, oltre che in collaborazione con le associazioni rappresentative di categoria territoriali e settoriali."
+          },
+          {
+            "op": "+",
+            "text": "MVE.3 Le attività di verifica e ispezione previste dall’articolo 36 del decreto NIS sono differenziate per i soggetti importanti ed essenziali?"
+          },
+          {
+            "op": "+",
+            "text": "Sì. In particolare:"
+          },
+          {
+            "op": "+",
+            "text": "nei confronti dei soggetti essenziali, le ispezioni in loco e a distanza, ivi compresi controlli casuali, possono essere disposte anche ex ante;"
+          },
+          {
+            "op": "+",
+            "text": "nei confronti dei soggetti importanti, le ispezioni non possono essere disposte ex ante. Esse possono essere disposte solo qualora l’Autorità nazionale competente NIS abbia acquisito o ricevuto elementi di prova, indicazioni o informazioni che suggeriscano possibili violazioni del decreto NIS (articolo 36, comma 2, decreto NIS)."
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia esercita i poteri di verifica e ispettivi attraverso le seguenti azioni:"
+          },
+          {
+            "op": "+",
+            "text": "verifiche della documentazione e delle informazioni trasmesse all’Autorità nazionale competente NIS ai sensi del decreto NIS (articolo 36, comma 1, lettera a), decreto NIS);"
+          },
+          {
+            "op": "+",
+            "text": "ispezioni in loco e a distanza, compresi controlli casuali (articolo 36, comma 1, lettera b), decreto NIS);"
+          },
+          {
+            "op": "+",
+            "text": "richieste di accesso a dati, documenti e altre informazioni necessari allo svolgimento di tali poteri, dichiarando la finalità della richiesta e specificando le informazioni richieste (articolo 36, comma 1, lettera c), decreto NIS)."
+          },
+          {
+            "op": "+",
+            "text": "MVE.4 In cosa consistono le misure di esecuzione previste dall’articolo 37 del decreto NIS?"
+          },
+          {
+            "op": "+",
+            "text": "Le misure di esecuzione di cui all’articolo 37 del decreto NIS sono i provvedimenti con i quali l’Autorità nazionale competente NIS richiede ai soggetti NIS di conformare la propria condotta agli obblighi previsti dal decreto, di rimediare alle carenze accertate o di far cessare le condotte assunte in violazione delle prescrizioni previste dal decreto NIS, nonché impartite dall’Agenzia."
+          },
+          {
+            "op": "+",
+            "text": "A tal fine, l’Autorità nazionale competente NIS tiene anche conto degli esiti delle attività di monitoraggio, analisi e supporto di cui all’articolo 35 e delle risultanze dell’esercizio dei poteri ispettivi di cui all’articolo 36."
+          },
+          {
+            "op": "+",
+            "text": "L’Agenzia esercita il potere di esecuzione, tramite intimazioni e diffide, indicando modalità e termini ragionevoli e proporzionati per adempiere alle stesse."
+          },
+          {
+            "op": "+",
+            "text": "Il ricorso ai poteri di esecuzione non preclude l’esercizio dei poteri sanzionatori, assolvendo a funzioni tra loro diverse e complementari."
+          },
+          {
+            "op": "+",
+            "text": "MVE.5 Ai soggetti importanti ed essenziali si applicano le medesime sanzioni?"
+          },
+          {
+            "op": "+",
+            "text": "No. Benché le fattispecie di illecito amministrativo sanzionate ai sensi dell’articolo 38 del decreto NIS siano le medesime, l’entità delle sanzioni pecuniarie e l’ambito delle misure accessorie differisce a seconda che il soggetto sia essenziale, importante o una Pubblica Amministrazione."
+          },
+          {
+            "op": " ",
+            "text": "Informazioni su"
+          },
+          {
+            "op": " ",
+            "text": "Agenzia per la"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:18:17+00:00",
+      "id": "acn-portale-nis-faq-categorizzazione",
+      "name": "ACN FAQ - Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "b8dafcf001cafdae5107554813ad3fc469bfd2a47a74cadd371d6c54192fe217",
+      "new_hash": "9ec6b48bb9a405b1cba55cbeab96fe060880b15c107452d179171518a32a2f1e",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:18:14+00:00",
+      "id": "acn-portale-nis-faq-aggiornamento-delle-informazioni",
+      "name": "ACN FAQ - Aggiornamento delle informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "9e120b809917ec912720ae546302e15c61b15069f12288c32a7b4a40400b22bd",
+      "new_hash": "6b852229b99dc62665373265f4d9c6877f175edc5660be261c4955d0e7a80153",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:18:11+00:00",
+      "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
+      "name": "ACN FAQ - Misure di sicurezza e notifica di incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "4d691bbc82c7202056b2bde776fd2a80d4395df0dc58b8693a3950bbd14edb87",
+      "new_hash": "b7ba116bb6e91fc3fc50f55b502651747c2f5432109255646fc926f87b61de2a",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:18:08+00:00",
+      "id": "acn-portale-nis-faq-registrazione",
+      "name": "ACN FAQ - Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "cdf26d9d5591c7de29d3a6fb39ee108857fe2b24ce76be2d11934a4a80211d7e",
+      "new_hash": "7a4acf357e6815d3732cc000bfff25e27939214e5829b0c263e4404c4538ac7b",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:18:06+00:00",
+      "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
+      "name": "ACN FAQ - Settori, sottosettori e tipologie di soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "04375459fdaad7cdff353c27cacec5f27b8ebdbf1fcecbc30f7e357651336fc1",
+      "new_hash": "d3c877e796830315d07234e1a4d4902174e210b303ac7224e200929d059f2980",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:17:57+00:00",
+      "id": "acn-portale-nis-faq-ambito",
+      "name": "ACN FAQ - Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "cc006c0f46a1b4f06f5439b10f820f454acf48166f9ce4916f9349d98e9f089d",
+      "new_hash": "4e40e0b5ebcc59dafac65bbd3f0d95b92a9573fef23be37a6507f800f3966533",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:17:53+00:00",
+      "id": "acn-portale-nis-faq-profili-generali",
+      "name": "ACN FAQ - Profili generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "104a224993e501ca95ddfb43a8b742ba3549eed246fd42ba544a21c44929630b",
+      "new_hash": "06cdf9c6eb39d0d4e2a33c05ae1da7748d45de43832675337ad0abcd3d711bde",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-08-11T07:17:31+00:00",
+      "id": "acn-portale-nis-faq",
+      "name": "ACN - FAQ NIS",
+      "url": "https://www.acn.gov.it/portale/faq/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "6dca58c9a79dd81995a1610bfcc83859ca2559b2ff48612d24cf21388137ab46",
+      "new_hash": "9b15b9d106a510ef77b3db776a254cb4c9c5c6684065e64f8307389383a3bdd7",
+      "diff": {
+        "added": 2,
+        "removed": 0,
+        "summary": "+2 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "PSNC"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornamento delle informazioni"
+          },
+          {
+            "op": " ",
+            "text": "Categorizzazione"
+          },
+          {
+            "op": "+",
+            "text": "Monitoraggio, vigilanza ed esecuzione"
+          },
+          {
+            "op": " ",
+            "text": "Ruoli e procedure"
+          },
+          {
+            "op": " ",
+            "text": "Informazioni su"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-08-10T11:54:06+00:00",
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
