@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-08-12T10:14:07+00:00",
-  "total_events": 42,
+  "last_updated": "2026-08-12T11:53:33+00:00",
+  "total_events": 43,
   "events": [
+    {
+      "timestamp": "2026-08-12T11:53:11+00:00",
+      "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
+      "name": "ACN FAQ - Settori, sottosettori e tipologie di soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "d3c877e796830315d07234e1a4d4902174e210b303ac7224e200929d059f2980",
+      "new_hash": "4577fcbee9221dabd01e10a03b4f50b67fa7e3f36186587bd35d20739f2364e0",
+      "diff": {
+        "added": 1,
+        "removed": 1,
+        "summary": "+1 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Al fine di agevolare il processo di autovalutazione (vds. FAQ REG.1), le tipologie di “soggetti che gestiscono opere e attrezzature all’interno di porti” che rientrano, o meno, nell’ambito di applicazione del decreto NIS"
+          },
+          {
+            "op": " ",
+            "text": "[1]"
+          },
+          {
+            "op": "-",
+            "text": "in relazione agli aeroporti e ai voli sono elencate nel"
+          },
+          {
+            "op": "+",
+            "text": "sono elencate nel"
+          },
+          {
+            "op": " ",
+            "text": "seguente documento"
+          },
+          {
+            "op": " ",
+            "text": "."
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-08-11T07:18:21+00:00",
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
