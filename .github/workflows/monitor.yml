@@ -37,7 +37,16 @@ jobs:
           pip install -r scripts/requirements.txt
 
       - name: Run ACN scan
+        env:
+          LAST_SCAN_OUTPUT: /tmp/last_scan_changes.json
         run: python scripts/scrape_acn.py
+
+      - name: Notify Slack (variazioni di questo scan)
+        if: success()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          NEW_CHANGES_FILE: /tmp/last_scan_changes.json
+        run: python scripts/notify_slack.py
 
       - name: Commit & push changes
         run: |
