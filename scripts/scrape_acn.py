@@ -419,8 +419,441 @@ def ai_summarize(resource_name, diff_data, resource_type="page"):
         diff_text = "\n".join(diff_text_parts)[:GEMINI_MAX_DIFF_CHARS]
 
         type_label = "PDF" if resource_type == "pdf" else "pagina web"
-        prompt = f"""Sei un consulente esperto di compliance NIS2 italiana. Analizza questo diff rilevato su una {type_label} ufficiale dell'ACN (Agenzia per la Cybersicurezza Nazionale), risorsa: "{resource_name}".
+        # NB: costruzione con concatenazione di f-string singole per evitare
+        # problemi di copy-paste con triple-quoted string contenenti delimitatori.
+        prompt = (
+            "Sei un consulente esperto di compliance NIS2 italiana. "
+            f"Analizza questo diff rilevato su una {type_label} ufficiale dell'ACN "
+            f"(Agenzia per la Cybersicurezza Nazionale), risorsa: \"{resource_name}\".\n\n"
+            f"Statistiche: {diff_data.get('summary', '')}\n\n"
+            "Diff (righe con + sono state AGGIUNTE, righe con - sono state RIMOSSE):\n"
+            "---- INIZIO DIFF ----\n"
+            f"{diff_text}\n"
+            "---- FINE DIFF ----\n\n"
+            "Produci un riassunto in italiano molto sintetico (3-5 righe massimo) di cosa e cambiato. "
+            "Concentrati sugli aspetti operativi rilevanti per i soggetti NIS2 italiani. "
+            "NON usare markdown. NON usare emoji. "
+            "Inizia direttamente con il contenuto, senza preamboli tipo \"Il documento e stato modificato...\".\n\n"
+            "Se il diff non sembra contenere informazioni utili "
+            "(es. solo modifiche minori al layout, refresh tecnici, modifiche di formattazione), "
+            "rispondi solo: \"Modifiche tecniche/grafiche non rilevanti.\""
+        )
+        response = model.generate_content(prompt)
+        summary = (response.text or "").strip()
+        if not summary or len(summary) < 10:
+            return None
+        return summary
+    except Exception as e:
+        print(f"  [warn] Gemini API fallita: {e}", file=sys.stderr)
+        return None
 
-Statistiche: {diff_data.get('summary', '')}
 
-Diff (righe con + sono state AGGIUNTE, righe con - sono state RIMOSSE):
+# =============================================================================
+# ESTRAZIONE SCADENZE
+# =============================================================================
+
+MONTHS_IT = {
+    "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6,
+    "luglio": 7, "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
+}
+
+# Trigger keywords che indicano una scadenza (richiesti nei 80 chars PRIMA della data).
+DEADLINE_TRIGGERS = [
+    "entro il", "entro la", "entro le", "entro l'",
+    "termine", "scadenza", "scade il", "scade la", "scadr",
+    "deadline", "non oltre", "obbligo entro", "dovranno", "dovra",
+    "a far data dal", "a decorrere dal",
+]
+
+# Pattern che indicano contesto di news/articolo (esclusi anche se hanno trigger).
+EXCLUDE_PATTERNS = [
+    "news -", "alert -", "bollettino -", "articolo -", "comunicato -",
+    "newsletter -", "pubblicato il", "press release",
+]
+
+DATE_PATTERNS = [
+    (re.compile(r'\b(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})\b', re.IGNORECASE), "verbose"),
+    (re.compile(r'\b(\d{1,2})/(\d{1,2})/(\d{4})\b'), "slash"),
+    (re.compile(r'\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b'), "dot"),
+    (re.compile(r'\b(\d{4})-(\d{2})-(\d{2})\b'), "iso"),
+]
+
+def parse_date(match, pattern_type):
+    """Restituisce (date_iso, date_text) o None se non valida."""
+    try:
+        if pattern_type == "verbose":
+            day = int(match.group(1))
+            month = MONTHS_IT[match.group(2).lower()]
+            year = int(match.group(3))
+        elif pattern_type in ("slash", "dot"):
+            day = int(match.group(1))
+            month = int(match.group(2))
+            year = int(match.group(3))
+        elif pattern_type == "iso":
+            year = int(match.group(1))
+            month = int(match.group(2))
+            day = int(match.group(3))
+        else:
+            return None
+        dt = datetime(year, month, day)
+        # Range anno ragionevole
+        now = datetime.now()
+        if dt.year < now.year - 1 or dt.year > now.year + 5:
+            return None
+        return dt.strftime("%Y-%m-%d"), match.group(0), dt
+    except (ValueError, KeyError):
+        return None
+
+def extract_deadlines(text, source_id, source_name, source_url):
+    """
+    Estrae scadenze dal testo. Regole:
+    1. La data deve avere un trigger keyword nei 80 chars precedenti.
+    2. La data NON deve apparire in un contesto news/articolo.
+    3. La data deve essere oggi o nel futuro.
+    """
+    if not text:
+        return []
+    text_lower = text.lower()
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    found = []
+
+    for pattern, ptype in DATE_PATTERNS:
+        for m in pattern.finditer(text):
+            start, end = m.span()
+
+            # Regola 2: esclude contesti news/articolo (cerca pattern nei 30 chars prima/dopo)
+            window_around = text_lower[max(0, start - 30):min(len(text), end + 10)]
+            if any(np in window_around for np in EXCLUDE_PATTERNS):
+                continue
+
+            # Regola 1: richiede trigger keyword nei 80 chars prima
+            window_before = text_lower[max(0, start - 80):start]
+            has_trigger = any(t in window_before for t in DEADLINE_TRIGGERS)
+            if not has_trigger:
+                continue
+
+            parsed = parse_date(m, ptype)
+            if not parsed:
+                continue
+            date_iso, date_text, dt = parsed
+
+            # Regola 3: solo date >= oggi
+            if dt < today:
+                continue
+
+            # Contesto: 100 chars prima e 50 dopo
+            ctx_start = max(0, start - 100)
+            ctx_end = min(len(text), end + 50)
+            context = text[ctx_start:ctx_end].replace("\n", " ").strip()
+            context = re.sub(r"\s+", " ", context)
+            found.append({
+                "date": date_iso,
+                "date_text": date_text,
+                "context": context[:300],
+                "source_id": source_id,
+                "source_name": source_name,
+                "source_url": source_url,
+            })
+    return found
+
+def merge_deadlines(existing_deadlines, new_deadlines):
+    """Merge: dedup per (date, source_id, context-prefix). Filtra date passate."""
+    today = today_str()
+    seen_keys = {}
+    for d in existing_deadlines:
+        if d.get("date", "") < today:
+            continue
+        key = (d["date"], d["source_id"], d.get("context", "")[:60])
+        seen_keys[key] = d
+    for d in new_deadlines:
+        if d.get("date", "") < today:
+            continue
+        key = (d["date"], d["source_id"], d.get("context", "")[:60])
+        if key in seen_keys:
+            seen_keys[key]["last_seen"] = utc_now_iso()
+        else:
+            d_copy = dict(d)
+            d_copy["first_seen"] = utc_now_iso()
+            d_copy["last_seen"] = utc_now_iso()
+            seen_keys[key] = d_copy
+    return sorted(seen_keys.values(), key=lambda x: x["date"])
+
+
+# =============================================================================
+# CHANGES PRUNE
+# =============================================================================
+
+def prune_changes(events):
+    cutoff = datetime.now(timezone.utc).timestamp() - CHANGES_RETENTION_DAYS * 86400
+    out = []
+    for c in events:
+        try:
+            if datetime.fromisoformat(c["timestamp"]).timestamp() >= cutoff:
+                out.append(c)
+        except Exception:
+            out.append(c)
+    return out
+
+
+# =============================================================================
+# MAIN SCAN
+# =============================================================================
+
+def scan():
+    previous_docs = safe_load_json(DOCS_FILE, default={"items": [], "last_scan": None})
+    previous_index = {item["id"]: item for item in previous_docs.get("items", [])}
+
+    current_items = []
+    new_changes = []
+    discovered_pdfs = []
+    all_deadlines_from_scan = []
+
+    # Coda mutable: parte dai TARGETS statici e cresce se un hub espande sub-target
+    targets_queue = list(TARGETS)
+    seen_target_urls = {t["url"].split("#")[0].split("?")[0].rstrip("/") for t in targets_queue}
+    seen_target_ids = {t["id"] for t in targets_queue}
+    idx = 0
+    while idx < len(targets_queue):
+        target = targets_queue[idx]
+        idx += 1
+        print(f"[scan] {target['name']} ({target['url']})")
+        try:
+            content, status, ctype = fetch(target["url"])
+        except RuntimeError as e:
+            print(f"  [error] {e}", file=sys.stderr)
+            prev = previous_index.get(target["id"])
+            if prev:
+                prev = dict(prev); prev["last_status"] = "fetch_error"; prev["last_check"] = utc_now_iso()
+                current_items.append(prev)
+            continue
+        if status >= 400:
+            print(f"  [warn] status HTTP {status}")
+            prev = previous_index.get(target["id"])
+            if prev:
+                prev = dict(prev); prev["last_status"] = f"http_{status}"; prev["last_check"] = utc_now_iso()
+                current_items.append(prev)
+            continue
+
+        normalized_text = normalize_html(content)
+        content_hash = sha256_hex(normalized_text.encode("utf-8"))
+
+        prev = previous_index.get(target["id"])
+        status_label = "new" if not prev else ("unchanged" if prev.get("hash") == content_hash else "changed")
+
+        item = {
+            "id": target["id"], "name": target["name"], "url": target["url"], "type": target["type"],
+            "category": target.get("category", ""), "hash": content_hash, "size": len(content),
+            "content_type": ctype, "first_seen": prev.get("first_seen") if prev else utc_now_iso(),
+            "last_check": utc_now_iso(),
+            "last_modified": utc_now_iso() if status_label in ("new", "changed") else (prev.get("last_modified") if prev else utc_now_iso()),
+            "last_status": status_label,
+        }
+        current_items.append(item)
+
+        if status_label in ("new", "changed"):
+            change_event = {
+                "timestamp": utc_now_iso(), "id": item["id"], "name": item["name"],
+                "url": item["url"], "type": item["type"], "status": status_label,
+                "previous_hash": prev.get("hash") if prev else None, "new_hash": content_hash,
+            }
+            if normalized_text:
+                old_text = load_snapshot(target["id"])
+                if status_label == "changed" and old_text:
+                    diff = compute_diff(old_text, normalized_text)
+                    change_event["diff"] = diff
+                    summary = ai_summarize(item["name"], diff, "page")
+                    if summary:
+                        change_event["ai_summary"] = summary
+                        print(f"  [ai] summary generato ({len(summary)} chars)")
+                elif status_label == "new":
+                    preview = normalized_text[:3000]
+                    change_event["diff"] = {
+                        "added": len(preview.splitlines()), "removed": 0,
+                        "summary": "Nuova risorsa (anteprima dei primi caratteri)",
+                        "truncated": len(normalized_text) > 3000,
+                        "lines": [{"op": "+", "text": line} for line in preview.splitlines()[:80]],
+                    }
+                save_snapshot(target["id"], normalized_text)
+            new_changes.append(change_event)
+            print(f"  [{status_label.upper()}] hash variato")
+
+        deadlines = extract_deadlines(normalized_text, item["id"], item["name"], item["url"])
+        if deadlines:
+            print(f"  [deadlines] trovate {len(deadlines)} potenziali scadenze")
+            all_deadlines_from_scan.extend(deadlines)
+
+        if DISCOVER_PDFS and ctype.startswith("text/html"):
+            for pdf in extract_pdf_links(content, target["url"]):
+                discovered_pdfs.append({
+                    "id": "pdf-" + sha256_hex(pdf["url"].encode())[:12],
+                    "name": pdf["name"] or "Documento PDF",
+                    "url": pdf["url"], "type": "pdf", "category": "Documento PDF",
+                })
+
+        # AUTO-DISCOVERY sub-target per hub pages (es. sotto-sezioni FAQ)
+        if target.get("expand_children") and ctype.startswith("text/html"):
+            children = discover_child_targets(target, content)
+            appended = 0
+            for child in children:
+                child_canonical = child["url"].split("#")[0].split("?")[0].rstrip("/")
+                if child_canonical in seen_target_urls or child["id"] in seen_target_ids:
+                    continue
+                seen_target_urls.add(child_canonical)
+                seen_target_ids.add(child["id"])
+                targets_queue.append(child)
+                appended += 1
+            if appended:
+                print(f"  [discover] {appended} sub-target aggiunti dinamicamente")
+
+        time.sleep(SLEEP_BETWEEN)
+
+    # SCAN PDF
+    tracked_urls = {it["url"] for it in current_items}
+    seen_pdf_ids = set()
+    pdfs_to_scan = []
+    for pdf in discovered_pdfs:
+        if pdf["url"] in tracked_urls or pdf["id"] in seen_pdf_ids:
+            continue
+        seen_pdf_ids.add(pdf["id"])
+        pdfs_to_scan.append(pdf)
+
+    print(f"\n[discovery] PDF candidati: {len(pdfs_to_scan)}")
+    for pdf in pdfs_to_scan:
+        print(f"[scan-pdf] {pdf['name']}")
+        try:
+            content, status, ctype = fetch(pdf["url"])
+        except RuntimeError as e:
+            print(f"  [error] {e}", file=sys.stderr); continue
+        if status >= 400 or not ctype.lower().startswith("application/pdf"):
+            continue
+
+        pdf_text = extract_pdf_text(content)
+        if pdf_text:
+            content_hash = sha256_hex(pdf_text.encode("utf-8"))
+        else:
+            content_hash = sha256_hex(content)
+
+        prev = previous_index.get(pdf["id"])
+        status_label = "new" if not prev else ("unchanged" if prev.get("hash") == content_hash else "changed")
+
+        item = {
+            "id": pdf["id"], "name": pdf["name"], "url": pdf["url"], "type": "pdf",
+            "category": pdf["category"], "hash": content_hash, "size": len(content),
+            "content_type": ctype, "first_seen": prev.get("first_seen") if prev else utc_now_iso(),
+            "last_check": utc_now_iso(),
+            "last_modified": utc_now_iso() if status_label in ("new", "changed") else (prev.get("last_modified") if prev else utc_now_iso()),
+            "last_status": status_label,
+        }
+        current_items.append(item)
+
+        if status_label in ("new", "changed"):
+            change_event = {
+                "timestamp": utc_now_iso(), "id": item["id"], "name": item["name"],
+                "url": item["url"], "type": "pdf", "status": status_label,
+                "previous_hash": prev.get("hash") if prev else None, "new_hash": content_hash,
+            }
+            if pdf_text:
+                old_text = load_snapshot(pdf["id"])
+                if status_label == "changed" and old_text:
+                    diff = compute_diff(old_text, pdf_text)
+                    change_event["diff"] = diff
+                    summary = ai_summarize(item["name"], diff, "pdf")
+                    if summary:
+                        change_event["ai_summary"] = summary
+                        print(f"  [ai] summary PDF generato")
+                elif status_label == "new":
+                    preview = pdf_text[:3000]
+                    change_event["diff"] = {
+                        "added": len(preview.splitlines()), "removed": 0,
+                        "summary": "Nuovo PDF (anteprima del contenuto)",
+                        "truncated": len(pdf_text) > 3000,
+                        "lines": [{"op": "+", "text": line} for line in preview.splitlines()[:80]],
+                    }
+                save_snapshot(pdf["id"], pdf_text)
+            new_changes.append(change_event)
+
+        if pdf_text:
+            deadlines = extract_deadlines(pdf_text, pdf["id"], pdf["name"], pdf["url"])
+            if deadlines:
+                print(f"  [deadlines] trovate {len(deadlines)} in PDF")
+                all_deadlines_from_scan.extend(deadlines)
+
+        time.sleep(SLEEP_BETWEEN)
+
+    current_ids = {it["id"] for it in current_items}
+    for old_id, old_item in previous_index.items():
+        if old_id not in current_ids:
+            stale = dict(old_item); stale["last_status"] = "stale"
+            current_items.append(stale)
+
+    documents_state = {
+        "last_scan": utc_now_iso(), "total_tracked": len(current_items),
+        "items": sorted(current_items, key=lambda x: (x.get("category", ""), x.get("name", ""))),
+    }
+    return documents_state, new_changes, all_deadlines_from_scan
+
+
+def main():
+    print(f"=== Complaion - ACN Monitor v5.1 - scan {utc_now_iso()} ===")
+    print(f"  pdfplumber: {'OK' if PDFPLUMBER_AVAILABLE else 'NO'}")
+    print(f"  google-generativeai: {'OK' if GENAI_AVAILABLE else 'NO'}")
+    print(f"  GEMINI_API_KEY: {'SET' if GEMINI_API_KEY else 'NOT SET'}")
+    print(f"  Seed deadlines hardcoded: {len(SEED_DEADLINES)}")
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    documents_state, new_changes, deadlines_from_scan = scan()
+
+    # Update changes
+    changes_log = safe_load_json(CHANGES_FILE, default={"events": []})
+    if not isinstance(changes_log, dict):
+        changes_log = {"events": []}
+    events = list(changes_log.get("events", []))
+    events.extend(new_changes)
+    events = prune_changes(events)
+    events.sort(key=lambda c: c.get("timestamp", ""), reverse=True)
+    changes_log = {"last_updated": utc_now_iso(), "total_events": len(events), "events": events}
+
+    # Update deadlines: merge esistenti + estratte + seed (con dedup + filtro date passate)
+    existing_deadlines = safe_load_json(DEADLINES_FILE, default={"deadlines": []})
+    if not isinstance(existing_deadlines, dict):
+        existing_deadlines = {"deadlines": []}
+
+    merged = merge_deadlines(existing_deadlines.get("deadlines", []), deadlines_from_scan)
+    merged = merge_deadlines(merged, SEED_DEADLINES)
+
+    deadlines_state = {
+        "last_updated": utc_now_iso(),
+        "total_deadlines": len(merged),
+        "deadlines": merged,
+    }
+
+    save_json(DOCS_FILE, documents_state)
+    save_json(CHANGES_FILE, changes_log)
+    save_json(DEADLINES_FILE, deadlines_state)
+
+    print(f"\n=== Scan completata ===")
+    print(f"Risorse tracciate: {documents_state['total_tracked']}")
+    print(f"Variazioni rilevate in questo scan: {len(new_changes)}")
+    print(f"Eventi totali nel log: {len(events)}")
+    print(f"Scadenze totali attive (post-merge, future): {len(merged)}")
+    print(f"  di cui da scan: {len(deadlines_from_scan)}, da seed: {len(SEED_DEADLINES)}")
+
+    # Emissione delle variazioni di QUESTO scan per il notifier Slack.
+    # File separato da changes.json (che accumula lo storico 180gg).
+    # Path configurabile via env LAST_SCAN_OUTPUT; default /tmp/ per non finire nel commit.
+    last_scan_output = Path(os.environ.get(
+        "LAST_SCAN_OUTPUT",
+        "/tmp/last_scan_changes.json"
+    ))
+    try:
+        save_json(last_scan_output, {"events": new_changes})
+        print(f"Variazioni di questo scan scritte in: {last_scan_output}")
+    except Exception as e:
+        print(f"[warn] Impossibile scrivere last_scan_changes: {e}", file=sys.stderr)
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
