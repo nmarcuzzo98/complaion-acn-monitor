@@ -1,0 +1,177 @@
+Categorizzazione - ACN
+Skip to Main Content
+Categorizzazione
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ITA
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali e Affari Europei
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Feed Pubblico MISP
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+Categorizzazione
+Categorizzazione
+Categorizzazione
+Nell’ambito degli adempimenti previsti dal decreto NIS, l’articolo 30, comma 1, del decreto dispone che dal 1° maggio al 30 giugno di ogni anno, i soggetti essenziali e i soggetti importanti comunichino e aggiornino – tramite la piattaforma digitale di cui all'articolo 7, comma 1 del medesimo decreto, con le modalità stabilite dalla
+Determinazione ACN 127437/2026
+– un elenco delle proprie attività e dei propri servizi comprensivo di tutti gli elementi necessari alla loro caratterizzazione e della relativa attribuzione di una categoria di rilevanza.
+In tale contesto, l’Agenzia ha elaborato un modello di categorizzazione, disciplinato dall'
+allegato 1
+e dall'
+allegato 2
+della
+Determinazione ACN 155238/2026
+, in accordo al quale i soggetti NIS predispongono l’elenco delle proprie attività e dei propri servizi comprensivo della relativa categoria di rilevanza.
+Inoltre, al fine di supportare i soggetti NIS nell’attuazione di quanto previsto dall’articolo 30 del decreto NIS, l’Agenzia ha pubblicato le
+Linee guida NIS – Modello di categorizzazione – Guida alla lettura
+nelle quali viene descritto il modello di categorizzazione predisposto dall’Agenzia e presentato un possibile processo per l’elencazione e la categorizzazione delle attività e dei servizi.
+Macro-aree
+Il modello struttura le attività e i servizi di un’organizzazione in macro-aree, ognuna delle quali è caratterizzata da una denominazione, una descrizione e una categoria di rilevanza pre-assegnata.
+Ogni macro-area rappresenta un insieme astratto di attività e servizi di un’organizzazione che possono essere caratterizzati da elementi in comune quali, ad esempio, utenti, finalità o tipologia di prestazione.
+Le macro-aree sono state sviluppate con l’obiettivo di coprire tutti gli ambiti di un’organizzazione.
+Il modello consiste in tutto di 10 macro-aree, inclusa la macro-area denominata Altri servizi e attività, da utilizzare qualora il soggetto ritenga che una determinata attività o un determinato servizio non rientrino in alcuna delle altre macro-aree.
+Categorie di rilevanza
+La categoria di rilevanza di un’attività o di un servizio rappresenta la misura dell’impatto di una possibile compromissione di quell’attività o di quel servizio sulla capacità del soggetto di svolgere correttamente le attività e i servizi NIS, ossia le attività e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS.  Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.
+Per ogni macro-area è stata pre-assegnata una categoria di rilevanza stimando l’impatto di una compromissione di un’attività o di un servizio riconducibile a quella macro-area.
+Coordinamento con la classificazione dei dati e servizi per la PA
+L’articolo 4 della
+Determinazione ACN 155238/2026
+prevede che i soggetti NIS che hanno svolto la classificazione dei dati e dei servizi di cui all’articolo 3 del Decreto Direttoriale ACN n. 21007/24 del 27 giugno 2024, cosiddetto Regolamento Cloud, applicano il modello stabilito da tale decreto ai fini dell’elencazione e categorizzazione delle attività e dei servizi.
+Per tali soggetti l’elenco delle attività e dei servizi dei soggetti delle pubbliche amministrazioni è pertanto costituito dall’elenco dei dati e servizi digitali classificati ai sensi del Regolamento Cloud e le categorie di rilevanza coincidono con le classi previste da medesimo regolamento.
+Eventuali modifiche, come ad esempio l’inserimento o rimozione di attività/servizi o la variazione della categoria di rilevanza, dovranno essere coerenti con la classificazione dei dati e servizi effettuata ai fini del Regolamento Cloud.
+Domande frequenti
+Consulta le domande frequenti sulla nuova direttiva NIS
+Scopri di più
+su Domande frequenti
+Assistenza
+Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
+Puoi chiedere assistenza all’Autorità nazionale competente NIS.
+Richiedi assistenza
+Informazioni su
+Agenzia per la
+cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

@@ -1,7 +1,53 @@
 {
-  "last_updated": "2026-09-11T14:13:21+00:00",
-  "total_events": 44,
+  "last_updated": "2026-09-11T15:44:53+00:00",
+  "total_events": 45,
   "events": [
+    {
+      "timestamp": "2026-09-11T15:44:12+00:00",
+      "id": "acn-portale-nis",
+      "name": "ACN - Portale NIS",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "02aeef1e88704f0e8b0630e1a81a6892565efa6235c861ef53884168c87cbc31",
+      "new_hash": "a41104c8d138cafa475e6d7fd1a22d2fadb41285e23e2239f0407284a84d2af4",
+      "diff": {
+        "added": 1,
+        "removed": 2,
+        "summary": "+1 aggiunte, -2 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "A seguito della registrazione, per le medie e grandi imprese, in alcuni casi anche le piccole e microimprese, e le Pubbliche amministrazioni a cui si applica la nuova normativa si avvia un percorso condiviso di rafforzamento della sicurezza informatica. ."
+          },
+          {
+            "op": " ",
+            "text": "I primi passi sono l’aggiornamento annuale delle informazioni e l’adeguamento alle specifiche di base."
+          },
+          {
+            "op": "-",
+            "text": "apre nuova scheda"
+          },
+          {
+            "op": "-",
+            "text": "Guarda il video"
+          },
+          {
+            "op": "+",
+            "text": "Scarica il vademecum NIS"
+          },
+          {
+            "op": " ",
+            "text": "apre nuova scheda"
+          },
+          {
+            "op": " ",
+            "text": "Leggi il decreto"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-09-11T14:12:48+00:00",
       "id": "acn-nis-registrazione",
