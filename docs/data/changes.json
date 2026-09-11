@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-09-11T09:29:08+00:00",
-  "total_events": 43,
+  "last_updated": "2026-09-11T14:13:21+00:00",
+  "total_events": 44,
   "events": [
+    {
+      "timestamp": "2026-09-11T14:12:48+00:00",
+      "id": "acn-nis-registrazione",
+      "name": "ACN - Registrazione NIS",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "393931206ab720040050b6690a75d00d4ec17610957b5025fbae31a190f4deb2",
+      "new_hash": "a3a1ae8e6dcf8d2fbad82e85bc93b924a4df5f2a7f4dd36a0d4a52f32c1d2798"
+    },
     {
       "timestamp": "2026-08-12T11:53:11+00:00",
       "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
