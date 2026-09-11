@@ -650,6 +650,13 @@ def scan():
         }
         current_items.append(item)
 
+        # Backfill baseline: le pagine indicizzate prima dell'introduzione degli snapshot
+        # non hanno il testo salvato, quindi al primo cambiamento non ci sarebbe alcun diff
+        # da riassumere. Se lo snapshot manca, lo creiamo anche quando la pagina è invariata.
+        if status_label == "unchanged" and normalized_text and not load_snapshot(target["id"]):
+            save_snapshot(target["id"], normalized_text)
+            print("  [snapshot] baseline testuale creata (backfill)")
+
         if status_label in ("new", "changed"):
             change_event = {
                 "timestamp": utc_now_iso(), "id": item["id"], "name": item["name"],
@@ -665,6 +672,16 @@ def scan():
                     if summary:
                         change_event["ai_summary"] = summary
                         print(f"  [ai] summary generato ({len(summary)} chars)")
+                elif status_label == "changed" and not old_text:
+                    # Cambiamento rilevato via hash ma senza baseline testuale:
+                    # niente diff possibile. Lo segnaliamo esplicitamente su Slack
+                    # invece di lasciare la notifica muta.
+                    change_event["diff"] = {
+                        "added": 0, "removed": 0,
+                        "summary": "Riassunto non disponibile per questa rilevazione: baseline testuale creata ora. Dal prossimo cambiamento la notifica includerà il dettaglio delle modifiche.",
+                        "truncated": False, "lines": [],
+                    }
+                    print("  [snapshot] cambiamento senza baseline: creata ora, diff disponibile dal prossimo scan")
                 elif status_label == "new":
                     preview = normalized_text[:3000]
                     change_event["diff"] = {
