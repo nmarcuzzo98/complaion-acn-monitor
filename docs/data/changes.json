@@ -1,7 +1,187 @@
 {
-  "last_updated": "2026-09-18T09:33:42+00:00",
-  "total_events": 45,
+  "last_updated": "2026-09-18T14:18:41+00:00",
+  "total_events": 47,
   "events": [
+    {
+      "timestamp": "2026-09-18T14:18:13+00:00",
+      "id": "acn-nis-notizie-eventi",
+      "name": "ACN - Notizie ed eventi NIS",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "b0306ab0911b322b8c62aa540751af45393595857746d1696cdd65432ee6f75b",
+      "new_hash": "b2381f0b90ce5679bdefdbbc6c9f576f8d442895593c0f00b6901dcb013a8874",
+      "diff": {
+        "added": 8,
+        "removed": 6,
+        "summary": "+8 aggiunte, -6 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Notizie"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "18 Settembre 2026"
+          },
+          {
+            "op": "+",
+            "text": "Le novità per i soggetti NIS"
+          },
+          {
+            "op": "+",
+            "text": "Aggiornato l’elenco, si avvia la consultazione delle misure di sicurezza rafforzate"
+          },
+          {
+            "op": "+",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "ACN"
+          },
+          {
+            "op": "+",
+            "text": "Cybersecurity"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "24 Luglio 2026"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS"
+          },
+          {
+            "op": " ",
+            "text": "Normativa NIS: date e informazioni utili per un’implementazione efficace"
+          },
+          {
+            "op": " ",
+            "text": "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN"
+          },
+          {
+            "op": "-",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": "-",
+            "text": "NIS"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "29 Novembre 2024"
+          },
+          {
+            "op": "-",
+            "text": "NIS: attiva dal 1° dicembre la registrazione sulla piattaforma ACN"
+          },
+          {
+            "op": "-",
+            "text": "C’è tempo fino al 28 febbraio 2025 per il censimento dei soggetti NIS. Disponibile anche un video tutorial sul canale YouTube di ACN"
+          },
+          {
+            "op": " ",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": " ",
+            "text": "NIS"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-09-18T14:17:51+00:00",
+      "id": "acn-portale-nis",
+      "name": "ACN - Portale NIS",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "a41104c8d138cafa475e6d7fd1a22d2fadb41285e23e2239f0407284a84d2af4",
+      "new_hash": "e085bacbaff07d0bcd838ef10ee18fb35322af41e9f02bb9332f205adf2425e0",
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "summary": "+3 aggiunte, -3 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "18 Settembre 2026"
+          },
+          {
+            "op": "+",
+            "text": "Le novità per i soggetti NIS"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "24 Luglio 2026"
+          },
+          {
+            "op": " ",
+            "text": "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS"
+          },
+          {
+            "op": " ",
+            "text": "15 Gennaio 2025"
+          },
+          {
+            "op": " ",
+            "text": "Normativa NIS: date e informazioni utili per un’implementazione efficace"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "29 Novembre 2024"
+          },
+          {
+            "op": "-",
+            "text": "NIS: attiva dal 1° dicembre la registrazione sulla piattaforma ACN"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": " ",
+            "text": "Consulta le domande frequenti sulla nuova direttiva NIS"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-09-11T15:44:12+00:00",
       "id": "acn-portale-nis",
