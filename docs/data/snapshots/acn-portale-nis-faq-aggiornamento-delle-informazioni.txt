@@ -67,6 +67,7 @@ Alert e Bollettini
 Pubblicazioni
 La settimana cibernetica
 Operational Summary
+Divulgazione coordinata delle vulnerabilità
 Feed Pubblico MISP
 Domande frequenti
 NCC Italia

@@ -1,7 +1,753 @@
 {
-  "last_updated": "2026-10-07T08:28:35+00:00",
-  "total_events": 76,
+  "last_updated": "2026-10-07T16:17:42+00:00",
+  "total_events": 95,
   "events": [
+    {
+      "timestamp": "2026-10-07T16:17:41+00:00",
+      "id": "acn-portale-nis-faq-ruoli-e-procedure",
+      "name": "ACN FAQ - Ruoli e procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "7c3570dfe719d295ac90d7bc661a2cf8792eef1a2257932022912247dd87cbe0",
+      "new_hash": "d46962db7f87a17b4309c74852224e944840fbcff70f6ceff892cdee01d92125",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:38+00:00",
+      "id": "acn-portale-nis-faq-monitoraggio-vigilanza-esecuzione",
+      "name": "ACN FAQ - Monitoraggio, vigilanza ed esecuzione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "f4ccdd243bb8409ee5f91ad25ce961beaef42b69bad8a5e865cd6708ecd30208",
+      "new_hash": "f83ed483e2ef441111e34843ea7303d94567cfba6937ac76c46ccce65fed1bae",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:36+00:00",
+      "id": "acn-portale-nis-faq-categorizzazione",
+      "name": "ACN FAQ - Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "cb2c118927c8c3b31fd7ebaad794925dba852ae532f5e62187dc34aeaced1412",
+      "new_hash": "c561aaf55b07394e02d5410ed9f5f2374d3d28070db58222515296d3957819f4",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:33+00:00",
+      "id": "acn-portale-nis-faq-aggiornamento-delle-informazioni",
+      "name": "ACN FAQ - Aggiornamento delle informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "7d054f25846cc608bad3c838204aa3c809e589f412e0d7c71f99a02e53b9cdd7",
+      "new_hash": "ad778928f391cf09cf0c41d8b132a4db6e61b6660fe65109761752ac64c588e0",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:28+00:00",
+      "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
+      "name": "ACN FAQ - Misure di sicurezza e notifica di incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "2f655201dfffb19933b89fcfa30952ba83f0fff1962a2ce7cc1df226c8127a84",
+      "new_hash": "deae1413a612bdeb6d1a44bbfaf47fdb6d7aa2015f0ea48d9ff0e416b5b9ac36",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:25+00:00",
+      "id": "acn-portale-nis-faq-registrazione",
+      "name": "ACN FAQ - Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "1957f75670e7d3476a8100819d5f2f799181d409b26ba7f744d99dcd8be22800",
+      "new_hash": "29582a344a12945b16867726be52cd1b7cc76353ea7b55963aaefa43cd6fd19f",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:23+00:00",
+      "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
+      "name": "ACN FAQ - Settori, sottosettori e tipologie di soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "192191004acb184f91c3e3dd53ed9f9ac50bfe399cba03bd4c8410a53056352e",
+      "new_hash": "e5416ee66556ef9e1bb65008e2439a153e7d9c0e1047eec25c86f64ba46f003d",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:18+00:00",
+      "id": "acn-portale-nis-faq-ambito",
+      "name": "ACN FAQ - Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "74b8dc4aa13927fa7397fef0abd8444c66733ce67598f55610f9fafa6e7892b8",
+      "new_hash": "d04d8638295aa7c7f357e53cce282fbd13685d4df1a075657ae96a89a2fc7e71",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:15+00:00",
+      "id": "acn-portale-nis-faq-profili-generali",
+      "name": "ACN FAQ - Profili generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "7802a78beacdd6f9c76235be9de4f2cc86375a66c353a2336bd1e40325731505",
+      "new_hash": "6e2f15c8b5c53b812dff9a85c3d4e2ae111e5a67e9ef93ecaa32ff2ec7b34e80",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:13+00:00",
+      "id": "acn-nis-notizie-eventi",
+      "name": "ACN - Notizie ed eventi NIS",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "8baf3827b8be6a3532f861a2389f95d03c37d0e21175d6aac15750d67dc082a7",
+      "new_hash": "70726c2b09f2f8d56501a65233df1ac8ba24259cc39da69ac3714e11eb04e70b",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:10+00:00",
+      "id": "acn-nis-aggiornamento",
+      "name": "ACN - Aggiornamento delle informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "98f2093004934fae0d90cca0ece0b9d7fc03156c23aaccf0d33f0a09c29f0946",
+      "new_hash": "d4854af7fdec2fe1e5748af4330a24b2523e92c8c5443075e7cd38bd01d88901",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:07+00:00",
+      "id": "acn-nis-obblighi",
+      "name": "ACN - Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "25c73454e89eebc7d7a4035dd0e940e587f5a831ae1a9d4842bdbfa07717d3dd",
+      "new_hash": "8092e7497dc404bc62ccd69a5cd81a8b3821a8bf6572d19f8a552ee2190ef588",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:04+00:00",
+      "id": "acn-nis-ambito",
+      "name": "ACN - Ambito NIS",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "d65e4676c1fb2e87a052098312834e0ff76d726df48bb216ce20f19a795dcd4a",
+      "new_hash": "84e4099752435e480324526f3ced32c1c6179e5b64b6f55a0bea07e212487bdf",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:02+00:00",
+      "id": "acn-nis-categorizzazione",
+      "name": "ACN - Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/nis/categorizzazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "86ce259cfde3f465918dc1b0b60a110cd04e06c3bfbbe856bff1c04acc99efa3",
+      "new_hash": "a4322708d40c754c0652d35ffa2bbbf625bb7b2c7b31575eb06b9e95d34d9e76",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:17:00+00:00",
+      "id": "acn-nis-modalita-specifiche",
+      "name": "ACN - Modalita e specifiche di base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "5235e5d704e4b043939f3e9879ee811d31fad31a6d99fc5b2bdfceba0526af9e",
+      "new_hash": "595868d92354fbefc8e2ad23b4b0cd031cc9a6fba285afec578b8058ef725ae1",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:16:57+00:00",
+      "id": "acn-nis-registrazione",
+      "name": "ACN - Registrazione NIS",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "8139c34c465b8a1a8daece2a045c11a51b1021ed92e891a5c02474df645e88f8",
+      "new_hash": "37ead252835a746daa26b4c3f1325639d741e9e89809987afc87a6abdda88864",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:16:55+00:00",
+      "id": "acn-nis-normativa",
+      "name": "ACN - La normativa",
+      "url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "8013e862450513435e22d535907201bec211f8d5695b6776a620eb28c1847990",
+      "new_hash": "ef77e9291b4464d97a62c109a37fd692becfd0f51d57b5d391d78840a4e17e99",
+      "diff": {
+        "added": 2,
+        "removed": 1,
+        "summary": "+2 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": " ",
+            "text": ", sentito il"
+          },
+          {
+            "op": " ",
+            "text": "Tavolo per l'attuazione della disciplina NIS"
+          },
+          {
+            "op": "-",
+            "text": "Politica nazionale di divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": "+",
+            "text": "Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Determinazione ACN"
+          },
+          {
+            "op": " ",
+            "text": ", sentito il"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:16:52+00:00",
+      "id": "acn-portale-nis-faq",
+      "name": "ACN - FAQ NIS",
+      "url": "https://www.acn.gov.it/portale/faq/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "96bac500a15bd020d4a276f05c1ef1a36df7f6007be3638f2839647b623ee132",
+      "new_hash": "46e8cd01b4940598df9a299b9180de786e3038de504c48264975375d4a72ef99",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-07T16:16:50+00:00",
+      "id": "acn-portale-nis",
+      "name": "ACN - Portale NIS",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "a677e00b64648b33c0fd36f87a4d1c80231caec32755f026126050badeb981f8",
+      "new_hash": "bb667123d5d3da02a2792019a7ea014ffaa144d6678f8e95827a9fba43b9ddde",
+      "diff": {
+        "added": 1,
+        "removed": 0,
+        "summary": "+1 aggiunte, -0 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "La settimana cibernetica"
+          },
+          {
+            "op": " ",
+            "text": "Operational Summary"
+          },
+          {
+            "op": "+",
+            "text": "Divulgazione coordinata delle vulnerabilità"
+          },
+          {
+            "op": " ",
+            "text": "Feed Pubblico MISP"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-09-28T15:14:27+00:00",
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
