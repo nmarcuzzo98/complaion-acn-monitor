@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-07T16:17:42+00:00",
+  "last_scan": "2026-10-07T21:54:07+00:00",
   "total_tracked": 19,
   "items": [
     {
@@ -12,9 +12,9 @@
       "size": 107262,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-10-07T16:16:52+00:00",
+      "last_check": "2026-10-07T21:53:09+00:00",
       "last_modified": "2026-10-07T16:16:52+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis",
@@ -23,12 +23,12 @@
       "type": "page",
       "category": "NIS2",
       "hash": "bb667123d5d3da02a2792019a7ea014ffaa144d6678f8e95827a9fba43b9ddde",
-      "size": 159018,
+      "size": 158998,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-10-07T16:16:50+00:00",
+      "last_check": "2026-10-07T21:53:07+00:00",
       "last_modified": "2026-10-07T16:16:50+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-ambito",
@@ -40,9 +40,9 @@
       "size": 103163,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-10-07T16:17:04+00:00",
+      "last_check": "2026-10-07T21:53:20+00:00",
       "last_modified": "2026-10-07T16:17:04+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-aggiornamento-delle-informazioni",
@@ -54,9 +54,9 @@
       "size": 206790,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:28+00:00",
-      "last_check": "2026-10-07T16:17:33+00:00",
+      "last_check": "2026-10-07T21:53:56+00:00",
       "last_modified": "2026-10-07T16:17:33+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-ambito",
@@ -68,9 +68,9 @@
       "size": 206388,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:16+00:00",
-      "last_check": "2026-10-07T16:17:18+00:00",
+      "last_check": "2026-10-07T21:53:37+00:00",
       "last_modified": "2026-10-07T16:17:18+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-categorizzazione",
@@ -82,9 +82,9 @@
       "size": 131771,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:31+00:00",
-      "last_check": "2026-10-07T16:17:36+00:00",
+      "last_check": "2026-10-07T21:53:58+00:00",
       "last_modified": "2026-10-07T16:17:36+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
@@ -96,9 +96,9 @@
       "size": 183230,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:25+00:00",
-      "last_check": "2026-10-07T16:17:28+00:00",
+      "last_check": "2026-10-07T21:53:51+00:00",
       "last_modified": "2026-10-07T16:17:28+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-monitoraggio-vigilanza-esecuzione",
@@ -110,9 +110,9 @@
       "size": 126559,
       "content_type": "text/html",
       "first_seen": "2026-08-10T10:23:51+00:00",
-      "last_check": "2026-10-07T16:17:38+00:00",
+      "last_check": "2026-10-07T21:54:01+00:00",
       "last_modified": "2026-10-07T16:17:38+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-profili-generali",
@@ -124,9 +124,9 @@
       "size": 143331,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:13+00:00",
-      "last_check": "2026-10-07T16:17:15+00:00",
+      "last_check": "2026-10-07T21:53:31+00:00",
       "last_modified": "2026-10-07T16:17:15+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-registrazione",
@@ -138,9 +138,9 @@
       "size": 159215,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:23+00:00",
-      "last_check": "2026-10-07T16:17:25+00:00",
+      "last_check": "2026-10-07T21:53:48+00:00",
       "last_modified": "2026-10-07T16:17:25+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
@@ -152,9 +152,9 @@
       "size": 201028,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:34+00:00",
-      "last_check": "2026-10-07T16:17:41+00:00",
+      "last_check": "2026-10-07T21:54:05+00:00",
       "last_modified": "2026-10-07T16:17:41+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-portale-nis-faq-settori-sottosettori-e-tipologie-di-soggetto",
@@ -166,9 +166,9 @@
       "size": 428652,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:20+00:00",
-      "last_check": "2026-10-07T16:17:23+00:00",
+      "last_check": "2026-10-07T21:53:45+00:00",
       "last_modified": "2026-10-07T16:17:23+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-notizie-eventi",
@@ -180,9 +180,9 @@
       "size": 137706,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-10-07T16:17:13+00:00",
+      "last_check": "2026-10-07T21:53:28+00:00",
       "last_modified": "2026-10-07T16:17:13+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-normativa",
@@ -194,9 +194,9 @@
       "size": 125929,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-10-07T16:16:55+00:00",
+      "last_check": "2026-10-07T21:53:11+00:00",
       "last_modified": "2026-10-07T16:16:55+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-obblighi",
@@ -208,9 +208,9 @@
       "size": 113214,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-10-07T16:17:07+00:00",
+      "last_check": "2026-10-07T21:53:23+00:00",
       "last_modified": "2026-10-07T16:17:07+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-aggiornamento",
@@ -222,9 +222,9 @@
       "size": 112728,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-10-07T16:17:10+00:00",
+      "last_check": "2026-10-07T21:53:25+00:00",
       "last_modified": "2026-10-07T16:17:10+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-categorizzazione",
@@ -236,9 +236,9 @@
       "size": 107409,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-10-07T16:17:02+00:00",
+      "last_check": "2026-10-07T21:53:18+00:00",
       "last_modified": "2026-10-07T16:17:02+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-modalita-specifiche",
@@ -250,9 +250,9 @@
       "size": 112942,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-10-07T16:17:00+00:00",
+      "last_check": "2026-10-07T21:53:16+00:00",
       "last_modified": "2026-10-07T16:17:00+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     },
     {
       "id": "acn-nis-registrazione",
@@ -264,9 +264,9 @@
       "size": 114556,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-10-07T16:16:57+00:00",
+      "last_check": "2026-10-07T21:53:14+00:00",
       "last_modified": "2026-10-07T16:16:57+00:00",
-      "last_status": "changed"
+      "last_status": "unchanged"
     }
   ]
 }
