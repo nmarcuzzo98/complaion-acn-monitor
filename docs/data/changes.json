@@ -1,7 +1,361 @@
 {
-  "last_updated": "2026-10-14T04:29:51+00:00",
-  "total_events": 95,
+  "last_updated": "2026-10-14T10:01:26+00:00",
+  "total_events": 96,
   "events": [
+    {
+      "timestamp": "2026-10-14T10:01:25+00:00",
+      "id": "acn-portale-nis-faq-ruoli-e-procedure",
+      "name": "ACN FAQ - Ruoli e procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "d46962db7f87a17b4309c74852224e944840fbcff70f6ceff892cdee01d92125",
+      "new_hash": "d4f6721518744f18073f3510b7d491ad046f82ce778c553f95fe434cec830021",
+      "diff": {
+        "added": 34,
+        "removed": 31,
+        "summary": "+34 aggiunte, -31 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "il sostituto punto di contatto è una persona fisica designata con le medesime modalità del punto di contatto ai sensi dell’articolo 4 della medesima determinazione. Il sostituto punto di contatto supporta il punto di contatto nell’esercizio delle proprie funzioni, può interloquire direttamente con l’Autorità nazionale competente NIS e può effettuare sul Portale NIS/Aggiornamento annuale le medesime azioni del punto di contatto."
+          },
+          {
+            "op": " ",
+            "text": "PDC.5 Come si procede al censimento e all’associazione del punto di contatto?"
+          },
+          {
+            "op": "-",
+            "text": "Eseguita l’autenticazione sul portale dei servizi tramite SPID, CIE o tramite credenziali personali, per la fase di censimento del punto di contatto, sarà necessario verificare o fornire i seguenti dati:"
+          },
+          {
+            "op": "+",
+            "text": "Eseguita l’autenticazione sul portale dei servizi tramite SPID, CIE, CNS, eIDAS o tramite credenziali personali (per il cui rilascio si veda la"
+          },
+          {
+            "op": "+",
+            "text": "FAQ ACC.1"
+          },
+          {
+            "op": "+",
+            "text": "), per la fase di censimento del punto di contatto, sarà necessario verificare o fornire i seguenti dati:"
+          },
+          {
+            "op": " ",
+            "text": "nome e cognome;"
+          },
+          {
+            "op": " ",
+            "text": "luogo e data di nascita;"
+          },
+          {
+            "op": " ",
+            "text": "Successivamente, per la fase di"
+          },
+          {
+            "op": " ",
+            "text": "associazione del punto di contatto all’organizzazione"
+          },
+          {
+            "op": "-",
+            "text": ", sarà necessario disporre del codice fiscale di quest’ultimo. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sarà necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto."
+          },
+          {
+            "op": "-",
+            "text": "L’associazione dell’utenza del punto di contatto è sottoposta alla convalida dell’organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale di quest’ultimo."
+          },
+          {
+            "op": "+",
+            "text": ", sarà necessario disporre del codice fiscale di quest’ultima. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sarà necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto."
+          },
+          {
+            "op": "+",
+            "text": "La conferma dell’associazione dell’utenza del punto di contatto è sottoposta alla convalida dell’organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale (PEC) di quest’ultima."
+          },
+          {
+            "op": " ",
+            "text": "PDC.6 Come si procede al censimento e all’associazione del sostituto punto di contatto?"
+          },
+          {
+            "op": "-",
+            "text": "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovrà indicare il codice fiscale e un indirizzo email della persona fisica che è stata designata dal rappresentante legale per svolgere tale funzione."
+          },
+          {
+            "op": "-",
+            "text": "A valle dell’inserimento dei dati soprariportati verrà inviata contestualmente sia una e-mail PEC al domicilio digitale dell’organizzazione per validare l’associazione del Sostituto punto di Contatto sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID o accesso con credenziali. Al termine del processo di registrazione e associazione all’organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovrà accedere alla pagina “Lista inviti” (contenente la lista degli inviti ricevuti ancora in stato “da validare”) e confermare la designazione ricevuta."
+          },
+          {
+            "op": "+",
+            "text": "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovrà indicare il codice fiscale e un indirizzo e-mail della persona fisica che è stata designata dal rappresentante legale per svolgere tale funzione."
+          },
+          {
+            "op": "+",
+            "text": "A valle dell’inserimento dei dati soprariportati verrà inviata contestualmente sia una PEC al domicilio digitale dell’organizzazione per confermare l’associazione del Sostituto punto di Contatto (link con validità pari a 7 giorni), sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID, CIE, CNS, eIDAS o accesso con credenziali (per il cui rilascio si veda la"
+          },
+          {
+            "op": "+",
+            "text": "FAQ ACC.1"
+          },
+          {
+            "op": "+",
+            "text": "). Al termine del processo di registrazione e associazione all’organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovrà accedere alla pagina “Lista inviti” (contenente la lista degli inviti ricevuti ancora in stato “da validare”) e confermare la designazione ricevuta."
+          },
+          {
+            "op": " ",
+            "text": "PDC.7 Chi possono delegare come Punto di contatto i soggetti che sono tenuti a designare un rappresentante nell’Unione?"
+          },
+          {
+            "op": " ",
+            "text": "Ai sensi dell'articolo 4, comma 2, della"
+          },
+          {
+            "op": " ",
+            "text": "dal rappresentante legale, da uno dei procuratori generali o da un dipendente del rappresentante NIS stesso, qualora quest’ultimo sia una persona giuridica."
+          },
+          {
+            "op": " ",
+            "text": "Rimane ferma la facoltà, ai sensi del comma 3 del medesimo articolo, per le organizzazioni che fanno parte di un gruppo di imprese di designare quale Punto di contatto il dipendente di un'altra impresa che rientra nell’ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese."
+          },
+          {
+            "op": "-",
+            "text": "RR.1 Quale è il ruolo e le responsabilità della segreteria? Come viene designata?"
+          },
+          {
+            "op": "-",
+            "text": "La Segreteria è una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l’efficace interlocuzione con l’Autorità Nazionale Competente NIS."
+          },
+          {
+            "op": "-",
+            "text": "Inoltre, la segreteria potrà visualizzare ed aggiornare le informazioni richieste sui Servizi NIS mentre non potrà effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all’Autorità Nazionale Competente NIS."
+          },
+          {
+            "op": "-",
+            "text": "La designazione della Segreteria non è obbligatoria ma la volontà di non nominarla deve essere manifestata esplicitamente."
+          },
+          {
+            "op": "-",
+            "text": "Qualora l’organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolgerà tale ruolo indicandone codice fiscale e indirizzo email"
+          },
+          {
+            "op": "-",
+            "text": "A valle dell’inserimento dei dati soprariportati verrà inviata una e-mail all’indirizzo digitale fornito nel Portale Servizi per notificare l’avvenuta designazione. All’interno della e-mail sarà presente un link (con validità pari a 7 giorni), tramite il quale sarà possibile avviare il processo di associazione, previa registrazione della Segreteria sul Portale Servizi tramite SPID o accesso con credenziali."
+          },
+          {
+            "op": "-",
+            "text": "Al termine del processo di registrazione e associazione all’organizzazione, nella homepage del Portale Servizi, la Segreteria dovrà accedere alla pagina “Lista inviti” (contenente la lista degli inviti ricevuti ancora in stato “da validare”) e confermare la designazione ricevuta."
+          },
+          {
+            "op": "-",
+            "text": "L’associazione della Segreteria all’organizzazione designante avverrà automaticamente, senza necessità di caricare ulteriore documentazione."
+          },
+          {
+            "op": "+",
+            "text": "RR.1 Quali sono il ruolo e le responsabilità della segreteria? Come viene designata?"
+          },
+          {
+            "op": "+",
+            "text": "La segreteria è una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l’efficace interlocuzione con l’Autorità Nazionale Competente NIS."
+          },
+          {
+            "op": "+",
+            "text": "Inoltre, la segreteria potrà visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potrà effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all’Autorità Nazionale Competente NIS."
+          },
+          {
+            "op": "+",
+            "text": "La designazione della segreteria non è obbligatoria ma la volontà di non nominarla deve essere manifestata esplicitamente."
+          },
+          {
+            "op": "+",
+            "text": "Qualora l’organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolgerà tale ruolo indicandone codice fiscale e indirizzo e-mail."
+          },
+          {
+            "op": "+",
+            "text": "A valle dell’inserimento dei dati soprariportati verrà inviata una e-mail all’indirizzo digitale fornito nel Portale Servizi per notificare l’avvenuta designazione. All’interno della e-mail sarà presente un link (con validità pari a 7 giorni), tramite il quale sarà possibile avviare il processo di associazione, previa registrazione della segreteria sul Portale Servizi tramite SPID, CIE, CNS, eIDAS o accesso con credenziali (per il cui rilascio si veda la"
+          },
+          {
+            "op": "+",
+            "text": "FAQ ACC.1"
+          },
+          {
+            "op": "+",
+            "text": ")."
+          },
+          {
+            "op": "+",
+            "text": "Al termine del processo di registrazione e associazione all’organizzazione, nella homepage del Portale Servizi, la segreteria dovrà accedere alla pagina “Lista inviti” (contenente la lista degli inviti ricevuti ancora in stato “da validare”) e confermare la designazione ricevuta."
+          },
+          {
+            "op": "+",
+            "text": "L’associazione della segreteria all’organizzazione designante avverrà automaticamente, senza necessità di caricare ulteriore documentazione."
+          },
+          {
+            "op": " ",
+            "text": "RR.2 Quale è il ruolo e le responsabilità degli operatori? Come vengono designati?"
+          },
+          {
+            "op": " ",
+            "text": "Gli operatori sono una o più persone fisiche che svolgono funzioni di supporto al punto di contatto (e al sostituto) operando sui servizi NIS."
+          },
+          {
+            "op": " ",
+            "text": "RET.1 Quale procedura è prevista per le organizzazioni che non abbiano svolto la registrazione entro il 28 febbraio 2025?"
+          },
+          {
+            "op": " ",
+            "text": "A partire dal 14 aprile 2025 è stato ri-attivato il servizio ACN/Registrazione sul portale dei servizi al fine di consentire alle organizzazioni non ancora registrate di procedere alla cd. registrazione tardiva."
+          },
+          {
+            "op": "-",
+            "text": "ACC.1 Quale è la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID o di CIE?"
+          },
+          {
+            "op": "+",
+            "text": "ACC.1 Quale è la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID, CIE, CNS o eIDAS?"
+          },
+          {
+            "op": " ",
+            "text": "Ai sensi del dell’articolo 8, comma 3, della"
+          },
+          {
+            "op": " ",
+            "text": "Determinazione ACN 379887/2025"
+          },
+          {
+            "op": "-",
+            "text": ", qualora, ai sensi della normativa vigente, un utente non possa disporre di credenziali SPID o di CIE, può richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN."
+          },
+          {
+            "op": "-",
+            "text": "Per poter ottenere tali credenziali personali (utenza e password), deve essere inviata all’Agenzia per la cybersicurezza nazionale;"
+          },
+          {
+            "op": "-",
+            "text": "il seguente"
+          },
+          {
+            "op": "-",
+            "text": "modulo di richiesta"
+          },
+          {
+            "op": "-",
+            "text": ", compilato e firmato digitalmente dal richiedente;"
+          },
+          {
+            "op": "-",
+            "text": "copia di un documento identificativo valido e vigente del richiedente, quali il passaporto (preferibile), carta d'identità nazionale o altro documento di identificazione rilasciato dalle autorità locali del Paese di appartenenza."
+          },
+          {
+            "op": "-",
+            "text": "La documentazione deve essere trasmessa dal Punto di contatto o dal suo sostituto, inviando una richiesta di assistenza tramite il Service Desk"
+          },
+          {
+            "op": "-",
+            "text": "("
+          },
+          {
+            "op": "-",
+            "text": "https://portale.acn.gov.it/support/"
+          },
+          {
+            "op": "-",
+            "text": "), con oggetto “Richiesta credenziali personali”."
+          },
+          {
+            "op": "-",
+            "text": "ACN provvederà a notificare l’eventuale diniego (motivato) ovvero a trasmettere all’indirizzo di posta elettronica ordinaria indicata nel modulo il link per la generazione delle credenziali personali, che saranno associate al medesimo indirizzo."
+          },
+          {
+            "op": "-",
+            "text": "Qualora la richiesta sia per il Punto di contatto, la documentazione deve essere all’indirizzo"
+          },
+          {
+            "op": "-",
+            "text": "acn@pec.acn.gov.it"
+          },
+          {
+            "op": "-",
+            "text": "dall’indirizzo PEC:"
+          },
+          {
+            "op": "-",
+            "text": "del soggetto per il quale l’utente si dichiara essere Punto di contatto;"
+          },
+          {
+            "op": "-",
+            "text": "del Rappresentante nell’Unione in Italia del soggetto designante, se il soggetto non dispone di PEC e, ai sensi dell’articolo 6 della citata determinazione, è tenuto a designare il Rappresentante nell’Unione e ha provveduto a designarlo in Italia;"
+          },
+          {
+            "op": "-",
+            "text": "del Punto di contatto del soggetto, se il soggetto non dispone di PEC e non è tenuto a designare il Rappresentante nell’Unione sul territorio nazionale."
+          },
+          {
+            "op": "+",
+            "text": ", qualora, ai sensi della normativa vigente, un utente che non possa disporre di credenziali SPID/CIE/CNS/eIDAS, può richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN."
+          },
+          {
+            "op": "+",
+            "text": "Per ottenere tali credenziali personali, è necessario collegarsi alla pagina di accesso al Portale Servizi, selezionare il link"
+          },
+          {
+            "op": "+",
+            "text": "Richiedi credenziali"
+          },
+          {
+            "op": "+",
+            "text": "e avviare la procedura di identificazione dell’utente."
+          },
+          {
+            "op": "+",
+            "text": "A tale fine, occorre inserire un indirizzo e-mail. Il sistema invia un messaggio di posta elettronica all’indirizzo e-mail inserito con le indicazioni necessarie per completare le fasi successive della procedura. L’e-mail contiene un collegamento alla pagina dedicata alla procedura di identificazione."
+          },
+          {
+            "op": "+",
+            "text": "Per motivi di sicurezza, il collegamento è valido per un periodo di tempo limitato; trascorso tale termine sarà necessario ripetere la procedura di richiesta tramite la funzionalità"
+          },
+          {
+            "op": "+",
+            "text": "Richiedi credenziali"
+          },
+          {
+            "op": "+",
+            "text": "."
+          },
+          {
+            "op": "+",
+            "text": "Selezionando il link contenuto nel messaggio di posta elettronica ricevuto, si avvia la procedura di identificazione dell’utente. Per completarla correttamente è necessario disporre di un dispositivo"
+          },
+          {
+            "op": "+",
+            "text": "mobile dotato di fotocamera"
+          },
+          {
+            "op": "+",
+            "text": "e di un"
+          },
+          {
+            "op": "+",
+            "text": "documento di identità"
+          },
+          {
+            "op": "+",
+            "text": "in corso di validità."
+          },
+          {
+            "op": "+",
+            "text": "Al termine della procedura, l’utente riceverà tramite l’indirizzo e-mail le credenziali di accesso al Portale dei Servizi NIS."
+          },
+          {
+            "op": " ",
+            "text": "DOC.1 Qual è la procedura di aggiornamento delle deleghe?"
+          },
+          {
+            "op": " ",
+            "text": "L'utente (Punto di contatto o Sostituto punto di contatto) ha la possibilità di aggiornare la delega conferitagli all’interno della sezione \"Documenti\" presente nell'area \"Il mio profilo”. In tale sezione l'utente visualizza e gestisce esclusivamente le proprie deleghe relative ai diversi Servizi presenti all'interno del \"Catalogo servizi\", assicurandone la correttezza e l’aggiornamento. Qualora l’utente intenda aggiornare la propria delega potrà procedere con il caricamento di una nuova versione del documento delega e del documento di identità del delegante qualora la delega non sia firmata digitalmente. Si precisa che l’aggiornamento della delega non comporta l’eliminazione del documento precedentemente caricato che rimane visibile nella cronologia documentale."
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-10-07T16:17:41+00:00",
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
