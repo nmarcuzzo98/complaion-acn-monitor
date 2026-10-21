@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-10-21T13:39:01+00:00",
-  "total_events": 96,
+  "last_updated": "2026-10-21T18:31:51+00:00",
+  "total_events": 97,
   "events": [
+    {
+      "timestamp": "2026-10-21T18:30:57+00:00",
+      "id": "acn-nis-normativa",
+      "name": "ACN - La normativa",
+      "url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "ef77e9291b4464d97a62c109a37fd692becfd0f51d57b5d391d78840a4e17e99",
+      "new_hash": "aca6ed36931132d5b88e897e84670bb67be97cf608feb1bf97d5a5743361db9e",
+      "diff": {
+        "added": 1,
+        "removed": 1,
+        "summary": "+1 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Tutti i soggetti pubblici e privati che rientrano nel campo di applicazione dovranno manifestarsi all’Autorità nazionale competente NIS"
+          },
+          {
+            "op": " ",
+            "text": "registrandosi o aggiornando la propria registrazione sulla piattaforma"
+          },
+          {
+            "op": "-",
+            "text": "a partire dal primo dicembre 2024."
+          },
+          {
+            "op": "+",
+            "text": "dal 1°gennaio al 28 febbraio di ogni anno."
+          },
+          {
+            "op": " ",
+            "text": "Supporto e supervisione"
+          },
+          {
+            "op": " ",
+            "text": "Al fine di guidare i soggetti nell’attuazione sostanziale degli obblighi, la normativa pone un forte accento sulle attività di monitoraggio, supporto e analisi. Al contempo vengono rafforzati i poteri di supervisione, in termini di attività di esecuzione, verifica, ispezione, ed allineata l’entità delle sanzioni a quelle previste dal GDPR."
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-10-14T10:01:25+00:00",
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
