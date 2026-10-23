@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-23T13:16:47+00:00",
+  "last_scan": "2026-10-23T18:13:31+00:00",
   "total_tracked": 19,
   "items": [
     {
@@ -12,7 +12,7 @@
       "size": 107759,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:58+00:00",
-      "last_check": "2026-10-23T13:16:01+00:00",
+      "last_check": "2026-10-23T18:12:33+00:00",
       "last_modified": "2026-10-07T16:16:52+00:00",
       "last_status": "unchanged"
     },
@@ -23,10 +23,10 @@
       "type": "page",
       "category": "NIS2",
       "hash": "bb667123d5d3da02a2792019a7ea014ffaa144d6678f8e95827a9fba43b9ddde",
-      "size": 159495,
+      "size": 159517,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:50:56+00:00",
-      "last_check": "2026-10-23T13:15:58+00:00",
+      "last_check": "2026-10-23T18:12:31+00:00",
       "last_modified": "2026-10-07T16:16:50+00:00",
       "last_status": "unchanged"
     },
@@ -40,7 +40,7 @@
       "size": 103641,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:13+00:00",
-      "last_check": "2026-10-23T13:16:11+00:00",
+      "last_check": "2026-10-23T18:12:46+00:00",
       "last_modified": "2026-10-07T16:17:04+00:00",
       "last_status": "unchanged"
     },
@@ -54,7 +54,7 @@
       "size": 207286,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:28+00:00",
-      "last_check": "2026-10-23T13:16:38+00:00",
+      "last_check": "2026-10-23T18:13:22+00:00",
       "last_modified": "2026-10-07T16:17:33+00:00",
       "last_status": "unchanged"
     },
@@ -68,7 +68,7 @@
       "size": 206885,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:16+00:00",
-      "last_check": "2026-10-23T13:16:23+00:00",
+      "last_check": "2026-10-23T18:13:00+00:00",
       "last_modified": "2026-10-07T16:17:18+00:00",
       "last_status": "unchanged"
     },
@@ -79,10 +79,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "c561aaf55b07394e02d5410ed9f5f2374d3d28070db58222515296d3957819f4",
-      "size": 132266,
+      "size": 132267,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:31+00:00",
-      "last_check": "2026-10-23T13:16:40+00:00",
+      "last_check": "2026-10-23T18:13:25+00:00",
       "last_modified": "2026-10-07T16:17:36+00:00",
       "last_status": "unchanged"
     },
@@ -96,7 +96,7 @@
       "size": 183727,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:25+00:00",
-      "last_check": "2026-10-23T13:16:35+00:00",
+      "last_check": "2026-10-23T18:13:18+00:00",
       "last_modified": "2026-10-07T16:17:28+00:00",
       "last_status": "unchanged"
     },
@@ -107,10 +107,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "f83ed483e2ef441111e34843ea7303d94567cfba6937ac76c46ccce65fed1bae",
-      "size": 127055,
+      "size": 127056,
       "content_type": "text/html",
       "first_seen": "2026-08-10T10:23:51+00:00",
-      "last_check": "2026-10-23T13:16:43+00:00",
+      "last_check": "2026-10-23T18:13:27+00:00",
       "last_modified": "2026-10-07T16:17:38+00:00",
       "last_status": "unchanged"
     },
@@ -124,7 +124,7 @@
       "size": 143828,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:13+00:00",
-      "last_check": "2026-10-23T13:16:20+00:00",
+      "last_check": "2026-10-23T18:12:56+00:00",
       "last_modified": "2026-10-07T16:17:15+00:00",
       "last_status": "unchanged"
     },
@@ -134,13 +134,13 @@
       "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
       "type": "page",
       "category": "NIS2 - FAQ",
-      "hash": "29582a344a12945b16867726be52cd1b7cc76353ea7b55963aaefa43cd6fd19f",
-      "size": 159710,
+      "hash": "9b23fca10398a2f037ba22a40bbd56c0253f3f12f05a3427958a1eb79d5af80e",
+      "size": 160075,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:23+00:00",
-      "last_check": "2026-10-23T13:16:32+00:00",
-      "last_modified": "2026-10-07T16:17:25+00:00",
-      "last_status": "unchanged"
+      "last_check": "2026-10-23T18:13:14+00:00",
+      "last_modified": "2026-10-23T18:13:14+00:00",
+      "last_status": "changed"
     },
     {
       "id": "acn-portale-nis-faq-ruoli-e-procedure",
@@ -149,10 +149,10 @@
       "type": "page",
       "category": "NIS2 - FAQ",
       "hash": "d4f6721518744f18073f3510b7d491ad046f82ce778c553f95fe434cec830021",
-      "size": 201193,
+      "size": 201194,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:34+00:00",
-      "last_check": "2026-10-23T13:16:45+00:00",
+      "last_check": "2026-10-23T18:13:30+00:00",
       "last_modified": "2026-10-14T10:01:25+00:00",
       "last_status": "unchanged"
     },
@@ -166,7 +166,7 @@
       "size": 429149,
       "content_type": "text/html",
       "first_seen": "2026-07-14T12:04:20+00:00",
-      "last_check": "2026-10-23T13:16:29+00:00",
+      "last_check": "2026-10-23T18:13:11+00:00",
       "last_modified": "2026-10-07T16:17:23+00:00",
       "last_status": "unchanged"
     },
@@ -177,10 +177,10 @@
       "type": "page",
       "category": "NIS2 - News",
       "hash": "70726c2b09f2f8d56501a65233df1ac8ba24259cc39da69ac3714e11eb04e70b",
-      "size": 138223,
+      "size": 138203,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:20+00:00",
-      "last_check": "2026-10-23T13:16:18+00:00",
+      "last_check": "2026-10-23T18:12:53+00:00",
       "last_modified": "2026-10-07T16:17:13+00:00",
       "last_status": "unchanged"
     },
@@ -190,13 +190,13 @@
       "url": "https://www.acn.gov.it/portale/nis/la-normativa",
       "type": "page",
       "category": "NIS2 - Normativa",
-      "hash": "aca6ed36931132d5b88e897e84670bb67be97cf608feb1bf97d5a5743361db9e",
-      "size": 126457,
+      "hash": "a43a9df4ba4448dc36aca4e395d70ee8b1a75ad3a86cf7547397dfd3ae41c89e",
+      "size": 126458,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:02+00:00",
-      "last_check": "2026-10-23T13:16:03+00:00",
-      "last_modified": "2026-10-21T18:30:57+00:00",
-      "last_status": "unchanged"
+      "last_check": "2026-10-23T18:12:36+00:00",
+      "last_modified": "2026-10-23T18:12:36+00:00",
+      "last_status": "changed"
     },
     {
       "id": "acn-nis-obblighi",
@@ -208,7 +208,7 @@
       "size": 113711,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:15+00:00",
-      "last_check": "2026-10-23T13:16:13+00:00",
+      "last_check": "2026-10-23T18:12:48+00:00",
       "last_modified": "2026-10-07T16:17:07+00:00",
       "last_status": "unchanged"
     },
@@ -222,7 +222,7 @@
       "size": 113225,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:12+00:00",
-      "last_check": "2026-10-23T13:16:16+00:00",
+      "last_check": "2026-10-23T18:12:51+00:00",
       "last_modified": "2026-10-07T16:17:10+00:00",
       "last_status": "unchanged"
     },
@@ -233,10 +233,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "a4322708d40c754c0652d35ffa2bbbf625bb7b2c7b31575eb06b9e95d34d9e76",
-      "size": 107928,
+      "size": 107906,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:11+00:00",
-      "last_check": "2026-10-23T13:16:09+00:00",
+      "last_check": "2026-10-23T18:12:43+00:00",
       "last_modified": "2026-10-07T16:17:02+00:00",
       "last_status": "unchanged"
     },
@@ -247,10 +247,10 @@
       "type": "page",
       "category": "NIS2 - Operativo",
       "hash": "595868d92354fbefc8e2ad23b4b0cd031cc9a6fba285afec578b8058ef725ae1",
-      "size": 113467,
+      "size": 113439,
       "content_type": "text/html",
       "first_seen": "2026-06-17T10:06:02+00:00",
-      "last_check": "2026-10-23T13:16:07+00:00",
+      "last_check": "2026-10-23T18:12:41+00:00",
       "last_modified": "2026-10-07T16:17:00+00:00",
       "last_status": "unchanged"
     },
@@ -260,13 +260,13 @@
       "url": "https://www.acn.gov.it/portale/nis/registrazione",
       "type": "page",
       "category": "NIS2 - Operativo",
-      "hash": "37ead252835a746daa26b4c3f1325639d741e9e89809987afc87a6abdda88864",
-      "size": 115053,
+      "hash": "d3e67dfc8a8371b77abed7c790b8800af8c9c1ca07847e73f0fab78a60c36ce0",
+      "size": 115075,
       "content_type": "text/html",
       "first_seen": "2026-06-17T09:59:04+00:00",
-      "last_check": "2026-10-23T13:16:05+00:00",
-      "last_modified": "2026-10-07T16:16:57+00:00",
-      "last_status": "unchanged"
+      "last_check": "2026-10-23T18:12:38+00:00",
+      "last_modified": "2026-10-23T18:12:38+00:00",
+      "last_status": "changed"
     }
   ]
 }
