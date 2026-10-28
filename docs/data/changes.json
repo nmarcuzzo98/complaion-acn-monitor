@@ -1,7 +1,191 @@
 {
-  "last_updated": "2026-10-28T05:10:17+00:00",
-  "total_events": 100,
+  "last_updated": "2026-10-28T12:33:20+00:00",
+  "total_events": 102,
   "events": [
+    {
+      "timestamp": "2026-10-28T12:32:53+00:00",
+      "id": "acn-nis-notizie-eventi",
+      "name": "ACN - Notizie ed eventi NIS",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "70726c2b09f2f8d56501a65233df1ac8ba24259cc39da69ac3714e11eb04e70b",
+      "new_hash": "0566e497deb9f20503787bcd8bb0ac8b4a5d15e51d8b5ede015b28f7acb0ed7b",
+      "diff": {
+        "added": 9,
+        "removed": 6,
+        "summary": "+9 aggiunte, -6 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Notizie"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "28 Ottobre 2026"
+          },
+          {
+            "op": "+",
+            "text": "ACN e Assolombarda insieme per la resilienza delle aziende"
+          },
+          {
+            "op": "+",
+            "text": "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese"
+          },
+          {
+            "op": "+",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": "+",
+            "text": "NIS"
+          },
+          {
+            "op": "+",
+            "text": "Cybersicurezza"
+          },
+          {
+            "op": "+",
+            "text": "ACN"
+          },
+          {
+            "op": "+",
+            "text": "Cybersecurity"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "18 Settembre 2026"
+          },
+          {
+            "op": " ",
+            "text": "Le novità per i soggetti NIS"
+          },
+          {
+            "op": " ",
+            "text": "NIS: riunito nella sede di ACN il tavolo per l’attuazione"
+          },
+          {
+            "op": " ",
+            "text": "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato"
+          },
+          {
+            "op": "-",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": "-",
+            "text": "NIS"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "15 Gennaio 2025"
+          },
+          {
+            "op": "-",
+            "text": "Normativa NIS: date e informazioni utili per un’implementazione efficace"
+          },
+          {
+            "op": "-",
+            "text": "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN"
+          },
+          {
+            "op": " ",
+            "text": "Normativa NIS"
+          },
+          {
+            "op": " ",
+            "text": "NIS"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-28T12:32:33+00:00",
+      "id": "acn-portale-nis",
+      "name": "ACN - Portale NIS",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "bb667123d5d3da02a2792019a7ea014ffaa144d6678f8e95827a9fba43b9ddde",
+      "new_hash": "b9fa67655d5ed0f09e13c5467a1410796c611ab39e790782bb8a170937d98ae2",
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "summary": "+3 aggiunte, -3 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Scopri di più"
+          },
+          {
+            "op": " ",
+            "text": "News -"
+          },
+          {
+            "op": "+",
+            "text": "28 Ottobre 2026"
+          },
+          {
+            "op": "+",
+            "text": "ACN e Assolombarda insieme per la resilienza delle aziende"
+          },
+          {
+            "op": "+",
+            "text": "News -"
+          },
+          {
+            "op": " ",
+            "text": "18 Settembre 2026"
+          },
+          {
+            "op": " ",
+            "text": "Le novità per i soggetti NIS"
+          },
+          {
+            "op": " ",
+            "text": "29 Gennaio 2025"
+          },
+          {
+            "op": " ",
+            "text": "NIS: riunito nella sede di ACN il tavolo per l’attuazione"
+          },
+          {
+            "op": "-",
+            "text": "News -"
+          },
+          {
+            "op": "-",
+            "text": "15 Gennaio 2025"
+          },
+          {
+            "op": "-",
+            "text": "Normativa NIS: date e informazioni utili per un’implementazione efficace"
+          },
+          {
+            "op": " ",
+            "text": "Domande frequenti"
+          },
+          {
+            "op": " ",
+            "text": "Consulta le domande frequenti sulla nuova direttiva NIS"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-10-23T18:13:14+00:00",
       "id": "acn-portale-nis-faq-registrazione",
