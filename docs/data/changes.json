@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-11-11T09:09:03+00:00",
-  "total_events": 102,
+  "last_updated": "2026-11-11T17:50:11+00:00",
+  "total_events": 103,
   "events": [
+    {
+      "timestamp": "2026-11-11T17:49:15+00:00",
+      "id": "acn-nis-normativa",
+      "name": "ACN - La normativa",
+      "url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "a43a9df4ba4448dc36aca4e395d70ee8b1a75ad3a86cf7547397dfd3ae41c89e",
+      "new_hash": "b84e945c3f47bb35ab43d23d9c89e7890e5d950222e0492103e0ceffe764516a",
+      "diff": {
+        "added": 1,
+        "removed": 1,
+        "summary": "+1 aggiunte, -1 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "Viene assicurata una più ampia condivisione a livello europeo, con l’estensione dei compiti del Gruppo di Cooperazione NIS e l’introduzione della revisione tra pari e della mutua assistenza tra Autorità nazionali competenti degli Stati membri."
+          },
+          {
+            "op": " ",
+            "text": "Risposta agli incidenti e gestione delle crisi"
+          },
+          {
+            "op": "-",
+            "text": "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+          },
+          {
+            "op": "+",
+            "text": "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+          },
+          {
+            "op": " ",
+            "text": "Il nuovo assetto normativo NIS prevede:"
+          },
+          {
+            "op": " ",
+            "text": "Ambito"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-10-28T12:32:53+00:00",
       "id": "acn-nis-notizie-eventi",
