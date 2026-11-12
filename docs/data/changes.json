@@ -1,7 +1,73 @@
 {
-  "last_updated": "2026-11-11T17:50:11+00:00",
-  "total_events": 103,
+  "last_updated": "2026-11-12T00:25:19+00:00",
+  "total_events": 104,
   "events": [
+    {
+      "timestamp": "2026-11-12T00:25:02+00:00",
+      "id": "acn-portale-nis-faq-misure-di-sicurezza-e-notifica-di-incidenti",
+      "name": "ACN FAQ - Misure di sicurezza e notifica di incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "type": "page",
+      "status": "changed",
+      "previous_hash": "deae1413a612bdeb6d1a44bbfaf47fdb6d7aa2015f0ea48d9ff0e416b5b9ac36",
+      "new_hash": "a41cd6c9014100a3fe150a914221c3db325f4806bdeb9cf1c4bb843cf721ddf8",
+      "diff": {
+        "added": 5,
+        "removed": 3,
+        "summary": "+5 aggiunte, -3 rimosse",
+        "truncated": false,
+        "lines": [
+          {
+            "op": " ",
+            "text": "ISB.G.1 Quali incidenti devono essere notificati allo CSIRT Italia?"
+          },
+          {
+            "op": " ",
+            "text": "Ai sensi del decreto NIS, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono considerati significativi. Al fine di semplificare tale valutazione e fornire dei parametri oggettivi, l’Autorità nazionale competente NIS ha definito quattro fattispecie (tre per tutti i soggetti e una ulteriore per i soli soggetti essenziali) che, ove si verifichino, sono considerate incidenti significativi."
+          },
+          {
+            "op": "-",
+            "text": "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, così come definite nell’allegato 3[CB2.1], per i soggetti importanti, e nell’allegato 4[CB3.1], per i soggetti essenziali, v"
+          },
+          {
+            "op": "-",
+            "text": "/portale/documents/d/guest/allegato-3-v2"
+          },
+          {
+            "op": "-",
+            "text": "."
+          },
+          {
+            "op": "+",
+            "text": "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, così come definite nell’"
+          },
+          {
+            "op": "+",
+            "text": "allegato 3"
+          },
+          {
+            "op": "+",
+            "text": ", per i soggetti importanti, e nell’"
+          },
+          {
+            "op": "+",
+            "text": "allegato 4"
+          },
+          {
+            "op": "+",
+            "text": ", per i soggetti essenziali."
+          },
+          {
+            "op": " ",
+            "text": "Infine, rimane sempre ferma la possibilità per i soggetti NIS di notificare, su base volontaria, incidenti non significativi, quasi-incidenti e minacce informatiche."
+          },
+          {
+            "op": " ",
+            "text": "ISB.G.2 La causa degli incidenti è rilevante per determinare se si tratta di un incidente significativo da notificare allo CSIRT Italia?"
+          }
+        ]
+      }
+    },
     {
       "timestamp": "2026-11-11T17:49:15+00:00",
       "id": "acn-nis-normativa",
